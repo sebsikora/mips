@@ -1,0 +1,51 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/pipelined/utils/basic_gates.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/pipelined/ins_cache/ins_cache_m4k_ram_block.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/pipelined/dat_cache/dat_cache_m4k_ram_block.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/pipelined/alu/s32addsub_one_bit_full_adder.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/pipelined/mips_pipelined.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/pipelined/utils/sign_extender_16_to_32.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/pipelined/utils/register_32.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/pipelined/utils/register_16.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/pipelined/utils/register_8.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/pipelined/utils/register_5.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/pipelined/utils/register_1.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/pipelined/utils/mux_32_to_1_by_32.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/pipelined/utils/mux_2_to_1_by_32.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/pipelined/utils/mux_2_to_1_by_5.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/pipelined/utils/mux_2_to_1_by_1.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/pipelined/utils/decoder_5_to_32.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/pipelined/utils/control_box.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/pipelined/utils/comparator_5_2.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/pipelined/regfile/regfile_32_by_32.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/pipelined/ins_cache/ins_cache.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/pipelined/dat_cache/dat_cache.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/pipelined/buffers/traverse_latch.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/pipelined/buffers/register_MEM_WB_buffer.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/pipelined/buffers/register_IF_ID_buffer_bubmux.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/pipelined/buffers/register_IF_ID_buffer.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/pipelined/buffers/register_ID_EX_buffer_bubmux.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/pipelined/buffers/register_ID_EX_buffer.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/pipelined/buffers/register_EX_MEM_buffer.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/pipelined/buffers/control_MEM_WB_buffer.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/pipelined/buffers/control_ID_EX_buffer_bubmux.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/pipelined/buffers/control_ID_EX_buffer.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/pipelined/buffers/control_EX_MEM_buffer.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/pipelined/alu/signed_32bit_add_subtract.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/pipelined/alu/set_on_less_than.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/pipelined/alu/s32addsub_unsigned_overflow_detect.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/pipelined/alu/s32addsub_subtractor_inverter.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/pipelined/alu/s32addsub_signed_overflow_detect.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/pipelined/alu/s32addsub_full_adder.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/pipelined/alu/or_block.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/pipelined/alu/mips_32_bit_alu.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/pipelined/alu/func_mux.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/pipelined/alu/and_block.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/pipelined/utils/pipelined_control_box.vhd}
+

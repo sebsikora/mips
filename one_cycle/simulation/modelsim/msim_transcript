@@ -1,0 +1,275 @@
+# do mips_one_cycle_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying /home/sebsikora/altera/13.0sp1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied /home/sebsikora/altera/13.0sp1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/alu/s32addsub_one_bit_full_adder.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity s32addsub_onebit_full_adder
+# -- Compiling architecture struct of s32addsub_onebit_full_adder
+# vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/utils/basic_gates.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity XOR_gate
+# -- Compiling architecture rtl of XOR_gate
+# -- Compiling entity OR_gate
+# -- Compiling architecture rtl of OR_gate
+# -- Compiling entity OR_3_gate
+# -- Compiling architecture rtl of OR_3_gate
+# -- Compiling entity OR_4_gate
+# -- Compiling architecture rtl of OR_4_gate
+# -- Compiling entity NOT_gate
+# -- Compiling architecture rtl of NOT_gate
+# -- Compiling entity AND_gate
+# -- Compiling architecture rtl of AND_gate
+# -- Compiling entity AND_3_gate
+# -- Compiling architecture rtl of AND_3_gate
+# -- Compiling entity AND_4_gate
+# -- Compiling architecture rtl of AND_4_gate
+# -- Compiling entity AND_5_gate
+# -- Compiling architecture rtl of AND_5_gate
+# -- Compiling entity NAND_3_gate
+# -- Compiling architecture rtl of NAND_3_gate
+# -- Compiling entity NAND_gate
+# -- Compiling architecture rtl of NAND_gate
+# -- Compiling entity NOR_gate
+# -- Compiling architecture rtl of NOR_gate
+# -- Compiling entity NOR_3_gate
+# -- Compiling architecture rtl of NOR_3_gate
+# vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/ins_cache/ins_cache_m4k_ram_block.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ins_cache_m4k_ram_block
+# -- Compiling architecture SYN of ins_cache_m4k_ram_block
+# vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/dat_cache/dat_cache_m4k_ram_block.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity dat_cache_m4k_ram_block
+# -- Compiling architecture SYN of dat_cache_m4k_ram_block
+# vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/mips_one_cycle.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mips_one_cycle
+# -- Compiling architecture rtl of mips_one_cycle
+# vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/regfile/regfile_32_by_32.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity regfile_32_by_32
+# -- Compiling architecture rtl of regfile_32_by_32
+# vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/alu/set_on_less_than.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity set_on_less_than
+# -- Compiling architecture rtl of set_on_less_than
+# vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/alu/or_block.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity or_block
+# -- Compiling architecture rtl of or_block
+# vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/alu/mips_32_bit_alu.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mips_32_bit_alu
+# -- Compiling architecture rtl of mips_32_bit_alu
+# vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/alu/func_mux.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity func_mux
+# -- Compiling architecture rtl of func_mux
+# vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/alu/and_block.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity and_block
+# -- Compiling architecture rtl of and_block
+# vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/alu/signed_32bit_add_subtract.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity signed_32bit_add_subtract
+# -- Compiling architecture rtl of signed_32bit_add_subtract
+# vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/alu/s32addsub_unsigned_overflow_detect.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity s32addsub_unsigned_overflow_detect
+# -- Compiling architecture rtl of s32addsub_unsigned_overflow_detect
+# vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/alu/s32addsub_signed_overflow_detect.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity s32addsub_signed_overflow_detect
+# -- Compiling architecture rtl of s32addsub_signed_overflow_detect
+# vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/alu/s32addsub_full_adder.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity s32addsub_full_adder
+# -- Compiling architecture struct of s32addsub_full_adder
+# vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/alu/s32addsub_subtractor_inverter.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity s32addsub_subtraction_invertors
+# -- Compiling architecture rtl of s32addsub_subtraction_invertors
+# vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/utils/register_32.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity register_32
+# -- Compiling architecture rtl of register_32
+# vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/utils/decoder_5_to_32.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decoder_5_to_32
+# -- Compiling architecture rtl of decoder_5_to_32
+# vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/utils/mux_32_to_1_by_32.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux_32_to_1_by_32
+# -- Compiling architecture rtl of mux_32_to_1_by_32
+# vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/dat_cache/dat_cache.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity dat_cache
+# -- Compiling architecture rtl of dat_cache
+# vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/utils/mux_2_to_1_by_32.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux_2_to_1_by_32
+# -- Compiling architecture rtl of mux_2_to_1_by_32
+# vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/utils/sign_extender_16_to_32.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sign_extender_16_to_32
+# -- Compiling architecture rtl of sign_extender_16_to_32
+# vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/utils/mux_2_to_1_by_5.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux_2_to_1_by_5
+# -- Compiling architecture rtl of mux_2_to_1_by_5
+# vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/utils/control_box.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity control_box
+# -- Compiling architecture rtl of control_box
+# vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/ins_cache/ins_cache.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ins_cache
+# -- Compiling architecture rtl of ins_cache
+# 
+vsim -voptargs=+acc work.mips_one_cycle
+# vsim -voptargs=+acc work.mips_one_cycle 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.mips_one_cycle(rtl)
+# Loading work.mux_2_to_1_by_32(rtl)
+# Loading work.s32addsub_full_adder(struct)
+# Loading work.s32addsub_onebit_full_adder(struct)
+# Loading work.xor_gate(rtl)
+# Loading work.and_gate(rtl)
+# Loading work.or_gate(rtl)
+# Loading work.register_32(rtl)
+# Loading work.ins_cache(rtl)
+# Loading work.ins_cache_m4k_ram_block(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+# Loading work.regfile_32_by_32(rtl)
+# Loading work.decoder_5_to_32(rtl)
+# Loading work.mux_32_to_1_by_32(rtl)
+# Loading work.mips_32_bit_alu(rtl)
+# Loading work.signed_32bit_add_subtract(rtl)
+# Loading work.s32addsub_subtraction_invertors(rtl)
+# Loading work.s32addsub_signed_overflow_detect(rtl)
+# Loading work.s32addsub_unsigned_overflow_detect(rtl)
+# Loading work.set_on_less_than(rtl)
+# Loading work.and_block(rtl)
+# Loading work.or_block(rtl)
+# Loading work.func_mux(rtl)
+# Loading work.mux_2_to_1_by_5(rtl)
+# Loading work.sign_extender_16_to_32(rtl)
+# Loading work.dat_cache(rtl)
+# Loading work.dat_cache_m4k_ram_block(syn)
+# Loading work.control_box(rtl)
+# ** Warning: Design size of 664 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+do /home/sebsikora/altera/projects/mips/one_cycle/simulation/modelsim/wave_5.do
+# .main_pane.wave.interior.cs.body.pw.wf
+# 1
+run
+restart
+# ** Warning: Design size of 637 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run

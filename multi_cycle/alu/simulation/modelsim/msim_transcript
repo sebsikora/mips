@@ -1,0 +1,183 @@
+# do mips_32_bit_alu_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying /home/sebsikora/altera/13.0sp1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied /home/sebsikora/altera/13.0sp1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/utils/basic_gates.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity XOR_gate
+# -- Compiling architecture rtl of XOR_gate
+# -- Compiling entity OR_gate
+# -- Compiling architecture rtl of OR_gate
+# -- Compiling entity OR_3_gate
+# -- Compiling architecture rtl of OR_3_gate
+# -- Compiling entity OR_4_gate
+# -- Compiling architecture rtl of OR_4_gate
+# -- Compiling entity NOT_gate
+# -- Compiling architecture rtl of NOT_gate
+# -- Compiling entity AND_gate
+# -- Compiling architecture rtl of AND_gate
+# -- Compiling entity AND_3_gate
+# -- Compiling architecture rtl of AND_3_gate
+# -- Compiling entity AND_4_gate
+# -- Compiling architecture rtl of AND_4_gate
+# -- Compiling entity AND_5_gate
+# -- Compiling architecture rtl of AND_5_gate
+# -- Compiling entity NAND_3_gate
+# -- Compiling architecture rtl of NAND_3_gate
+# -- Compiling entity NAND_gate
+# -- Compiling architecture rtl of NAND_gate
+# -- Compiling entity NOR_gate
+# -- Compiling architecture rtl of NOR_gate
+# -- Compiling entity NOR_3_gate
+# -- Compiling architecture rtl of NOR_3_gate
+# vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/alu/s32addsub_one_bit_full_adder.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity s32addsub_onebit_full_adder
+# -- Compiling architecture struct of s32addsub_onebit_full_adder
+# vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/alu/signed_32bit_add_subtract.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity signed_32bit_add_subtract
+# -- Compiling architecture rtl of signed_32bit_add_subtract
+# vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/alu/s32addsub_subtractor_inverter.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity s32addsub_subtraction_invertors
+# -- Compiling architecture rtl of s32addsub_subtraction_invertors
+# vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/alu/s32addsub_signed_overflow_detect.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity s32addsub_signed_overflow_detect
+# -- Compiling architecture rtl of s32addsub_signed_overflow_detect
+# vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/alu/s32addsub_full_adder.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity s32addsub_full_adder
+# -- Compiling architecture struct of s32addsub_full_adder
+# vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/alu/mips_32_bit_alu.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mips_32_bit_alu
+# -- Compiling architecture rtl of mips_32_bit_alu
+# vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/alu/s32addsub_unsigned_overflow_detect.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity s32addsub_unsigned_overflow_detect
+# -- Compiling architecture rtl of s32addsub_unsigned_overflow_detect
+# 
+vsim -voptargs=+acc work.s32addsub_full_adder
+# vsim -voptargs=+acc work.s32addsub_full_adder 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.s32addsub_full_adder(struct)
+# Loading work.s32addsub_onebit_full_adder(struct)
+# Loading work.xor_gate(rtl)
+# Loading work.and_gate(rtl)
+# Loading work.or_gate(rtl)
+quit -sim
+vsim -voptargs=+acc work.signed_32bit_add_subtract
+# vsim -voptargs=+acc work.signed_32bit_add_subtract 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.signed_32bit_add_subtract(rtl)
+# Loading work.s32addsub_subtraction_invertors(rtl)
+# Loading work.s32addsub_full_adder(struct)
+# Loading work.s32addsub_onebit_full_adder(struct)
+# Loading work.xor_gate(rtl)
+# Loading work.and_gate(rtl)
+# Loading work.or_gate(rtl)
+# Loading work.s32addsub_signed_overflow_detect(rtl)
+# Loading work.s32addsub_unsigned_overflow_detect(rtl)
+do /home/sebsikora/altera/projects/mips/one_cycle/simulation/modelsim/signed_adder_test_wave.do
+# .main_pane.wave.interior.cs.body.pw.wf
+# 1
+# 1
+# 1
+run
+run
+restart
+run
+run
+run
+run
+run
+run
+run
+restart
+wave modify -driver freeze -pattern repeater -initialvalue 00000000000000000000000000000000 -period 100ns -sequence { 00000000000000000000000000000000 00000000000000000000000010001000 11000000000000000000000000000000 00000000000000000111111111111111 00000000000000000111111111111111 00000000000000000111100000000000  } -repeat never -range 31 0 -starttime 0ns -endtime 1000ns Edit:/signed_32bit_add_subtract/input_A
+wave modify -driver freeze -pattern repeater -initialvalue 00000000000000000000000000000000 -period 100ns -sequence { 00000000000000000000000000000001 00000000000000000000000010001000 10000000000000000000000000000000 00000000000000000000000000000001 00000000000000000000000000011111 00000000000000000000000000001111  } -repeat never -range 31 0 -starttime 0ns -endtime 1000ns Edit:/signed_32bit_add_subtract/input_B
+wave modify -driver freeze -pattern constant -value 1 -starttime 400ns -endtime 800ns Edit:/signed_32bit_add_subtract/ctrl_line
+restart
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+wave modify -driver freeze -pattern repeater -initialvalue 00000000000000000000000000000000 -period 100ns -sequence { 00000000000000000000000000000000 00000000000000000000000010001000 11000000000000000000000000000000 00000000000000000111111111111111 00000000000000000111111111111111 00000000000000000111100000000000 11111111111111111111111111111111  } -repeat never -range 31 0 -starttime 0ns -endtime 1000ns Edit:/signed_32bit_add_subtract/input_A
+wave modify -driver freeze -pattern repeater -initialvalue 00000000000000000000000000000000 -period 100ns -sequence { 00000000000000000000000000000001 00000000000000000000000010001000 10000000000000000000000000000000 00000000000000000000000000000001 00000000000000000000000000011111 00000000000000000000000000001111 01111111111111111111111111111111  } -repeat never -range 31 0 -starttime 0ns -endtime 1000ns Edit:/signed_32bit_add_subtract/input_B
+run
+restart
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+wave modify -driver freeze -pattern repeater -initialvalue 00000000000000000000000000000000 -period 100ns -sequence { 00000000000000000000000000000001 00000000000000000000000010001000 10000000000000000000000000000000 00000000000000000000000000000001 00000000000000000000000000011111 00000000000000000000000000001111 00000000000000000000000000010000  } -repeat never -range 31 0 -starttime 0ns -endtime 1000ns Edit:/signed_32bit_add_subtract/input_B
+run -all
+wave modify -driver freeze -pattern repeater -initialvalue 00000000000000000000000000000000 -period 100ns -sequence { 00000000000000000000000000000000 00000000000000000000000010001000 11000000000000000000000000000000 00000000000000000111111111111111 00000000000000000111111111111111 00000000000000000111100000000000 11111111111111111111111111111111 11111111111111111111111111111101  } -repeat never -range 31 0 -starttime 0ns -endtime 1000ns Edit:/signed_32bit_add_subtract/input_A
+wave modify -driver freeze -pattern repeater -initialvalue 00000000000000000000000000000000 -period 100ns -sequence { 00000000000000000000000000000001 00000000000000000000000010001000 10000000000000000000000000000000 00000000000000000000000000000001 00000000000000000000000000011111 00000000000000000000000000001111 00000000000000000000000000010000 11111111111111111111111111111101  } -repeat never -range 31 0 -starttime 0ns -endtime 1000ns Edit:/signed_32bit_add_subtract/input_B
+restart
+run -all
+wave modify -driver freeze -pattern repeater -initialvalue 00000000000000000000000000000000 -period 100ns -sequence { 00000000000000000000000000000000 00000000000000000000000010001000 11000000000000000000000000000000 00000000000000000111111111111111 00000000000000000111111111111111 00000000000000000111100000000000 11111111111111111111111111111111 11111111111111111111111111111101 11111111111111111111111111111111  } -repeat never -range 31 0 -starttime 0ns -endtime 1000ns Edit:/signed_32bit_add_subtract/input_A
+wave modify -driver freeze -pattern repeater -initialvalue 00000000000000000000000000000000 -period 100ns -sequence { 00000000000000000000000000000001 00000000000000000000000010001000 10000000000000000000000000000000 00000000000000000000000000000001 00000000000000000000000000011111 00000000000000000000000000001111 00000000000000000000000000010000 11111111111111111111111111111101 11111111111111111111110111111111  } -repeat never -range 31 0 -starttime 0ns -endtime 1000ns Edit:/signed_32bit_add_subtract/input_B
+restart
+run -all
+wave modify -driver freeze -pattern constant -value 1 -starttime 400ns -endtime 1000ns Edit:/signed_32bit_add_subtract/ctrl_line
+restart
+run -all
+wave modify -driver freeze -pattern repeater -initialvalue 00000000000000000000000000000000 -period 100ns -sequence { 00000000000000000000000000000000 00000000000000000000000010001000 11000000000000000000000000000000 00000000000000000111111111111111 00000000000000000111111111111111 00000000000000000111100000000000 11111111111111111111111111111111 11111111111111111111111111111101 11111111111111111111111111111111 11111000001111111111111111111111111  } -repeat never -range 31 0 -starttime 0ns -endtime 1000ns Edit:/signed_32bit_add_subtract/input_A

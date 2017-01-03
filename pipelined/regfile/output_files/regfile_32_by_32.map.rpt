@@ -1,0 +1,317 @@
+Analysis & Synthesis report for regfile_32_by_32
+Sun Feb 21 12:59:14 2016
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. General Register Statistics
+  9. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 10. Elapsed Time Per Partition
+ 11. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                         ;
++------------------------------------+-------------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Sun Feb 21 12:59:14 2016           ;
+; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
+; Revision Name                      ; regfile_32_by_32                                ;
+; Top-level Entity Name              ; regfile_32_by_32                                ;
+; Family                             ; Cyclone II                                      ;
+; Total logic elements               ; 2,416                                           ;
+;     Total combinational functions  ; 1,392                                           ;
+;     Dedicated logic registers      ; 1,024                                           ;
+; Total registers                    ; 1024                                            ;
+; Total pins                         ; 112                                             ;
+; Total virtual pins                 ; 0                                               ;
+; Total memory bits                  ; 0                                               ;
+; Embedded Multiplier 9-bit elements ; 0                                               ;
+; Total PLLs                         ; 0                                               ;
++------------------------------------+-------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                        ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                     ; Setting            ; Default Value      ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Top-level entity name                                                      ; regfile_32_by_32   ; regfile_32_by_32   ;
+; Family name                                                                ; Cyclone II         ; Cyclone IV GX      ;
+; Use smart compilation                                                      ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                                ; Off                ; Off                ;
+; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
+; Preserve fewer node names                                                  ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                  ; Off                ; Off                ;
+; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                   ; Auto               ; Auto               ;
+; Safe State Machine                                                         ; Off                ; Off                ;
+; Extract Verilog State Machines                                             ; On                 ; On                 ;
+; Extract VHDL State Machines                                                ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                  ; On                 ; On                 ;
+; Parallel Synthesis                                                         ; On                 ; On                 ;
+; DSP Block Balancing                                                        ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                         ; On                 ; On                 ;
+; Power-Up Don't Care                                                        ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
+; Remove Duplicate Registers                                                 ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
+; Optimization Technique                                                     ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                         ; 70                 ; 70                 ;
+; Auto Carry Chains                                                          ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
+; Auto ROM Replacement                                                       ; On                 ; On                 ;
+; Auto RAM Replacement                                                       ; On                 ; On                 ;
+; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
+; Strict RAM Replacement                                                     ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                      ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                    ; Off                ; Off                ;
+; Report Parameter Settings                                                  ; On                 ; On                 ;
+; Report Source Assignments                                                  ; On                 ; On                 ;
+; Report Connectivity Checks                                                 ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
+; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
+; PowerPlay Power Optimization                                               ; Normal compilation ; Normal compilation ;
+; HDL message level                                                          ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                         ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
+; Clock MUX Protection                                                       ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
+; Block Design Naming                                                        ; Auto               ; Auto               ;
+; SDC constraint protection                                                  ; Off                ; Off                ;
+; Synthesis Effort                                                           ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                       ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
+; Synthesis Seed                                                             ; 1                  ; 1                  ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 2      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                       ;
++----------------------------------+-----------------+-----------------+-----------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                ; Library ;
++----------------------------------+-----------------+-----------------+-----------------------------------------------------------------------------+---------+
+; ../utils/register_32.vhd         ; yes             ; User VHDL File  ; /home/sebsikora/altera/projects/mips/one_cycle/utils/register_32.vhd        ;         ;
+; ../utils/mux_32_to_1_by_32.vhd   ; yes             ; User VHDL File  ; /home/sebsikora/altera/projects/mips/one_cycle/utils/mux_32_to_1_by_32.vhd  ;         ;
+; ../utils/decoder_5_to_32.vhd     ; yes             ; User VHDL File  ; /home/sebsikora/altera/projects/mips/one_cycle/utils/decoder_5_to_32.vhd    ;         ;
+; regfile_32_by_32.vhd             ; yes             ; User VHDL File  ; /home/sebsikora/altera/projects/mips/one_cycle/regfile/regfile_32_by_32.vhd ;         ;
++----------------------------------+-----------------+-----------------+-----------------------------------------------------------------------------+---------+
+
+
++-----------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary         ;
++---------------------------------------------+-------+
+; Resource                                    ; Usage ;
++---------------------------------------------+-------+
+; Estimated Total logic elements              ; 2,416 ;
+;                                             ;       ;
+; Total combinational functions               ; 1392  ;
+; Logic element usage by number of LUT inputs ;       ;
+;     -- 4 input functions                    ; 1296  ;
+;     -- 3 input functions                    ; 64    ;
+;     -- <=2 input functions                  ; 32    ;
+;                                             ;       ;
+; Logic elements by mode                      ;       ;
+;     -- normal mode                          ; 1392  ;
+;     -- arithmetic mode                      ; 0     ;
+;                                             ;       ;
+; Total registers                             ; 1024  ;
+;     -- Dedicated logic registers            ; 1024  ;
+;     -- I/O registers                        ; 0     ;
+;                                             ;       ;
+; I/O pins                                    ; 112   ;
+; Embedded Multiplier 9-bit elements          ; 0     ;
+; Maximum fan-out node                        ; clk   ;
+; Maximum fan-out                             ; 1024  ;
+; Total fan-out                               ; 8576  ;
+; Average fan-out                             ; 3.39  ;
++---------------------------------------------+-------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                           ;
++-----------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------+--------------+
+; Compilation Hierarchy Node        ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                            ; Library Name ;
++-----------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------+--------------+
+; |regfile_32_by_32                 ; 1392 (0)          ; 1024 (0)     ; 0           ; 0            ; 0       ; 0         ; 112  ; 0            ; |regfile_32_by_32                              ; work         ;
+;    |decoder_5_to_32:decoder|      ; 48 (48)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile_32_by_32|decoder_5_to_32:decoder      ; work         ;
+;    |mux_32_to_1_by_32:read_mux_1| ; 672 (672)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile_32_by_32|mux_32_to_1_by_32:read_mux_1 ; work         ;
+;    |mux_32_to_1_by_32:read_mux_2| ; 672 (672)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile_32_by_32|mux_32_to_1_by_32:read_mux_2 ; work         ;
+;    |register_32:register_0|       ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile_32_by_32|register_32:register_0       ; work         ;
+;    |register_32:register_10|      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile_32_by_32|register_32:register_10      ; work         ;
+;    |register_32:register_11|      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile_32_by_32|register_32:register_11      ; work         ;
+;    |register_32:register_12|      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile_32_by_32|register_32:register_12      ; work         ;
+;    |register_32:register_13|      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile_32_by_32|register_32:register_13      ; work         ;
+;    |register_32:register_14|      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile_32_by_32|register_32:register_14      ; work         ;
+;    |register_32:register_15|      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile_32_by_32|register_32:register_15      ; work         ;
+;    |register_32:register_16|      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile_32_by_32|register_32:register_16      ; work         ;
+;    |register_32:register_17|      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile_32_by_32|register_32:register_17      ; work         ;
+;    |register_32:register_18|      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile_32_by_32|register_32:register_18      ; work         ;
+;    |register_32:register_19|      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile_32_by_32|register_32:register_19      ; work         ;
+;    |register_32:register_1|       ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile_32_by_32|register_32:register_1       ; work         ;
+;    |register_32:register_20|      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile_32_by_32|register_32:register_20      ; work         ;
+;    |register_32:register_21|      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile_32_by_32|register_32:register_21      ; work         ;
+;    |register_32:register_22|      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile_32_by_32|register_32:register_22      ; work         ;
+;    |register_32:register_23|      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile_32_by_32|register_32:register_23      ; work         ;
+;    |register_32:register_24|      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile_32_by_32|register_32:register_24      ; work         ;
+;    |register_32:register_25|      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile_32_by_32|register_32:register_25      ; work         ;
+;    |register_32:register_26|      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile_32_by_32|register_32:register_26      ; work         ;
+;    |register_32:register_27|      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile_32_by_32|register_32:register_27      ; work         ;
+;    |register_32:register_28|      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile_32_by_32|register_32:register_28      ; work         ;
+;    |register_32:register_29|      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile_32_by_32|register_32:register_29      ; work         ;
+;    |register_32:register_2|       ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile_32_by_32|register_32:register_2       ; work         ;
+;    |register_32:register_30|      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile_32_by_32|register_32:register_30      ; work         ;
+;    |register_32:register_31|      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile_32_by_32|register_32:register_31      ; work         ;
+;    |register_32:register_3|       ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile_32_by_32|register_32:register_3       ; work         ;
+;    |register_32:register_4|       ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile_32_by_32|register_32:register_4       ; work         ;
+;    |register_32:register_5|       ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile_32_by_32|register_32:register_5       ; work         ;
+;    |register_32:register_6|       ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile_32_by_32|register_32:register_6       ; work         ;
+;    |register_32:register_7|       ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile_32_by_32|register_32:register_7       ; work         ;
+;    |register_32:register_8|       ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile_32_by_32|register_32:register_8       ; work         ;
+;    |register_32:register_9|       ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |regfile_32_by_32|register_32:register_9       ; work         ;
++-----------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 1024  ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 1024  ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                     ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                           ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------+
+; 32:1               ; 32 bits   ; 672 LEs       ; 672 LEs              ; 0 LEs                  ; No         ; |regfile_32_by_32|mux_32_to_1_by_32:read_mux_1|Mux31 ;
+; 32:1               ; 32 bits   ; 672 LEs       ; 672 LEs              ; 0 LEs                  ; No         ; |regfile_32_by_32|mux_32_to_1_by_32:read_mux_2|Mux31 ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:02     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Analysis & Synthesis
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Sun Feb 21 12:59:10 2016
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off regfile_32_by_32 -c regfile_32_by_32
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (12021): Found 2 design units, including 1 entities, in source file /home/sebsikora/altera/projects/mips/one_cycle/utils/register_32.vhd
+    Info (12022): Found design unit 1: register_32-rtl
+    Info (12023): Found entity 1: register_32
+Info (12021): Found 2 design units, including 1 entities, in source file /home/sebsikora/altera/projects/mips/one_cycle/utils/mux_32_to_1_by_32.vhd
+    Info (12022): Found design unit 1: mux_32_to_1_by_32-rtl
+    Info (12023): Found entity 1: mux_32_to_1_by_32
+Info (12021): Found 2 design units, including 1 entities, in source file /home/sebsikora/altera/projects/mips/one_cycle/utils/decoder_5_to_32.vhd
+    Info (12022): Found design unit 1: decoder_5_to_32-rtl
+    Info (12023): Found entity 1: decoder_5_to_32
+Info (12021): Found 2 design units, including 1 entities, in source file regfile_32_by_32.vhd
+    Info (12022): Found design unit 1: regfile_32_by_32-rtl
+    Info (12023): Found entity 1: regfile_32_by_32
+Info (12127): Elaborating entity "regfile_32_by_32" for the top level hierarchy
+Info (12128): Elaborating entity "decoder_5_to_32" for hierarchy "decoder_5_to_32:decoder"
+Info (12128): Elaborating entity "register_32" for hierarchy "register_32:register_0"
+Info (12128): Elaborating entity "mux_32_to_1_by_32" for hierarchy "mux_32_to_1_by_32:read_mux_1"
+Info (276014): Found 1 instances of uninferred RAM logic
+    Info (276007): RAM logic "decoder_5_to_32:decoder|Ram0" is uninferred due to asynchronous read logic
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 2528 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 48 input pins
+    Info (21059): Implemented 64 output pins
+    Info (21061): Implemented 2416 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 737 megabytes
+    Info: Processing ended: Sun Feb 21 12:59:14 2016
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:05
+
+

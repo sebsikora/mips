@@ -1,0 +1,18 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use work.all;
+
+entity decoder_5_to_32 is
+	port (selection:			in std_logic_vector(4 downto 0);
+			output:				in std_logic_vector(31 downto 0);
+	);
+end decoder_5_to_32;
+
+architecture rtl of decoder_5_to_32 is
+	
+begin
+	process
+	begin
+		
+	end process;
+end rtl;

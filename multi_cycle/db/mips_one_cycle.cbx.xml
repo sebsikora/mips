@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="mips_one_cycle">
+		<CBX_INST_ENTRY INSTANCE_NAME="|mips_one_cycle|dat_cache:data_cache|dat_cache_m4k_ram_block:block_1|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_lif1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mips_one_cycle|ins_cache:instruction_cache|ins_cache_m4k_ram_block:block_1|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_uif1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

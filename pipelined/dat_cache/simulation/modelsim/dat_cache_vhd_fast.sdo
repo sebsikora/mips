@@ -1,0 +1,2255 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+
+// 
+// Device: Altera EP2C5F256C6 Package FBGA256
+// 
+
+// 
+// This SDF file should be used for ModelSim-Altera (VHDL) only
+// 
+
+(DELAYFILE
+  (SDFVERSION "2.1")
+  (DESIGN "dat_cache")
+  (DATE "02/25/2016 21:16:16")
+  (VENDOR "Altera")
+  (PROGRAM "Quartus II 64-Bit")
+  (VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition")
+  (DIVIDER .)
+  (TIMESCALE 1 ps)
+
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\wren\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (551:551:551) (551:551:551))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\clock\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (561:561:561) (561:561:561))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_clkctrl")
+    (INSTANCE \\clock\~clkctrl\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT inclk[0] (74:74:74) (74:74:74))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ena_reg")
+    (INSTANCE \\clock\~clkctrl\\.extena0_reg)
+    (DELAY
+      (ABSOLUTE
+        (PORT d (140:140:140) (140:140:140))
+        (PORT clk (0:0:0) (0:0:0))
+        (IOPATH (posedge clk) q (127:127:127) (127:127:127))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (33:33:33))
+      (HOLD d (posedge clk) (56:56:56))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\data\[0\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (551:551:551) (551:551:551))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\address\[0\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (561:561:561) (561:561:561))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\address\[1\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (561:561:561) (561:561:561))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\address\[2\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (475:475:475) (475:475:475))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\address\[3\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (445:445:445) (445:445:445))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\address\[4\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (475:475:475) (475:475:475))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\address\[5\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (445:445:445) (445:445:445))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\address\[6\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (445:445:445) (445:445:445))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\address\[7\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (445:445:445) (445:445:445))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\address\[8\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (455:455:455) (455:455:455))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\address\[9\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (455:455:455) (455:455:455))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\address\[10\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (445:445:445) (445:445:445))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\data\[1\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (444:444:444) (444:444:444))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a0\\.datain_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (596:596:596) (596:596:596))
+        (PORT d[1] (3004:3004:3004) (3004:3004:3004))
+        (PORT clk (856:856:856) (856:856:856))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a0\\.addr_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (737:737:737) (737:737:737))
+        (PORT d[1] (1464:1464:1464) (1464:1464:1464))
+        (PORT d[2] (3624:3624:3624) (3624:3624:3624))
+        (PORT d[3] (3767:3767:3767) (3767:3767:3767))
+        (PORT d[4] (3629:3629:3629) (3629:3629:3629))
+        (PORT d[5] (3535:3535:3535) (3535:3535:3535))
+        (PORT d[6] (3352:3352:3352) (3352:3352:3352))
+        (PORT d[7] (3670:3670:3670) (3670:3670:3670))
+        (PORT d[8] (3738:3738:3738) (3738:3738:3738))
+        (PORT d[9] (3509:3509:3509) (3509:3509:3509))
+        (PORT d[10] (3748:3748:3748) (3748:3748:3748))
+        (PORT clk (857:857:857) (857:857:857))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a0\\.we_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (803:803:803) (803:803:803))
+        (PORT clk (857:857:857) (857:857:857))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a0\\.active_port_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (857:857:857) (857:857:857))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a0\\.wpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (979:979:979) (979:979:979))
+        (IOPATH (posedge clk) pulse (0:0:0) (962:962:962))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a0\\.rpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (979:979:979) (979:979:979))
+        (IOPATH (posedge clk) pulse (0:0:0) (1366:1366:1366))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a0\\.ftpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (979:979:979) (979:979:979))
+        (IOPATH (posedge clk) pulse (0:0:0) (1915:1915:1915))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\data\[2\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (454:454:454) (454:454:454))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\data\[3\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (454:454:454) (454:454:454))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a2\\.datain_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (3127:3127:3127) (3127:3127:3127))
+        (PORT d[1] (3000:3000:3000) (3000:3000:3000))
+        (PORT clk (852:852:852) (852:852:852))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a2\\.addr_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (867:867:867) (867:867:867))
+        (PORT d[1] (1454:1454:1454) (1454:1454:1454))
+        (PORT d[2] (3482:3482:3482) (3482:3482:3482))
+        (PORT d[3] (3638:3638:3638) (3638:3638:3638))
+        (PORT d[4] (3622:3622:3622) (3622:3622:3622))
+        (PORT d[5] (3513:3513:3513) (3513:3513:3513))
+        (PORT d[6] (3421:3421:3421) (3421:3421:3421))
+        (PORT d[7] (3659:3659:3659) (3659:3659:3659))
+        (PORT d[8] (3736:3736:3736) (3736:3736:3736))
+        (PORT d[9] (3494:3494:3494) (3494:3494:3494))
+        (PORT d[10] (3737:3737:3737) (3737:3737:3737))
+        (PORT clk (853:853:853) (853:853:853))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a2\\.we_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (791:791:791) (791:791:791))
+        (PORT clk (853:853:853) (853:853:853))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a2\\.active_port_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (853:853:853) (853:853:853))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a2\\.wpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (975:975:975) (975:975:975))
+        (IOPATH (posedge clk) pulse (0:0:0) (962:962:962))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a2\\.rpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (975:975:975) (975:975:975))
+        (IOPATH (posedge clk) pulse (0:0:0) (1366:1366:1366))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a2\\.ftpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (975:975:975) (975:975:975))
+        (IOPATH (posedge clk) pulse (0:0:0) (1915:1915:1915))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\data\[4\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (455:455:455) (455:455:455))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\data\[5\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (475:475:475) (475:475:475))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a4\\.datain_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (3053:3053:3053) (3053:3053:3053))
+        (PORT d[1] (3084:3084:3084) (3084:3084:3084))
+        (PORT clk (848:848:848) (848:848:848))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a4\\.addr_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (686:686:686) (686:686:686))
+        (PORT d[1] (937:937:937) (937:937:937))
+        (PORT d[2] (3388:3388:3388) (3388:3388:3388))
+        (PORT d[3] (3782:3782:3782) (3782:3782:3782))
+        (PORT d[4] (3645:3645:3645) (3645:3645:3645))
+        (PORT d[5] (3424:3424:3424) (3424:3424:3424))
+        (PORT d[6] (3277:3277:3277) (3277:3277:3277))
+        (PORT d[7] (3639:3639:3639) (3639:3639:3639))
+        (PORT d[8] (3721:3721:3721) (3721:3721:3721))
+        (PORT d[9] (3434:3434:3434) (3434:3434:3434))
+        (PORT d[10] (3313:3313:3313) (3313:3313:3313))
+        (PORT clk (849:849:849) (849:849:849))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a4\\.we_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (748:748:748) (748:748:748))
+        (PORT clk (849:849:849) (849:849:849))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a4\\.active_port_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (849:849:849) (849:849:849))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a4\\.wpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (971:971:971) (971:971:971))
+        (IOPATH (posedge clk) pulse (0:0:0) (962:962:962))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a4\\.rpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (971:971:971) (971:971:971))
+        (IOPATH (posedge clk) pulse (0:0:0) (1366:1366:1366))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a4\\.ftpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (971:971:971) (971:971:971))
+        (IOPATH (posedge clk) pulse (0:0:0) (1915:1915:1915))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\data\[6\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (465:465:465) (465:465:465))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\data\[7\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (445:445:445) (445:445:445))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a6\\.datain_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (3068:3068:3068) (3068:3068:3068))
+        (PORT d[1] (3044:3044:3044) (3044:3044:3044))
+        (PORT clk (848:848:848) (848:848:848))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a6\\.addr_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (817:817:817) (817:817:817))
+        (PORT d[1] (792:792:792) (792:792:792))
+        (PORT d[2] (3408:3408:3408) (3408:3408:3408))
+        (PORT d[3] (3465:3465:3465) (3465:3465:3465))
+        (PORT d[4] (3448:3448:3448) (3448:3448:3448))
+        (PORT d[5] (3422:3422:3422) (3422:3422:3422))
+        (PORT d[6] (3415:3415:3415) (3415:3415:3415))
+        (PORT d[7] (3341:3341:3341) (3341:3341:3341))
+        (PORT d[8] (3399:3399:3399) (3399:3399:3399))
+        (PORT d[9] (3416:3416:3416) (3416:3416:3416))
+        (PORT d[10] (3237:3237:3237) (3237:3237:3237))
+        (PORT clk (849:849:849) (849:849:849))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a6\\.we_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (759:759:759) (759:759:759))
+        (PORT clk (849:849:849) (849:849:849))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a6\\.active_port_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (849:849:849) (849:849:849))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a6\\.wpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (971:971:971) (971:971:971))
+        (IOPATH (posedge clk) pulse (0:0:0) (962:962:962))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a6\\.rpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (971:971:971) (971:971:971))
+        (IOPATH (posedge clk) pulse (0:0:0) (1366:1366:1366))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a6\\.ftpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (971:971:971) (971:971:971))
+        (IOPATH (posedge clk) pulse (0:0:0) (1915:1915:1915))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\data\[8\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (445:445:445) (445:445:445))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\data\[9\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (454:454:454) (454:454:454))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a8\\.datain_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (3060:3060:3060) (3060:3060:3060))
+        (PORT d[1] (3006:3006:3006) (3006:3006:3006))
+        (PORT clk (848:848:848) (848:848:848))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a8\\.addr_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (752:752:752) (752:752:752))
+        (PORT d[1] (1289:1289:1289) (1289:1289:1289))
+        (PORT d[2] (3183:3183:3183) (3183:3183:3183))
+        (PORT d[3] (3584:3584:3584) (3584:3584:3584))
+        (PORT d[4] (3409:3409:3409) (3409:3409:3409))
+        (PORT d[5] (3358:3358:3358) (3358:3358:3358))
+        (PORT d[6] (3396:3396:3396) (3396:3396:3396))
+        (PORT d[7] (3491:3491:3491) (3491:3491:3491))
+        (PORT d[8] (3553:3553:3553) (3553:3553:3553))
+        (PORT d[9] (3187:3187:3187) (3187:3187:3187))
+        (PORT d[10] (3675:3675:3675) (3675:3675:3675))
+        (PORT clk (849:849:849) (849:849:849))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a8\\.we_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (1079:1079:1079) (1079:1079:1079))
+        (PORT clk (849:849:849) (849:849:849))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a8\\.active_port_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (849:849:849) (849:849:849))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a8\\.wpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (971:971:971) (971:971:971))
+        (IOPATH (posedge clk) pulse (0:0:0) (962:962:962))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a8\\.rpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (971:971:971) (971:971:971))
+        (IOPATH (posedge clk) pulse (0:0:0) (1366:1366:1366))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a8\\.ftpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (971:971:971) (971:971:971))
+        (IOPATH (posedge clk) pulse (0:0:0) (1915:1915:1915))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\data\[10\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (454:454:454) (454:454:454))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\data\[11\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (455:455:455) (455:455:455))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a10\\.datain_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (3005:3005:3005) (3005:3005:3005))
+        (PORT d[1] (3056:3056:3056) (3056:3056:3056))
+        (PORT clk (852:852:852) (852:852:852))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a10\\.addr_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (883:883:883) (883:883:883))
+        (PORT d[1] (1268:1268:1268) (1268:1268:1268))
+        (PORT d[2] (3328:3328:3328) (3328:3328:3328))
+        (PORT d[3] (3452:3452:3452) (3452:3452:3452))
+        (PORT d[4] (3268:3268:3268) (3268:3268:3268))
+        (PORT d[5] (3336:3336:3336) (3336:3336:3336))
+        (PORT d[6] (3394:3394:3394) (3394:3394:3394))
+        (PORT d[7] (3464:3464:3464) (3464:3464:3464))
+        (PORT d[8] (3536:3536:3536) (3536:3536:3536))
+        (PORT d[9] (3302:3302:3302) (3302:3302:3302))
+        (PORT d[10] (3542:3542:3542) (3542:3542:3542))
+        (PORT clk (853:853:853) (853:853:853))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a10\\.we_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (1065:1065:1065) (1065:1065:1065))
+        (PORT clk (853:853:853) (853:853:853))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a10\\.active_port_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (853:853:853) (853:853:853))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a10\\.wpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (975:975:975) (975:975:975))
+        (IOPATH (posedge clk) pulse (0:0:0) (962:962:962))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a10\\.rpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (975:975:975) (975:975:975))
+        (IOPATH (posedge clk) pulse (0:0:0) (1366:1366:1366))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a10\\.ftpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (975:975:975) (975:975:975))
+        (IOPATH (posedge clk) pulse (0:0:0) (1915:1915:1915))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\data\[12\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (455:455:455) (455:455:455))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\data\[13\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (455:455:455) (455:455:455))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a12\\.datain_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (3038:3038:3038) (3038:3038:3038))
+        (PORT d[1] (3037:3037:3037) (3037:3037:3037))
+        (PORT clk (859:859:859) (859:859:859))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a12\\.addr_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (819:819:819) (819:819:819))
+        (PORT d[1] (912:912:912) (912:912:912))
+        (PORT d[2] (3350:3350:3350) (3350:3350:3350))
+        (PORT d[3] (3791:3791:3791) (3791:3791:3791))
+        (PORT d[4] (3784:3784:3784) (3784:3784:3784))
+        (PORT d[5] (3569:3569:3569) (3569:3569:3569))
+        (PORT d[6] (3406:3406:3406) (3406:3406:3406))
+        (PORT d[7] (3762:3762:3762) (3762:3762:3762))
+        (PORT d[8] (3845:3845:3845) (3845:3845:3845))
+        (PORT d[9] (3580:3580:3580) (3580:3580:3580))
+        (PORT d[10] (3289:3289:3289) (3289:3289:3289))
+        (PORT clk (860:860:860) (860:860:860))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a12\\.we_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (869:869:869) (869:869:869))
+        (PORT clk (860:860:860) (860:860:860))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a12\\.active_port_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (860:860:860) (860:860:860))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a12\\.wpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (982:982:982) (982:982:982))
+        (IOPATH (posedge clk) pulse (0:0:0) (962:962:962))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a12\\.rpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (982:982:982) (982:982:982))
+        (IOPATH (posedge clk) pulse (0:0:0) (1366:1366:1366))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a12\\.ftpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (982:982:982) (982:982:982))
+        (IOPATH (posedge clk) pulse (0:0:0) (1915:1915:1915))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\data\[14\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (444:444:444) (444:444:444))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\data\[15\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (464:464:464) (464:464:464))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a14\\.datain_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (3012:3012:3012) (3012:3012:3012))
+        (PORT d[1] (3001:3001:3001) (3001:3001:3001))
+        (PORT clk (860:860:860) (860:860:860))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a14\\.addr_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (753:753:753) (753:753:753))
+        (PORT d[1] (1485:1485:1485) (1485:1485:1485))
+        (PORT d[2] (3624:3624:3624) (3624:3624:3624))
+        (PORT d[3] (3896:3896:3896) (3896:3896:3896))
+        (PORT d[4] (3624:3624:3624) (3624:3624:3624))
+        (PORT d[5] (3659:3659:3659) (3659:3659:3659))
+        (PORT d[6] (3470:3470:3470) (3470:3470:3470))
+        (PORT d[7] (3913:3913:3913) (3913:3913:3913))
+        (PORT d[8] (3868:3868:3868) (3868:3868:3868))
+        (PORT d[9] (3515:3515:3515) (3515:3515:3515))
+        (PORT d[10] (3869:3869:3869) (3869:3869:3869))
+        (PORT clk (861:861:861) (861:861:861))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a14\\.we_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (803:803:803) (803:803:803))
+        (PORT clk (861:861:861) (861:861:861))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a14\\.active_port_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (861:861:861) (861:861:861))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a14\\.wpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (983:983:983) (983:983:983))
+        (IOPATH (posedge clk) pulse (0:0:0) (962:962:962))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a14\\.rpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (983:983:983) (983:983:983))
+        (IOPATH (posedge clk) pulse (0:0:0) (1366:1366:1366))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a14\\.ftpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (983:983:983) (983:983:983))
+        (IOPATH (posedge clk) pulse (0:0:0) (1915:1915:1915))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\data\[16\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (455:455:455) (455:455:455))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\data\[17\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (475:475:475) (475:475:475))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a16\\.datain_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (3043:3043:3043) (3043:3043:3043))
+        (PORT d[1] (3068:3068:3068) (3068:3068:3068))
+        (PORT clk (856:856:856) (856:856:856))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a16\\.addr_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (687:687:687) (687:687:687))
+        (PORT d[1] (926:926:926) (926:926:926))
+        (PORT d[2] (3373:3373:3373) (3373:3373:3373))
+        (PORT d[3] (3786:3786:3786) (3786:3786:3786))
+        (PORT d[4] (3650:3650:3650) (3650:3650:3650))
+        (PORT d[5] (3560:3560:3560) (3560:3560:3560))
+        (PORT d[6] (3513:3513:3513) (3513:3513:3513))
+        (PORT d[7] (3641:3641:3641) (3641:3641:3641))
+        (PORT d[8] (3729:3729:3729) (3729:3729:3729))
+        (PORT d[9] (3561:3561:3561) (3561:3561:3561))
+        (PORT d[10] (3307:3307:3307) (3307:3307:3307))
+        (PORT clk (857:857:857) (857:857:857))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a16\\.we_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (754:754:754) (754:754:754))
+        (PORT clk (857:857:857) (857:857:857))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a16\\.active_port_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (857:857:857) (857:857:857))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a16\\.wpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (979:979:979) (979:979:979))
+        (IOPATH (posedge clk) pulse (0:0:0) (962:962:962))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a16\\.rpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (979:979:979) (979:979:979))
+        (IOPATH (posedge clk) pulse (0:0:0) (1366:1366:1366))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a16\\.ftpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (979:979:979) (979:979:979))
+        (IOPATH (posedge clk) pulse (0:0:0) (1915:1915:1915))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\data\[18\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (475:475:475) (475:475:475))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\data\[19\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (455:455:455) (455:455:455))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a18\\.datain_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (2921:2921:2921) (2921:2921:2921))
+        (PORT d[1] (3034:3034:3034) (3034:3034:3034))
+        (PORT clk (854:854:854) (854:854:854))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a18\\.addr_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (908:908:908) (908:908:908))
+        (PORT d[1] (1264:1264:1264) (1264:1264:1264))
+        (PORT d[2] (3337:3337:3337) (3337:3337:3337))
+        (PORT d[3] (3336:3336:3336) (3336:3336:3336))
+        (PORT d[4] (3225:3225:3225) (3225:3225:3225))
+        (PORT d[5] (3193:3193:3193) (3193:3193:3193))
+        (PORT d[6] (3402:3402:3402) (3402:3402:3402))
+        (PORT d[7] (3331:3331:3331) (3331:3331:3331))
+        (PORT d[8] (3400:3400:3400) (3400:3400:3400))
+        (PORT d[9] (3344:3344:3344) (3344:3344:3344))
+        (PORT d[10] (3410:3410:3410) (3410:3410:3410))
+        (PORT clk (855:855:855) (855:855:855))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a18\\.we_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (926:926:926) (926:926:926))
+        (PORT clk (855:855:855) (855:855:855))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a18\\.active_port_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (855:855:855) (855:855:855))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a18\\.wpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (977:977:977) (977:977:977))
+        (IOPATH (posedge clk) pulse (0:0:0) (962:962:962))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a18\\.rpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (977:977:977) (977:977:977))
+        (IOPATH (posedge clk) pulse (0:0:0) (1366:1366:1366))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a18\\.ftpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (977:977:977) (977:977:977))
+        (IOPATH (posedge clk) pulse (0:0:0) (1915:1915:1915))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\data\[20\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (454:454:454) (454:454:454))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\data\[21\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (454:454:454) (454:454:454))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a20\\.datain_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (3008:3008:3008) (3008:3008:3008))
+        (PORT d[1] (3000:3000:3000) (3000:3000:3000))
+        (PORT clk (844:844:844) (844:844:844))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a20\\.addr_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (746:746:746) (746:746:746))
+        (PORT d[1] (1294:1294:1294) (1294:1294:1294))
+        (PORT d[2] (3316:3316:3316) (3316:3316:3316))
+        (PORT d[3] (3696:3696:3696) (3696:3696:3696))
+        (PORT d[4] (3429:3429:3429) (3429:3429:3429))
+        (PORT d[5] (3361:3361:3361) (3361:3361:3361))
+        (PORT d[6] (3253:3253:3253) (3253:3253:3253))
+        (PORT d[7] (3492:3492:3492) (3492:3492:3492))
+        (PORT d[8] (3569:3569:3569) (3569:3569:3569))
+        (PORT d[9] (3325:3325:3325) (3325:3325:3325))
+        (PORT d[10] (3570:3570:3570) (3570:3570:3570))
+        (PORT clk (845:845:845) (845:845:845))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a20\\.we_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (1088:1088:1088) (1088:1088:1088))
+        (PORT clk (845:845:845) (845:845:845))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a20\\.active_port_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (845:845:845) (845:845:845))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a20\\.wpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (967:967:967) (967:967:967))
+        (IOPATH (posedge clk) pulse (0:0:0) (962:962:962))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a20\\.rpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (967:967:967) (967:967:967))
+        (IOPATH (posedge clk) pulse (0:0:0) (1366:1366:1366))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a20\\.ftpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (967:967:967) (967:967:967))
+        (IOPATH (posedge clk) pulse (0:0:0) (1915:1915:1915))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\data\[22\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (455:455:455) (455:455:455))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\data\[23\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (445:445:445) (445:445:445))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a22\\.datain_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (3020:3020:3020) (3020:3020:3020))
+        (PORT d[1] (3021:3021:3021) (3021:3021:3021))
+        (PORT clk (864:864:864) (864:864:864))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a22\\.addr_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (760:760:760) (760:760:760))
+        (PORT d[1] (1477:1477:1477) (1477:1477:1477))
+        (PORT d[2] (3636:3636:3636) (3636:3636:3636))
+        (PORT d[3] (3792:3792:3792) (3792:3792:3792))
+        (PORT d[4] (3746:3746:3746) (3746:3746:3746))
+        (PORT d[5] (3679:3679:3679) (3679:3679:3679))
+        (PORT d[6] (3483:3483:3483) (3483:3483:3483))
+        (PORT d[7] (3819:3819:3819) (3819:3819:3819))
+        (PORT d[8] (3888:3888:3888) (3888:3888:3888))
+        (PORT d[9] (3625:3625:3625) (3625:3625:3625))
+        (PORT d[10] (3889:3889:3889) (3889:3889:3889))
+        (PORT clk (865:865:865) (865:865:865))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a22\\.we_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (858:858:858) (858:858:858))
+        (PORT clk (865:865:865) (865:865:865))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a22\\.active_port_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (865:865:865) (865:865:865))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a22\\.wpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (987:987:987) (987:987:987))
+        (IOPATH (posedge clk) pulse (0:0:0) (962:962:962))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a22\\.rpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (987:987:987) (987:987:987))
+        (IOPATH (posedge clk) pulse (0:0:0) (1366:1366:1366))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a22\\.ftpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (987:987:987) (987:987:987))
+        (IOPATH (posedge clk) pulse (0:0:0) (1915:1915:1915))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\data\[24\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (445:445:445) (445:445:445))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\data\[25\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (455:455:455) (455:455:455))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a24\\.datain_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (3129:3129:3129) (3129:3129:3129))
+        (PORT d[1] (3025:3025:3025) (3025:3025:3025))
+        (PORT clk (860:860:860) (860:860:860))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a24\\.addr_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (827:827:827) (827:827:827))
+        (PORT d[1] (819:819:819) (819:819:819))
+        (PORT d[2] (3355:3355:3355) (3355:3355:3355))
+        (PORT d[3] (3793:3793:3793) (3793:3793:3793))
+        (PORT d[4] (3791:3791:3791) (3791:3791:3791))
+        (PORT d[5] (3583:3583:3583) (3583:3583:3583))
+        (PORT d[6] (3419:3419:3419) (3419:3419:3419))
+        (PORT d[7] (3771:3771:3771) (3771:3771:3771))
+        (PORT d[8] (3854:3854:3854) (3854:3854:3854))
+        (PORT d[9] (3584:3584:3584) (3584:3584:3584))
+        (PORT d[10] (3263:3263:3263) (3263:3263:3263))
+        (PORT clk (861:861:861) (861:861:861))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a24\\.we_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (874:874:874) (874:874:874))
+        (PORT clk (861:861:861) (861:861:861))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a24\\.active_port_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (861:861:861) (861:861:861))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a24\\.wpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (983:983:983) (983:983:983))
+        (IOPATH (posedge clk) pulse (0:0:0) (962:962:962))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a24\\.rpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (983:983:983) (983:983:983))
+        (IOPATH (posedge clk) pulse (0:0:0) (1366:1366:1366))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a24\\.ftpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (983:983:983) (983:983:983))
+        (IOPATH (posedge clk) pulse (0:0:0) (1915:1915:1915))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\data\[26\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (454:454:454) (454:454:454))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\data\[27\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (454:454:454) (454:454:454))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a26\\.datain_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (3004:3004:3004) (3004:3004:3004))
+        (PORT d[1] (3156:3156:3156) (3156:3156:3156))
+        (PORT clk (831:831:831) (831:831:831))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a26\\.addr_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (873:873:873) (873:873:873))
+        (PORT d[1] (1306:1306:1306) (1306:1306:1306))
+        (PORT d[2] (3449:3449:3449) (3449:3449:3449))
+        (PORT d[3] (3482:3482:3482) (3482:3482:3482))
+        (PORT d[4] (3450:3450:3450) (3450:3450:3450))
+        (PORT d[5] (3373:3373:3373) (3373:3373:3373))
+        (PORT d[6] (3511:3511:3511) (3511:3511:3511))
+        (PORT d[7] (3503:3503:3503) (3503:3503:3503))
+        (PORT d[8] (3572:3572:3572) (3572:3572:3572))
+        (PORT d[9] (3341:3341:3341) (3341:3341:3341))
+        (PORT d[10] (3582:3582:3582) (3582:3582:3582))
+        (PORT clk (832:832:832) (832:832:832))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a26\\.we_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (1089:1089:1089) (1089:1089:1089))
+        (PORT clk (832:832:832) (832:832:832))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a26\\.active_port_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (832:832:832) (832:832:832))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a26\\.wpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (954:954:954) (954:954:954))
+        (IOPATH (posedge clk) pulse (0:0:0) (962:962:962))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a26\\.rpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (954:954:954) (954:954:954))
+        (IOPATH (posedge clk) pulse (0:0:0) (1366:1366:1366))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a26\\.ftpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (954:954:954) (954:954:954))
+        (IOPATH (posedge clk) pulse (0:0:0) (1915:1915:1915))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\data\[28\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (455:455:455) (455:455:455))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\data\[29\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (445:445:445) (445:445:445))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a28\\.datain_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (3039:3039:3039) (3039:3039:3039))
+        (PORT d[1] (2936:2936:2936) (2936:2936:2936))
+        (PORT clk (850:850:850) (850:850:850))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a28\\.addr_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (809:809:809) (809:809:809))
+        (PORT d[1] (950:950:950) (950:950:950))
+        (PORT d[2] (3423:3423:3423) (3423:3423:3423))
+        (PORT d[3] (3451:3451:3451) (3451:3451:3451))
+        (PORT d[4] (3445:3445:3445) (3445:3445:3445))
+        (PORT d[5] (3434:3434:3434) (3434:3434:3434))
+        (PORT d[6] (3422:3422:3422) (3422:3422:3422))
+        (PORT d[7] (3339:3339:3339) (3339:3339:3339))
+        (PORT d[8] (3437:3437:3437) (3437:3437:3437))
+        (PORT d[9] (3421:3421:3421) (3421:3421:3421))
+        (PORT d[10] (3271:3271:3271) (3271:3271:3271))
+        (PORT clk (851:851:851) (851:851:851))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a28\\.we_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (871:871:871) (871:871:871))
+        (PORT clk (851:851:851) (851:851:851))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a28\\.active_port_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (851:851:851) (851:851:851))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a28\\.wpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (973:973:973) (973:973:973))
+        (IOPATH (posedge clk) pulse (0:0:0) (962:962:962))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a28\\.rpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (973:973:973) (973:973:973))
+        (IOPATH (posedge clk) pulse (0:0:0) (1366:1366:1366))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a28\\.ftpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (973:973:973) (973:973:973))
+        (IOPATH (posedge clk) pulse (0:0:0) (1915:1915:1915))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\data\[30\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (465:465:465) (465:465:465))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\data\[31\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (445:445:445) (445:445:445))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a30\\.datain_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (3077:3077:3077) (3077:3077:3077))
+        (PORT d[1] (2945:2945:2945) (2945:2945:2945))
+        (PORT clk (845:845:845) (845:845:845))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a30\\.addr_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (793:793:793) (793:793:793))
+        (PORT d[1] (792:792:792) (792:792:792))
+        (PORT d[2] (3387:3387:3387) (3387:3387:3387))
+        (PORT d[3] (3475:3475:3475) (3475:3475:3475))
+        (PORT d[4] (3625:3625:3625) (3625:3625:3625))
+        (PORT d[5] (3410:3410:3410) (3410:3410:3410))
+        (PORT d[6] (3399:3399:3399) (3399:3399:3399))
+        (PORT d[7] (3453:3453:3453) (3453:3453:3453))
+        (PORT d[8] (3517:3517:3517) (3517:3517:3517))
+        (PORT d[9] (3412:3412:3412) (3412:3412:3412))
+        (PORT d[10] (3264:3264:3264) (3264:3264:3264))
+        (PORT clk (846:846:846) (846:846:846))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a30\\.we_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (753:753:753) (753:753:753))
+        (PORT clk (846:846:846) (846:846:846))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a30\\.active_port_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (846:846:846) (846:846:846))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a30\\.wpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (968:968:968) (968:968:968))
+        (IOPATH (posedge clk) pulse (0:0:0) (962:962:962))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a30\\.rpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (968:968:968) (968:968:968))
+        (IOPATH (posedge clk) pulse (0:0:0) (1366:1366:1366))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE \\block_1\|altsyncram_component\|auto_generated\|ram_block1a30\\.ftpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (968:968:968) (968:968:968))
+        (IOPATH (posedge clk) pulse (0:0:0) (1915:1915:1915))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\q\[0\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (441:441:441) (441:441:441))
+        (IOPATH datain padio (1523:1523:1523) (1523:1523:1523))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\q\[1\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (395:395:395) (395:395:395))
+        (IOPATH datain padio (1398:1398:1398) (1398:1398:1398))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\q\[2\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (399:399:399) (399:399:399))
+        (IOPATH datain padio (1398:1398:1398) (1398:1398:1398))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\q\[3\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (427:427:427) (427:427:427))
+        (IOPATH datain padio (1388:1388:1388) (1388:1388:1388))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\q\[4\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (412:412:412) (412:412:412))
+        (IOPATH datain padio (1523:1523:1523) (1523:1523:1523))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\q\[5\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (412:412:412) (412:412:412))
+        (IOPATH datain padio (1513:1513:1513) (1513:1513:1513))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\q\[6\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (553:553:553) (553:553:553))
+        (IOPATH datain padio (1543:1543:1543) (1543:1543:1543))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\q\[7\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (294:294:294) (294:294:294))
+        (IOPATH datain padio (1513:1513:1513) (1513:1513:1513))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\q\[8\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (433:433:433) (433:433:433))
+        (IOPATH datain padio (1398:1398:1398) (1398:1398:1398))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\q\[9\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (420:420:420) (420:420:420))
+        (IOPATH datain padio (1398:1398:1398) (1398:1398:1398))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\q\[10\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (399:399:399) (399:399:399))
+        (IOPATH datain padio (1408:1408:1408) (1408:1408:1408))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\q\[11\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (427:427:427) (427:427:427))
+        (IOPATH datain padio (1408:1408:1408) (1408:1408:1408))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\q\[12\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (509:509:509) (509:509:509))
+        (IOPATH datain padio (1388:1388:1388) (1388:1388:1388))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\q\[13\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (276:276:276) (276:276:276))
+        (IOPATH datain padio (1533:1533:1533) (1533:1533:1533))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\q\[14\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (399:399:399) (399:399:399))
+        (IOPATH datain padio (1408:1408:1408) (1408:1408:1408))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\q\[15\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (427:427:427) (427:427:427))
+        (IOPATH datain padio (1378:1378:1378) (1378:1378:1378))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\q\[16\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (391:391:391) (391:391:391))
+        (IOPATH datain padio (1523:1523:1523) (1523:1523:1523))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\q\[17\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (406:406:406) (406:406:406))
+        (IOPATH datain padio (1533:1533:1533) (1533:1533:1533))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\q\[18\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (282:282:282) (282:282:282))
+        (IOPATH datain padio (1523:1523:1523) (1523:1523:1523))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\q\[19\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (275:275:275) (275:275:275))
+        (IOPATH datain padio (1523:1523:1523) (1523:1523:1523))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\q\[20\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (399:399:399) (399:399:399))
+        (IOPATH datain padio (1398:1398:1398) (1398:1398:1398))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\q\[21\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (429:429:429) (429:429:429))
+        (IOPATH datain padio (1398:1398:1398) (1398:1398:1398))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\q\[22\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (260:260:260) (260:260:260))
+        (IOPATH datain padio (1523:1523:1523) (1523:1523:1523))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\q\[23\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (259:259:259) (259:259:259))
+        (IOPATH datain padio (1523:1523:1523) (1523:1523:1523))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\q\[24\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (499:499:499) (499:499:499))
+        (IOPATH datain padio (1523:1523:1523) (1523:1523:1523))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\q\[25\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (357:357:357) (357:357:357))
+        (IOPATH datain padio (1503:1503:1503) (1503:1503:1503))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\q\[26\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (435:435:435) (435:435:435))
+        (IOPATH datain padio (1398:1398:1398) (1398:1398:1398))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\q\[27\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (562:562:562) (562:562:562))
+        (IOPATH datain padio (1398:1398:1398) (1398:1398:1398))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\q\[28\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (281:281:281) (281:281:281))
+        (IOPATH datain padio (1513:1513:1513) (1513:1513:1513))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\q\[29\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (373:373:373) (373:373:373))
+        (IOPATH datain padio (1523:1523:1523) (1523:1523:1523))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\q\[30\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (567:567:567) (567:567:567))
+        (IOPATH datain padio (1543:1543:1543) (1543:1543:1543))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\q\[31\]\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (425:425:425) (425:425:425))
+        (IOPATH datain padio (1523:1523:1523) (1523:1523:1523))
+      )
+    )
+  )
+)

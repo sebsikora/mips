@@ -1,0 +1,88 @@
+# do regfile_32_by_32_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying /home/sebsikora/altera/13.0sp1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied /home/sebsikora/altera/13.0sp1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/utils/register_32.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity register_32
+# -- Compiling architecture rtl of register_32
+# vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/utils/mux_32_to_1_by_32.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux_32_to_1_by_32
+# -- Compiling architecture rtl of mux_32_to_1_by_32
+# vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/utils/decoder_5_to_32.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decoder_5_to_32
+# -- Compiling architecture rtl of decoder_5_to_32
+# vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/regfile/regfile_32_by_32.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity regfile_32_by_32
+# -- Compiling architecture rtl of regfile_32_by_32
+# 
+vsim -voptargs=+acc work.regfile_32_by_32
+# vsim -voptargs=+acc work.regfile_32_by_32 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.regfile_32_by_32(rtl)
+# Loading work.decoder_5_to_32(rtl)
+# Loading work.register_32(rtl)
+# Loading work.mux_32_to_1_by_32(rtl)
+wave create -driver freeze -pattern counter -startvalue 00000 -endvalue 11111 -type Range -direction Up -period 100ns -step 1 -repeat never -range 4 0 -starttime 0ns -endtime 3200ns sim:/regfile_32_by_32/write_reg
+wave create -driver freeze -pattern counter -startvalue 00000000000000000000000000000000 -endvalue 11111111111111111111111111111111 -type Range -direction Up -period 100ns -step 1 -repeat never -range 31 0 -starttime 0ns -endtime 3200ns sim:/regfile_32_by_32/write_data
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ns -dutycycle 50 -starttime 0ns -endtime 3200ns sim:/regfile_32_by_32/clk
+run -all
+restart
+run -all
+restart
+wave create -driver freeze -pattern counter -startvalue 00000 -endvalue 11111 -type Range -direction Up -period 100ns -step 1 -repeat never -range 4 0 -starttime 3200ns -endtime 6400ns sim:/regfile_32_by_32/read_reg_1
+wave create -driver freeze -pattern counter -startvalue 00000 -endvalue 11111 -type Range -direction Up -period 100ns -step 1 -repeat never -range 4 0 -starttime 3200ns -endtime 6400ns sim:/regfile_32_by_32/read_reg_2
+add wave  \
+sim:/regfile_32_by_32/read_data_1
+add wave  \
+sim:/regfile_32_by_32/read_data_2
+wave modify -driver freeze -pattern counter -startvalue 11111 -endvalue 00000 -type Range -direction Down -period 100ns -step 1 -repeat never -range 4 0 -starttime 3200ns -endtime 6400ns Edit:/regfile_32_by_32/read_reg_2
+wave modify -driver freeze -pattern clock -initialvalue 0 -period 100ns -dutycycle 50 -starttime 0ns -endtime 6400ns Edit:/regfile_32_by_32/clk
+run -all
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/sebsikora/altera/projects/mips/one_cycle/regfile/simulation/modelsim/regfile_32_by_32_test_wave.do
+wave editwrite -file /home/sebsikora/altera/projects/mips/one_cycle/regfile/simulation/modelsim/regfile_32_by_32_test_wave.do -append
+restart
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/sebsikora/altera/projects/mips/one_cycle/regfile/simulation/modelsim/regfile_32_by_32_test_wave_2.do
+wave editwrite -file /home/sebsikora/altera/projects/mips/one_cycle/regfile/simulation/modelsim/regfile_32_by_32_test_wave_2.do -append
+quit -sim
+vsim -voptargs=+acc work.regfile_32_by_32
+# vsim -voptargs=+acc work.regfile_32_by_32 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.regfile_32_by_32(rtl)
+# Loading work.decoder_5_to_32(rtl)
+# Loading work.register_32(rtl)
+# Loading work.mux_32_to_1_by_32(rtl)
+do /home/sebsikora/altera/projects/mips/one_cycle/regfile/simulation/modelsim/regfile_32_by_32_test_wave_2.do
+# .main_pane.wave.interior.cs.body.pw.wf
+# 1
+# 1
+# 1
+# 1
+# 1
+run -all

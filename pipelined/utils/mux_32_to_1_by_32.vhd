@@ -1,0 +1,117 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use work.all;
+
+entity mux_32_to_1_by_32 is
+	port (data_in_0:				in std_logic_vector(31 downto 0);
+			data_in_1:				in std_logic_vector(31 downto 0);
+			data_in_2:				in std_logic_vector(31 downto 0);
+			data_in_3:				in std_logic_vector(31 downto 0);
+			data_in_4:				in std_logic_vector(31 downto 0);
+			data_in_5:				in std_logic_vector(31 downto 0);
+			data_in_6:				in std_logic_vector(31 downto 0);
+			data_in_7:				in std_logic_vector(31 downto 0);
+			data_in_8:				in std_logic_vector(31 downto 0);
+			data_in_9:				in std_logic_vector(31 downto 0);
+			data_in_10:				in std_logic_vector(31 downto 0);
+			data_in_11:				in std_logic_vector(31 downto 0);
+			data_in_12:				in std_logic_vector(31 downto 0);
+			data_in_13:				in std_logic_vector(31 downto 0);
+			data_in_14:				in std_logic_vector(31 downto 0);
+			data_in_15:				in std_logic_vector(31 downto 0);
+			data_in_16:				in std_logic_vector(31 downto 0);
+			data_in_17:				in std_logic_vector(31 downto 0);
+			data_in_18:				in std_logic_vector(31 downto 0);
+			data_in_19:				in std_logic_vector(31 downto 0);
+			data_in_20:				in std_logic_vector(31 downto 0);
+			data_in_21:				in std_logic_vector(31 downto 0);
+			data_in_22:				in std_logic_vector(31 downto 0);
+			data_in_23:				in std_logic_vector(31 downto 0);
+			data_in_24:				in std_logic_vector(31 downto 0);
+			data_in_25:				in std_logic_vector(31 downto 0);
+			data_in_26:				in std_logic_vector(31 downto 0);
+			data_in_27:				in std_logic_vector(31 downto 0);
+			data_in_28:				in std_logic_vector(31 downto 0);
+			data_in_29:				in std_logic_vector(31 downto 0);
+			data_in_30:				in std_logic_vector(31 downto 0);
+			data_in_31:				in std_logic_vector(31 downto 0);
+			selection:				in std_logic_vector(4 downto 0);
+			output:					out std_logic_vector(31 downto 0)
+	);
+end mux_32_to_1_by_32;
+
+architecture rtl of mux_32_to_1_by_32 is
+	
+begin
+	process (selection,
+				data_in_0,
+				data_in_1,
+				data_in_2,
+				data_in_3,
+				data_in_4,
+				data_in_5,
+				data_in_6,
+				data_in_7,
+				data_in_8,
+				data_in_9,
+				data_in_10,
+				data_in_11,
+				data_in_12,
+				data_in_13,
+				data_in_14,
+				data_in_15,
+				data_in_16,
+				data_in_17,
+				data_in_18,
+				data_in_19,
+				data_in_20,
+				data_in_21,
+				data_in_22,
+				data_in_23,
+				data_in_24,
+				data_in_25,
+				data_in_26,
+				data_in_27,
+				data_in_28,
+				data_in_29,
+				data_in_30,
+				data_in_31
+	) is
+	begin
+		case selection is
+			when "00000" => output <= data_in_0;
+			when "00001" => output <= data_in_1;
+			when "00010" => output <= data_in_2;
+			when "00011" => output <= data_in_3;
+			when "00100" => output <= data_in_4;
+			when "00101" => output <= data_in_5;
+			when "00110" => output <= data_in_6;
+			when "00111" => output <= data_in_7;
+			when "01000" => output <= data_in_8;
+			when "01001" => output <= data_in_9;
+			when "01010" => output <= data_in_10;
+			when "01011" => output <= data_in_11;
+			when "01100" => output <= data_in_12;
+			when "01101" => output <= data_in_13;
+			when "01110" => output <= data_in_14;
+			when "01111" => output <= data_in_15;
+			when "10000" => output <= data_in_16;
+			when "10001" => output <= data_in_17;
+			when "10010" => output <= data_in_18;
+			when "10011" => output <= data_in_19;
+			when "10100" => output <= data_in_20;
+			when "10101" => output <= data_in_21;
+			when "10110" => output <= data_in_22;
+			when "10111" => output <= data_in_23;
+			when "11000" => output <= data_in_24;
+			when "11001" => output <= data_in_25;
+			when "11010" => output <= data_in_26;
+			when "11011" => output <= data_in_27;
+			when "11100" => output <= data_in_28;
+			when "11101" => output <= data_in_29;
+			when "11110" => output <= data_in_30;
+			when "11111" => output <= data_in_31;
+			when others => output <= "00000000000000000000000000000000";
+		end case;
+	end process;	
+end rtl;

@@ -1,0 +1,2521 @@
+|mips_32_bit_alu
+input_A[0] => signed_32bit_add_subtract:addsub_unit.input_A[0]
+input_A[0] => set_on_less_than:slt_unit.input_A[0]
+input_A[0] => and_block:and_unit.input_A[0]
+input_A[0] => or_block:or_unit.input_A[0]
+input_A[1] => signed_32bit_add_subtract:addsub_unit.input_A[1]
+input_A[1] => set_on_less_than:slt_unit.input_A[1]
+input_A[1] => and_block:and_unit.input_A[1]
+input_A[1] => or_block:or_unit.input_A[1]
+input_A[2] => signed_32bit_add_subtract:addsub_unit.input_A[2]
+input_A[2] => set_on_less_than:slt_unit.input_A[2]
+input_A[2] => and_block:and_unit.input_A[2]
+input_A[2] => or_block:or_unit.input_A[2]
+input_A[3] => signed_32bit_add_subtract:addsub_unit.input_A[3]
+input_A[3] => set_on_less_than:slt_unit.input_A[3]
+input_A[3] => and_block:and_unit.input_A[3]
+input_A[3] => or_block:or_unit.input_A[3]
+input_A[4] => signed_32bit_add_subtract:addsub_unit.input_A[4]
+input_A[4] => set_on_less_than:slt_unit.input_A[4]
+input_A[4] => and_block:and_unit.input_A[4]
+input_A[4] => or_block:or_unit.input_A[4]
+input_A[5] => signed_32bit_add_subtract:addsub_unit.input_A[5]
+input_A[5] => set_on_less_than:slt_unit.input_A[5]
+input_A[5] => and_block:and_unit.input_A[5]
+input_A[5] => or_block:or_unit.input_A[5]
+input_A[6] => signed_32bit_add_subtract:addsub_unit.input_A[6]
+input_A[6] => set_on_less_than:slt_unit.input_A[6]
+input_A[6] => and_block:and_unit.input_A[6]
+input_A[6] => or_block:or_unit.input_A[6]
+input_A[7] => signed_32bit_add_subtract:addsub_unit.input_A[7]
+input_A[7] => set_on_less_than:slt_unit.input_A[7]
+input_A[7] => and_block:and_unit.input_A[7]
+input_A[7] => or_block:or_unit.input_A[7]
+input_A[8] => signed_32bit_add_subtract:addsub_unit.input_A[8]
+input_A[8] => set_on_less_than:slt_unit.input_A[8]
+input_A[8] => and_block:and_unit.input_A[8]
+input_A[8] => or_block:or_unit.input_A[8]
+input_A[9] => signed_32bit_add_subtract:addsub_unit.input_A[9]
+input_A[9] => set_on_less_than:slt_unit.input_A[9]
+input_A[9] => and_block:and_unit.input_A[9]
+input_A[9] => or_block:or_unit.input_A[9]
+input_A[10] => signed_32bit_add_subtract:addsub_unit.input_A[10]
+input_A[10] => set_on_less_than:slt_unit.input_A[10]
+input_A[10] => and_block:and_unit.input_A[10]
+input_A[10] => or_block:or_unit.input_A[10]
+input_A[11] => signed_32bit_add_subtract:addsub_unit.input_A[11]
+input_A[11] => set_on_less_than:slt_unit.input_A[11]
+input_A[11] => and_block:and_unit.input_A[11]
+input_A[11] => or_block:or_unit.input_A[11]
+input_A[12] => signed_32bit_add_subtract:addsub_unit.input_A[12]
+input_A[12] => set_on_less_than:slt_unit.input_A[12]
+input_A[12] => and_block:and_unit.input_A[12]
+input_A[12] => or_block:or_unit.input_A[12]
+input_A[13] => signed_32bit_add_subtract:addsub_unit.input_A[13]
+input_A[13] => set_on_less_than:slt_unit.input_A[13]
+input_A[13] => and_block:and_unit.input_A[13]
+input_A[13] => or_block:or_unit.input_A[13]
+input_A[14] => signed_32bit_add_subtract:addsub_unit.input_A[14]
+input_A[14] => set_on_less_than:slt_unit.input_A[14]
+input_A[14] => and_block:and_unit.input_A[14]
+input_A[14] => or_block:or_unit.input_A[14]
+input_A[15] => signed_32bit_add_subtract:addsub_unit.input_A[15]
+input_A[15] => set_on_less_than:slt_unit.input_A[15]
+input_A[15] => and_block:and_unit.input_A[15]
+input_A[15] => or_block:or_unit.input_A[15]
+input_A[16] => signed_32bit_add_subtract:addsub_unit.input_A[16]
+input_A[16] => set_on_less_than:slt_unit.input_A[16]
+input_A[16] => and_block:and_unit.input_A[16]
+input_A[16] => or_block:or_unit.input_A[16]
+input_A[17] => signed_32bit_add_subtract:addsub_unit.input_A[17]
+input_A[17] => set_on_less_than:slt_unit.input_A[17]
+input_A[17] => and_block:and_unit.input_A[17]
+input_A[17] => or_block:or_unit.input_A[17]
+input_A[18] => signed_32bit_add_subtract:addsub_unit.input_A[18]
+input_A[18] => set_on_less_than:slt_unit.input_A[18]
+input_A[18] => and_block:and_unit.input_A[18]
+input_A[18] => or_block:or_unit.input_A[18]
+input_A[19] => signed_32bit_add_subtract:addsub_unit.input_A[19]
+input_A[19] => set_on_less_than:slt_unit.input_A[19]
+input_A[19] => and_block:and_unit.input_A[19]
+input_A[19] => or_block:or_unit.input_A[19]
+input_A[20] => signed_32bit_add_subtract:addsub_unit.input_A[20]
+input_A[20] => set_on_less_than:slt_unit.input_A[20]
+input_A[20] => and_block:and_unit.input_A[20]
+input_A[20] => or_block:or_unit.input_A[20]
+input_A[21] => signed_32bit_add_subtract:addsub_unit.input_A[21]
+input_A[21] => set_on_less_than:slt_unit.input_A[21]
+input_A[21] => and_block:and_unit.input_A[21]
+input_A[21] => or_block:or_unit.input_A[21]
+input_A[22] => signed_32bit_add_subtract:addsub_unit.input_A[22]
+input_A[22] => set_on_less_than:slt_unit.input_A[22]
+input_A[22] => and_block:and_unit.input_A[22]
+input_A[22] => or_block:or_unit.input_A[22]
+input_A[23] => signed_32bit_add_subtract:addsub_unit.input_A[23]
+input_A[23] => set_on_less_than:slt_unit.input_A[23]
+input_A[23] => and_block:and_unit.input_A[23]
+input_A[23] => or_block:or_unit.input_A[23]
+input_A[24] => signed_32bit_add_subtract:addsub_unit.input_A[24]
+input_A[24] => set_on_less_than:slt_unit.input_A[24]
+input_A[24] => and_block:and_unit.input_A[24]
+input_A[24] => or_block:or_unit.input_A[24]
+input_A[25] => signed_32bit_add_subtract:addsub_unit.input_A[25]
+input_A[25] => set_on_less_than:slt_unit.input_A[25]
+input_A[25] => and_block:and_unit.input_A[25]
+input_A[25] => or_block:or_unit.input_A[25]
+input_A[26] => signed_32bit_add_subtract:addsub_unit.input_A[26]
+input_A[26] => set_on_less_than:slt_unit.input_A[26]
+input_A[26] => and_block:and_unit.input_A[26]
+input_A[26] => or_block:or_unit.input_A[26]
+input_A[27] => signed_32bit_add_subtract:addsub_unit.input_A[27]
+input_A[27] => set_on_less_than:slt_unit.input_A[27]
+input_A[27] => and_block:and_unit.input_A[27]
+input_A[27] => or_block:or_unit.input_A[27]
+input_A[28] => signed_32bit_add_subtract:addsub_unit.input_A[28]
+input_A[28] => set_on_less_than:slt_unit.input_A[28]
+input_A[28] => and_block:and_unit.input_A[28]
+input_A[28] => or_block:or_unit.input_A[28]
+input_A[29] => signed_32bit_add_subtract:addsub_unit.input_A[29]
+input_A[29] => set_on_less_than:slt_unit.input_A[29]
+input_A[29] => and_block:and_unit.input_A[29]
+input_A[29] => or_block:or_unit.input_A[29]
+input_A[30] => signed_32bit_add_subtract:addsub_unit.input_A[30]
+input_A[30] => set_on_less_than:slt_unit.input_A[30]
+input_A[30] => and_block:and_unit.input_A[30]
+input_A[30] => or_block:or_unit.input_A[30]
+input_A[31] => signed_32bit_add_subtract:addsub_unit.input_A[31]
+input_A[31] => set_on_less_than:slt_unit.input_A[31]
+input_A[31] => and_block:and_unit.input_A[31]
+input_A[31] => or_block:or_unit.input_A[31]
+input_B[0] => signed_32bit_add_subtract:addsub_unit.input_B[0]
+input_B[0] => set_on_less_than:slt_unit.input_B[0]
+input_B[0] => and_block:and_unit.input_B[0]
+input_B[0] => or_block:or_unit.input_B[0]
+input_B[1] => signed_32bit_add_subtract:addsub_unit.input_B[1]
+input_B[1] => set_on_less_than:slt_unit.input_B[1]
+input_B[1] => and_block:and_unit.input_B[1]
+input_B[1] => or_block:or_unit.input_B[1]
+input_B[2] => signed_32bit_add_subtract:addsub_unit.input_B[2]
+input_B[2] => set_on_less_than:slt_unit.input_B[2]
+input_B[2] => and_block:and_unit.input_B[2]
+input_B[2] => or_block:or_unit.input_B[2]
+input_B[3] => signed_32bit_add_subtract:addsub_unit.input_B[3]
+input_B[3] => set_on_less_than:slt_unit.input_B[3]
+input_B[3] => and_block:and_unit.input_B[3]
+input_B[3] => or_block:or_unit.input_B[3]
+input_B[4] => signed_32bit_add_subtract:addsub_unit.input_B[4]
+input_B[4] => set_on_less_than:slt_unit.input_B[4]
+input_B[4] => and_block:and_unit.input_B[4]
+input_B[4] => or_block:or_unit.input_B[4]
+input_B[5] => signed_32bit_add_subtract:addsub_unit.input_B[5]
+input_B[5] => set_on_less_than:slt_unit.input_B[5]
+input_B[5] => and_block:and_unit.input_B[5]
+input_B[5] => or_block:or_unit.input_B[5]
+input_B[6] => signed_32bit_add_subtract:addsub_unit.input_B[6]
+input_B[6] => set_on_less_than:slt_unit.input_B[6]
+input_B[6] => and_block:and_unit.input_B[6]
+input_B[6] => or_block:or_unit.input_B[6]
+input_B[7] => signed_32bit_add_subtract:addsub_unit.input_B[7]
+input_B[7] => set_on_less_than:slt_unit.input_B[7]
+input_B[7] => and_block:and_unit.input_B[7]
+input_B[7] => or_block:or_unit.input_B[7]
+input_B[8] => signed_32bit_add_subtract:addsub_unit.input_B[8]
+input_B[8] => set_on_less_than:slt_unit.input_B[8]
+input_B[8] => and_block:and_unit.input_B[8]
+input_B[8] => or_block:or_unit.input_B[8]
+input_B[9] => signed_32bit_add_subtract:addsub_unit.input_B[9]
+input_B[9] => set_on_less_than:slt_unit.input_B[9]
+input_B[9] => and_block:and_unit.input_B[9]
+input_B[9] => or_block:or_unit.input_B[9]
+input_B[10] => signed_32bit_add_subtract:addsub_unit.input_B[10]
+input_B[10] => set_on_less_than:slt_unit.input_B[10]
+input_B[10] => and_block:and_unit.input_B[10]
+input_B[10] => or_block:or_unit.input_B[10]
+input_B[11] => signed_32bit_add_subtract:addsub_unit.input_B[11]
+input_B[11] => set_on_less_than:slt_unit.input_B[11]
+input_B[11] => and_block:and_unit.input_B[11]
+input_B[11] => or_block:or_unit.input_B[11]
+input_B[12] => signed_32bit_add_subtract:addsub_unit.input_B[12]
+input_B[12] => set_on_less_than:slt_unit.input_B[12]
+input_B[12] => and_block:and_unit.input_B[12]
+input_B[12] => or_block:or_unit.input_B[12]
+input_B[13] => signed_32bit_add_subtract:addsub_unit.input_B[13]
+input_B[13] => set_on_less_than:slt_unit.input_B[13]
+input_B[13] => and_block:and_unit.input_B[13]
+input_B[13] => or_block:or_unit.input_B[13]
+input_B[14] => signed_32bit_add_subtract:addsub_unit.input_B[14]
+input_B[14] => set_on_less_than:slt_unit.input_B[14]
+input_B[14] => and_block:and_unit.input_B[14]
+input_B[14] => or_block:or_unit.input_B[14]
+input_B[15] => signed_32bit_add_subtract:addsub_unit.input_B[15]
+input_B[15] => set_on_less_than:slt_unit.input_B[15]
+input_B[15] => and_block:and_unit.input_B[15]
+input_B[15] => or_block:or_unit.input_B[15]
+input_B[16] => signed_32bit_add_subtract:addsub_unit.input_B[16]
+input_B[16] => set_on_less_than:slt_unit.input_B[16]
+input_B[16] => and_block:and_unit.input_B[16]
+input_B[16] => or_block:or_unit.input_B[16]
+input_B[17] => signed_32bit_add_subtract:addsub_unit.input_B[17]
+input_B[17] => set_on_less_than:slt_unit.input_B[17]
+input_B[17] => and_block:and_unit.input_B[17]
+input_B[17] => or_block:or_unit.input_B[17]
+input_B[18] => signed_32bit_add_subtract:addsub_unit.input_B[18]
+input_B[18] => set_on_less_than:slt_unit.input_B[18]
+input_B[18] => and_block:and_unit.input_B[18]
+input_B[18] => or_block:or_unit.input_B[18]
+input_B[19] => signed_32bit_add_subtract:addsub_unit.input_B[19]
+input_B[19] => set_on_less_than:slt_unit.input_B[19]
+input_B[19] => and_block:and_unit.input_B[19]
+input_B[19] => or_block:or_unit.input_B[19]
+input_B[20] => signed_32bit_add_subtract:addsub_unit.input_B[20]
+input_B[20] => set_on_less_than:slt_unit.input_B[20]
+input_B[20] => and_block:and_unit.input_B[20]
+input_B[20] => or_block:or_unit.input_B[20]
+input_B[21] => signed_32bit_add_subtract:addsub_unit.input_B[21]
+input_B[21] => set_on_less_than:slt_unit.input_B[21]
+input_B[21] => and_block:and_unit.input_B[21]
+input_B[21] => or_block:or_unit.input_B[21]
+input_B[22] => signed_32bit_add_subtract:addsub_unit.input_B[22]
+input_B[22] => set_on_less_than:slt_unit.input_B[22]
+input_B[22] => and_block:and_unit.input_B[22]
+input_B[22] => or_block:or_unit.input_B[22]
+input_B[23] => signed_32bit_add_subtract:addsub_unit.input_B[23]
+input_B[23] => set_on_less_than:slt_unit.input_B[23]
+input_B[23] => and_block:and_unit.input_B[23]
+input_B[23] => or_block:or_unit.input_B[23]
+input_B[24] => signed_32bit_add_subtract:addsub_unit.input_B[24]
+input_B[24] => set_on_less_than:slt_unit.input_B[24]
+input_B[24] => and_block:and_unit.input_B[24]
+input_B[24] => or_block:or_unit.input_B[24]
+input_B[25] => signed_32bit_add_subtract:addsub_unit.input_B[25]
+input_B[25] => set_on_less_than:slt_unit.input_B[25]
+input_B[25] => and_block:and_unit.input_B[25]
+input_B[25] => or_block:or_unit.input_B[25]
+input_B[26] => signed_32bit_add_subtract:addsub_unit.input_B[26]
+input_B[26] => set_on_less_than:slt_unit.input_B[26]
+input_B[26] => and_block:and_unit.input_B[26]
+input_B[26] => or_block:or_unit.input_B[26]
+input_B[27] => signed_32bit_add_subtract:addsub_unit.input_B[27]
+input_B[27] => set_on_less_than:slt_unit.input_B[27]
+input_B[27] => and_block:and_unit.input_B[27]
+input_B[27] => or_block:or_unit.input_B[27]
+input_B[28] => signed_32bit_add_subtract:addsub_unit.input_B[28]
+input_B[28] => set_on_less_than:slt_unit.input_B[28]
+input_B[28] => and_block:and_unit.input_B[28]
+input_B[28] => or_block:or_unit.input_B[28]
+input_B[29] => signed_32bit_add_subtract:addsub_unit.input_B[29]
+input_B[29] => set_on_less_than:slt_unit.input_B[29]
+input_B[29] => and_block:and_unit.input_B[29]
+input_B[29] => or_block:or_unit.input_B[29]
+input_B[30] => signed_32bit_add_subtract:addsub_unit.input_B[30]
+input_B[30] => set_on_less_than:slt_unit.input_B[30]
+input_B[30] => and_block:and_unit.input_B[30]
+input_B[30] => or_block:or_unit.input_B[30]
+input_B[31] => signed_32bit_add_subtract:addsub_unit.input_B[31]
+input_B[31] => set_on_less_than:slt_unit.input_B[31]
+input_B[31] => and_block:and_unit.input_B[31]
+input_B[31] => or_block:or_unit.input_B[31]
+aluop[0] => func_mux:func_mux_unit.aluop[0]
+aluop[1] => func_mux:func_mux_unit.aluop[1]
+aluop[2] => func_mux:func_mux_unit.aluop[2]
+aluop[2] => signed_32bit_add_subtract:addsub_unit.ctrl_line
+output[0] <= func_mux:func_mux_unit.output[0]
+output[1] <= func_mux:func_mux_unit.output[1]
+output[2] <= func_mux:func_mux_unit.output[2]
+output[3] <= func_mux:func_mux_unit.output[3]
+output[4] <= func_mux:func_mux_unit.output[4]
+output[5] <= func_mux:func_mux_unit.output[5]
+output[6] <= func_mux:func_mux_unit.output[6]
+output[7] <= func_mux:func_mux_unit.output[7]
+output[8] <= func_mux:func_mux_unit.output[8]
+output[9] <= func_mux:func_mux_unit.output[9]
+output[10] <= func_mux:func_mux_unit.output[10]
+output[11] <= func_mux:func_mux_unit.output[11]
+output[12] <= func_mux:func_mux_unit.output[12]
+output[13] <= func_mux:func_mux_unit.output[13]
+output[14] <= func_mux:func_mux_unit.output[14]
+output[15] <= func_mux:func_mux_unit.output[15]
+output[16] <= func_mux:func_mux_unit.output[16]
+output[17] <= func_mux:func_mux_unit.output[17]
+output[18] <= func_mux:func_mux_unit.output[18]
+output[19] <= func_mux:func_mux_unit.output[19]
+output[20] <= func_mux:func_mux_unit.output[20]
+output[21] <= func_mux:func_mux_unit.output[21]
+output[22] <= func_mux:func_mux_unit.output[22]
+output[23] <= func_mux:func_mux_unit.output[23]
+output[24] <= func_mux:func_mux_unit.output[24]
+output[25] <= func_mux:func_mux_unit.output[25]
+output[26] <= func_mux:func_mux_unit.output[26]
+output[27] <= func_mux:func_mux_unit.output[27]
+output[28] <= func_mux:func_mux_unit.output[28]
+output[29] <= func_mux:func_mux_unit.output[29]
+output[30] <= func_mux:func_mux_unit.output[30]
+output[31] <= func_mux:func_mux_unit.output[31]
+zero <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+unsigned_overflow <= signed_32bit_add_subtract:addsub_unit.unsigned_overflow
+signed_overflow <= signed_32bit_add_subtract:addsub_unit.signed_overflow
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit
+input_A[0] => s32addsub_full_adder:addder.input_A[0]
+input_A[1] => s32addsub_full_adder:addder.input_A[1]
+input_A[2] => s32addsub_full_adder:addder.input_A[2]
+input_A[3] => s32addsub_full_adder:addder.input_A[3]
+input_A[4] => s32addsub_full_adder:addder.input_A[4]
+input_A[5] => s32addsub_full_adder:addder.input_A[5]
+input_A[6] => s32addsub_full_adder:addder.input_A[6]
+input_A[7] => s32addsub_full_adder:addder.input_A[7]
+input_A[8] => s32addsub_full_adder:addder.input_A[8]
+input_A[9] => s32addsub_full_adder:addder.input_A[9]
+input_A[10] => s32addsub_full_adder:addder.input_A[10]
+input_A[11] => s32addsub_full_adder:addder.input_A[11]
+input_A[12] => s32addsub_full_adder:addder.input_A[12]
+input_A[13] => s32addsub_full_adder:addder.input_A[13]
+input_A[14] => s32addsub_full_adder:addder.input_A[14]
+input_A[15] => s32addsub_full_adder:addder.input_A[15]
+input_A[16] => s32addsub_full_adder:addder.input_A[16]
+input_A[17] => s32addsub_full_adder:addder.input_A[17]
+input_A[18] => s32addsub_full_adder:addder.input_A[18]
+input_A[19] => s32addsub_full_adder:addder.input_A[19]
+input_A[20] => s32addsub_full_adder:addder.input_A[20]
+input_A[21] => s32addsub_full_adder:addder.input_A[21]
+input_A[22] => s32addsub_full_adder:addder.input_A[22]
+input_A[23] => s32addsub_full_adder:addder.input_A[23]
+input_A[24] => s32addsub_full_adder:addder.input_A[24]
+input_A[25] => s32addsub_full_adder:addder.input_A[25]
+input_A[26] => s32addsub_full_adder:addder.input_A[26]
+input_A[27] => s32addsub_full_adder:addder.input_A[27]
+input_A[28] => s32addsub_full_adder:addder.input_A[28]
+input_A[29] => s32addsub_full_adder:addder.input_A[29]
+input_A[30] => s32addsub_full_adder:addder.input_A[30]
+input_A[31] => s32addsub_signed_overflow_detect:signed_of_det.sign_bit_A
+input_A[31] => s32addsub_full_adder:addder.input_A[31]
+input_B[0] => s32addsub_subtraction_invertors:sub_inv.input[0]
+input_B[1] => s32addsub_subtraction_invertors:sub_inv.input[1]
+input_B[2] => s32addsub_subtraction_invertors:sub_inv.input[2]
+input_B[3] => s32addsub_subtraction_invertors:sub_inv.input[3]
+input_B[4] => s32addsub_subtraction_invertors:sub_inv.input[4]
+input_B[5] => s32addsub_subtraction_invertors:sub_inv.input[5]
+input_B[6] => s32addsub_subtraction_invertors:sub_inv.input[6]
+input_B[7] => s32addsub_subtraction_invertors:sub_inv.input[7]
+input_B[8] => s32addsub_subtraction_invertors:sub_inv.input[8]
+input_B[9] => s32addsub_subtraction_invertors:sub_inv.input[9]
+input_B[10] => s32addsub_subtraction_invertors:sub_inv.input[10]
+input_B[11] => s32addsub_subtraction_invertors:sub_inv.input[11]
+input_B[12] => s32addsub_subtraction_invertors:sub_inv.input[12]
+input_B[13] => s32addsub_subtraction_invertors:sub_inv.input[13]
+input_B[14] => s32addsub_subtraction_invertors:sub_inv.input[14]
+input_B[15] => s32addsub_subtraction_invertors:sub_inv.input[15]
+input_B[16] => s32addsub_subtraction_invertors:sub_inv.input[16]
+input_B[17] => s32addsub_subtraction_invertors:sub_inv.input[17]
+input_B[18] => s32addsub_subtraction_invertors:sub_inv.input[18]
+input_B[19] => s32addsub_subtraction_invertors:sub_inv.input[19]
+input_B[20] => s32addsub_subtraction_invertors:sub_inv.input[20]
+input_B[21] => s32addsub_subtraction_invertors:sub_inv.input[21]
+input_B[22] => s32addsub_subtraction_invertors:sub_inv.input[22]
+input_B[23] => s32addsub_subtraction_invertors:sub_inv.input[23]
+input_B[24] => s32addsub_subtraction_invertors:sub_inv.input[24]
+input_B[25] => s32addsub_subtraction_invertors:sub_inv.input[25]
+input_B[26] => s32addsub_subtraction_invertors:sub_inv.input[26]
+input_B[27] => s32addsub_subtraction_invertors:sub_inv.input[27]
+input_B[28] => s32addsub_subtraction_invertors:sub_inv.input[28]
+input_B[29] => s32addsub_subtraction_invertors:sub_inv.input[29]
+input_B[30] => s32addsub_subtraction_invertors:sub_inv.input[30]
+input_B[31] => s32addsub_subtraction_invertors:sub_inv.input[31]
+ctrl_line => s32addsub_subtraction_invertors:sub_inv.ctrl_line
+ctrl_line => s32addsub_full_adder:addder.carry_in
+ctrl_line => s32addsub_unsigned_overflow_detect:usigned_of_det.ctrl_line
+output[0] <= s32addsub_full_adder:addder.output[0]
+output[1] <= s32addsub_full_adder:addder.output[1]
+output[2] <= s32addsub_full_adder:addder.output[2]
+output[3] <= s32addsub_full_adder:addder.output[3]
+output[4] <= s32addsub_full_adder:addder.output[4]
+output[5] <= s32addsub_full_adder:addder.output[5]
+output[6] <= s32addsub_full_adder:addder.output[6]
+output[7] <= s32addsub_full_adder:addder.output[7]
+output[8] <= s32addsub_full_adder:addder.output[8]
+output[9] <= s32addsub_full_adder:addder.output[9]
+output[10] <= s32addsub_full_adder:addder.output[10]
+output[11] <= s32addsub_full_adder:addder.output[11]
+output[12] <= s32addsub_full_adder:addder.output[12]
+output[13] <= s32addsub_full_adder:addder.output[13]
+output[14] <= s32addsub_full_adder:addder.output[14]
+output[15] <= s32addsub_full_adder:addder.output[15]
+output[16] <= s32addsub_full_adder:addder.output[16]
+output[17] <= s32addsub_full_adder:addder.output[17]
+output[18] <= s32addsub_full_adder:addder.output[18]
+output[19] <= s32addsub_full_adder:addder.output[19]
+output[20] <= s32addsub_full_adder:addder.output[20]
+output[21] <= s32addsub_full_adder:addder.output[21]
+output[22] <= s32addsub_full_adder:addder.output[22]
+output[23] <= s32addsub_full_adder:addder.output[23]
+output[24] <= s32addsub_full_adder:addder.output[24]
+output[25] <= s32addsub_full_adder:addder.output[25]
+output[26] <= s32addsub_full_adder:addder.output[26]
+output[27] <= s32addsub_full_adder:addder.output[27]
+output[28] <= s32addsub_full_adder:addder.output[28]
+output[29] <= s32addsub_full_adder:addder.output[29]
+output[30] <= s32addsub_full_adder:addder.output[30]
+output[31] <= s32addsub_full_adder:addder.output[31]
+unsigned_overflow <= s32addsub_unsigned_overflow_detect:usigned_of_det.flag_out
+signed_overflow <= s32addsub_signed_overflow_detect:signed_of_det.flag_out
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_subtraction_invertors:sub_inv
+input[0] => output.IN0
+input[1] => output.IN0
+input[2] => output.IN0
+input[3] => output.IN0
+input[4] => output.IN0
+input[5] => output.IN0
+input[6] => output.IN0
+input[7] => output.IN0
+input[8] => output.IN0
+input[9] => output.IN0
+input[10] => output.IN0
+input[11] => output.IN0
+input[12] => output.IN0
+input[13] => output.IN0
+input[14] => output.IN0
+input[15] => output.IN0
+input[16] => output.IN0
+input[17] => output.IN0
+input[18] => output.IN0
+input[19] => output.IN0
+input[20] => output.IN0
+input[21] => output.IN0
+input[22] => output.IN0
+input[23] => output.IN0
+input[24] => output.IN0
+input[25] => output.IN0
+input[26] => output.IN0
+input[27] => output.IN0
+input[28] => output.IN0
+input[29] => output.IN0
+input[30] => output.IN0
+input[31] => output.IN0
+ctrl_line => output.IN1
+ctrl_line => output.IN1
+ctrl_line => output.IN1
+ctrl_line => output.IN1
+ctrl_line => output.IN1
+ctrl_line => output.IN1
+ctrl_line => output.IN1
+ctrl_line => output.IN1
+ctrl_line => output.IN1
+ctrl_line => output.IN1
+ctrl_line => output.IN1
+ctrl_line => output.IN1
+ctrl_line => output.IN1
+ctrl_line => output.IN1
+ctrl_line => output.IN1
+ctrl_line => output.IN1
+ctrl_line => output.IN1
+ctrl_line => output.IN1
+ctrl_line => output.IN1
+ctrl_line => output.IN1
+ctrl_line => output.IN1
+ctrl_line => output.IN1
+ctrl_line => output.IN1
+ctrl_line => output.IN1
+ctrl_line => output.IN1
+ctrl_line => output.IN1
+ctrl_line => output.IN1
+ctrl_line => output.IN1
+ctrl_line => output.IN1
+ctrl_line => output.IN1
+ctrl_line => output.IN1
+ctrl_line => output.IN1
+output[0] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[4] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[5] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[6] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[7] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[8] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[9] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[10] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[11] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[12] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[13] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[14] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[15] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[16] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[17] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[18] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[19] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[20] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[21] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[22] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[23] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[24] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[25] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[26] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[27] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[28] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[29] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[30] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[31] <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder
+input_A[0] => s32addsub_onebit_full_adder:bit_0.inputX
+input_A[1] => s32addsub_onebit_full_adder:bit_1.inputX
+input_A[2] => s32addsub_onebit_full_adder:bit_2.inputX
+input_A[3] => s32addsub_onebit_full_adder:bit_3.inputX
+input_A[4] => s32addsub_onebit_full_adder:bit_4.inputX
+input_A[5] => s32addsub_onebit_full_adder:bit_5.inputX
+input_A[6] => s32addsub_onebit_full_adder:bit_6.inputX
+input_A[7] => s32addsub_onebit_full_adder:bit_7.inputX
+input_A[8] => s32addsub_onebit_full_adder:bit_8.inputX
+input_A[9] => s32addsub_onebit_full_adder:bit_9.inputX
+input_A[10] => s32addsub_onebit_full_adder:bit_10.inputX
+input_A[11] => s32addsub_onebit_full_adder:bit_11.inputX
+input_A[12] => s32addsub_onebit_full_adder:bit_12.inputX
+input_A[13] => s32addsub_onebit_full_adder:bit_13.inputX
+input_A[14] => s32addsub_onebit_full_adder:bit_14.inputX
+input_A[15] => s32addsub_onebit_full_adder:bit_15.inputX
+input_A[16] => s32addsub_onebit_full_adder:bit_16.inputX
+input_A[17] => s32addsub_onebit_full_adder:bit_17.inputX
+input_A[18] => s32addsub_onebit_full_adder:bit_18.inputX
+input_A[19] => s32addsub_onebit_full_adder:bit_19.inputX
+input_A[20] => s32addsub_onebit_full_adder:bit_20.inputX
+input_A[21] => s32addsub_onebit_full_adder:bit_21.inputX
+input_A[22] => s32addsub_onebit_full_adder:bit_22.inputX
+input_A[23] => s32addsub_onebit_full_adder:bit_23.inputX
+input_A[24] => s32addsub_onebit_full_adder:bit_24.inputX
+input_A[25] => s32addsub_onebit_full_adder:bit_25.inputX
+input_A[26] => s32addsub_onebit_full_adder:bit_26.inputX
+input_A[27] => s32addsub_onebit_full_adder:bit_27.inputX
+input_A[28] => s32addsub_onebit_full_adder:bit_28.inputX
+input_A[29] => s32addsub_onebit_full_adder:bit_29.inputX
+input_A[30] => s32addsub_onebit_full_adder:bit_30.inputX
+input_A[31] => s32addsub_onebit_full_adder:bit_31.inputX
+input_B[0] => s32addsub_onebit_full_adder:bit_0.inputY
+input_B[1] => s32addsub_onebit_full_adder:bit_1.inputY
+input_B[2] => s32addsub_onebit_full_adder:bit_2.inputY
+input_B[3] => s32addsub_onebit_full_adder:bit_3.inputY
+input_B[4] => s32addsub_onebit_full_adder:bit_4.inputY
+input_B[5] => s32addsub_onebit_full_adder:bit_5.inputY
+input_B[6] => s32addsub_onebit_full_adder:bit_6.inputY
+input_B[7] => s32addsub_onebit_full_adder:bit_7.inputY
+input_B[8] => s32addsub_onebit_full_adder:bit_8.inputY
+input_B[9] => s32addsub_onebit_full_adder:bit_9.inputY
+input_B[10] => s32addsub_onebit_full_adder:bit_10.inputY
+input_B[11] => s32addsub_onebit_full_adder:bit_11.inputY
+input_B[12] => s32addsub_onebit_full_adder:bit_12.inputY
+input_B[13] => s32addsub_onebit_full_adder:bit_13.inputY
+input_B[14] => s32addsub_onebit_full_adder:bit_14.inputY
+input_B[15] => s32addsub_onebit_full_adder:bit_15.inputY
+input_B[16] => s32addsub_onebit_full_adder:bit_16.inputY
+input_B[17] => s32addsub_onebit_full_adder:bit_17.inputY
+input_B[18] => s32addsub_onebit_full_adder:bit_18.inputY
+input_B[19] => s32addsub_onebit_full_adder:bit_19.inputY
+input_B[20] => s32addsub_onebit_full_adder:bit_20.inputY
+input_B[21] => s32addsub_onebit_full_adder:bit_21.inputY
+input_B[22] => s32addsub_onebit_full_adder:bit_22.inputY
+input_B[23] => s32addsub_onebit_full_adder:bit_23.inputY
+input_B[24] => s32addsub_onebit_full_adder:bit_24.inputY
+input_B[25] => s32addsub_onebit_full_adder:bit_25.inputY
+input_B[26] => s32addsub_onebit_full_adder:bit_26.inputY
+input_B[27] => s32addsub_onebit_full_adder:bit_27.inputY
+input_B[28] => s32addsub_onebit_full_adder:bit_28.inputY
+input_B[29] => s32addsub_onebit_full_adder:bit_29.inputY
+input_B[30] => s32addsub_onebit_full_adder:bit_30.inputY
+input_B[31] => s32addsub_onebit_full_adder:bit_31.inputY
+carry_in => s32addsub_onebit_full_adder:bit_0.carry_in
+output[0] <= s32addsub_onebit_full_adder:bit_0.bit_out
+output[1] <= s32addsub_onebit_full_adder:bit_1.bit_out
+output[2] <= s32addsub_onebit_full_adder:bit_2.bit_out
+output[3] <= s32addsub_onebit_full_adder:bit_3.bit_out
+output[4] <= s32addsub_onebit_full_adder:bit_4.bit_out
+output[5] <= s32addsub_onebit_full_adder:bit_5.bit_out
+output[6] <= s32addsub_onebit_full_adder:bit_6.bit_out
+output[7] <= s32addsub_onebit_full_adder:bit_7.bit_out
+output[8] <= s32addsub_onebit_full_adder:bit_8.bit_out
+output[9] <= s32addsub_onebit_full_adder:bit_9.bit_out
+output[10] <= s32addsub_onebit_full_adder:bit_10.bit_out
+output[11] <= s32addsub_onebit_full_adder:bit_11.bit_out
+output[12] <= s32addsub_onebit_full_adder:bit_12.bit_out
+output[13] <= s32addsub_onebit_full_adder:bit_13.bit_out
+output[14] <= s32addsub_onebit_full_adder:bit_14.bit_out
+output[15] <= s32addsub_onebit_full_adder:bit_15.bit_out
+output[16] <= s32addsub_onebit_full_adder:bit_16.bit_out
+output[17] <= s32addsub_onebit_full_adder:bit_17.bit_out
+output[18] <= s32addsub_onebit_full_adder:bit_18.bit_out
+output[19] <= s32addsub_onebit_full_adder:bit_19.bit_out
+output[20] <= s32addsub_onebit_full_adder:bit_20.bit_out
+output[21] <= s32addsub_onebit_full_adder:bit_21.bit_out
+output[22] <= s32addsub_onebit_full_adder:bit_22.bit_out
+output[23] <= s32addsub_onebit_full_adder:bit_23.bit_out
+output[24] <= s32addsub_onebit_full_adder:bit_24.bit_out
+output[25] <= s32addsub_onebit_full_adder:bit_25.bit_out
+output[26] <= s32addsub_onebit_full_adder:bit_26.bit_out
+output[27] <= s32addsub_onebit_full_adder:bit_27.bit_out
+output[28] <= s32addsub_onebit_full_adder:bit_28.bit_out
+output[29] <= s32addsub_onebit_full_adder:bit_29.bit_out
+output[30] <= s32addsub_onebit_full_adder:bit_30.bit_out
+output[31] <= s32addsub_onebit_full_adder:bit_31.bit_out
+carry_out <= s32addsub_onebit_full_adder:bit_31.carry_out
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_0
+inputX => XOR_gate:xor_1.inputA
+inputX => AND_gate:and_1.inputA
+inputY => XOR_gate:xor_1.inputB
+inputY => AND_gate:and_1.inputB
+carry_in => XOR_gate:xor_2.inputB
+carry_in => AND_gate:and_2.inputB
+carry_out <= OR_gate:or_1.output
+bit_out <= XOR_gate:xor_2.output
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_0|XOR_gate:xor_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_0|XOR_gate:xor_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_0|AND_gate:and_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_0|AND_gate:and_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_0|OR_gate:or_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_1
+inputX => XOR_gate:xor_1.inputA
+inputX => AND_gate:and_1.inputA
+inputY => XOR_gate:xor_1.inputB
+inputY => AND_gate:and_1.inputB
+carry_in => XOR_gate:xor_2.inputB
+carry_in => AND_gate:and_2.inputB
+carry_out <= OR_gate:or_1.output
+bit_out <= XOR_gate:xor_2.output
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_1|XOR_gate:xor_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_1|XOR_gate:xor_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_1|AND_gate:and_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_1|AND_gate:and_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_1|OR_gate:or_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_2
+inputX => XOR_gate:xor_1.inputA
+inputX => AND_gate:and_1.inputA
+inputY => XOR_gate:xor_1.inputB
+inputY => AND_gate:and_1.inputB
+carry_in => XOR_gate:xor_2.inputB
+carry_in => AND_gate:and_2.inputB
+carry_out <= OR_gate:or_1.output
+bit_out <= XOR_gate:xor_2.output
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_2|XOR_gate:xor_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_2|XOR_gate:xor_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_2|AND_gate:and_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_2|AND_gate:and_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_2|OR_gate:or_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_3
+inputX => XOR_gate:xor_1.inputA
+inputX => AND_gate:and_1.inputA
+inputY => XOR_gate:xor_1.inputB
+inputY => AND_gate:and_1.inputB
+carry_in => XOR_gate:xor_2.inputB
+carry_in => AND_gate:and_2.inputB
+carry_out <= OR_gate:or_1.output
+bit_out <= XOR_gate:xor_2.output
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_3|XOR_gate:xor_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_3|XOR_gate:xor_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_3|AND_gate:and_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_3|AND_gate:and_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_3|OR_gate:or_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_4
+inputX => XOR_gate:xor_1.inputA
+inputX => AND_gate:and_1.inputA
+inputY => XOR_gate:xor_1.inputB
+inputY => AND_gate:and_1.inputB
+carry_in => XOR_gate:xor_2.inputB
+carry_in => AND_gate:and_2.inputB
+carry_out <= OR_gate:or_1.output
+bit_out <= XOR_gate:xor_2.output
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_4|XOR_gate:xor_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_4|XOR_gate:xor_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_4|AND_gate:and_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_4|AND_gate:and_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_4|OR_gate:or_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_5
+inputX => XOR_gate:xor_1.inputA
+inputX => AND_gate:and_1.inputA
+inputY => XOR_gate:xor_1.inputB
+inputY => AND_gate:and_1.inputB
+carry_in => XOR_gate:xor_2.inputB
+carry_in => AND_gate:and_2.inputB
+carry_out <= OR_gate:or_1.output
+bit_out <= XOR_gate:xor_2.output
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_5|XOR_gate:xor_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_5|XOR_gate:xor_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_5|AND_gate:and_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_5|AND_gate:and_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_5|OR_gate:or_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_6
+inputX => XOR_gate:xor_1.inputA
+inputX => AND_gate:and_1.inputA
+inputY => XOR_gate:xor_1.inputB
+inputY => AND_gate:and_1.inputB
+carry_in => XOR_gate:xor_2.inputB
+carry_in => AND_gate:and_2.inputB
+carry_out <= OR_gate:or_1.output
+bit_out <= XOR_gate:xor_2.output
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_6|XOR_gate:xor_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_6|XOR_gate:xor_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_6|AND_gate:and_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_6|AND_gate:and_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_6|OR_gate:or_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_7
+inputX => XOR_gate:xor_1.inputA
+inputX => AND_gate:and_1.inputA
+inputY => XOR_gate:xor_1.inputB
+inputY => AND_gate:and_1.inputB
+carry_in => XOR_gate:xor_2.inputB
+carry_in => AND_gate:and_2.inputB
+carry_out <= OR_gate:or_1.output
+bit_out <= XOR_gate:xor_2.output
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_7|XOR_gate:xor_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_7|XOR_gate:xor_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_7|AND_gate:and_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_7|AND_gate:and_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_7|OR_gate:or_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_8
+inputX => XOR_gate:xor_1.inputA
+inputX => AND_gate:and_1.inputA
+inputY => XOR_gate:xor_1.inputB
+inputY => AND_gate:and_1.inputB
+carry_in => XOR_gate:xor_2.inputB
+carry_in => AND_gate:and_2.inputB
+carry_out <= OR_gate:or_1.output
+bit_out <= XOR_gate:xor_2.output
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_8|XOR_gate:xor_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_8|XOR_gate:xor_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_8|AND_gate:and_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_8|AND_gate:and_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_8|OR_gate:or_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_9
+inputX => XOR_gate:xor_1.inputA
+inputX => AND_gate:and_1.inputA
+inputY => XOR_gate:xor_1.inputB
+inputY => AND_gate:and_1.inputB
+carry_in => XOR_gate:xor_2.inputB
+carry_in => AND_gate:and_2.inputB
+carry_out <= OR_gate:or_1.output
+bit_out <= XOR_gate:xor_2.output
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_9|XOR_gate:xor_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_9|XOR_gate:xor_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_9|AND_gate:and_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_9|AND_gate:and_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_9|OR_gate:or_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_10
+inputX => XOR_gate:xor_1.inputA
+inputX => AND_gate:and_1.inputA
+inputY => XOR_gate:xor_1.inputB
+inputY => AND_gate:and_1.inputB
+carry_in => XOR_gate:xor_2.inputB
+carry_in => AND_gate:and_2.inputB
+carry_out <= OR_gate:or_1.output
+bit_out <= XOR_gate:xor_2.output
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_10|XOR_gate:xor_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_10|XOR_gate:xor_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_10|AND_gate:and_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_10|AND_gate:and_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_10|OR_gate:or_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_11
+inputX => XOR_gate:xor_1.inputA
+inputX => AND_gate:and_1.inputA
+inputY => XOR_gate:xor_1.inputB
+inputY => AND_gate:and_1.inputB
+carry_in => XOR_gate:xor_2.inputB
+carry_in => AND_gate:and_2.inputB
+carry_out <= OR_gate:or_1.output
+bit_out <= XOR_gate:xor_2.output
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_11|XOR_gate:xor_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_11|XOR_gate:xor_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_11|AND_gate:and_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_11|AND_gate:and_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_11|OR_gate:or_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_12
+inputX => XOR_gate:xor_1.inputA
+inputX => AND_gate:and_1.inputA
+inputY => XOR_gate:xor_1.inputB
+inputY => AND_gate:and_1.inputB
+carry_in => XOR_gate:xor_2.inputB
+carry_in => AND_gate:and_2.inputB
+carry_out <= OR_gate:or_1.output
+bit_out <= XOR_gate:xor_2.output
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_12|XOR_gate:xor_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_12|XOR_gate:xor_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_12|AND_gate:and_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_12|AND_gate:and_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_12|OR_gate:or_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_13
+inputX => XOR_gate:xor_1.inputA
+inputX => AND_gate:and_1.inputA
+inputY => XOR_gate:xor_1.inputB
+inputY => AND_gate:and_1.inputB
+carry_in => XOR_gate:xor_2.inputB
+carry_in => AND_gate:and_2.inputB
+carry_out <= OR_gate:or_1.output
+bit_out <= XOR_gate:xor_2.output
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_13|XOR_gate:xor_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_13|XOR_gate:xor_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_13|AND_gate:and_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_13|AND_gate:and_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_13|OR_gate:or_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_14
+inputX => XOR_gate:xor_1.inputA
+inputX => AND_gate:and_1.inputA
+inputY => XOR_gate:xor_1.inputB
+inputY => AND_gate:and_1.inputB
+carry_in => XOR_gate:xor_2.inputB
+carry_in => AND_gate:and_2.inputB
+carry_out <= OR_gate:or_1.output
+bit_out <= XOR_gate:xor_2.output
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_14|XOR_gate:xor_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_14|XOR_gate:xor_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_14|AND_gate:and_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_14|AND_gate:and_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_14|OR_gate:or_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_15
+inputX => XOR_gate:xor_1.inputA
+inputX => AND_gate:and_1.inputA
+inputY => XOR_gate:xor_1.inputB
+inputY => AND_gate:and_1.inputB
+carry_in => XOR_gate:xor_2.inputB
+carry_in => AND_gate:and_2.inputB
+carry_out <= OR_gate:or_1.output
+bit_out <= XOR_gate:xor_2.output
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_15|XOR_gate:xor_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_15|XOR_gate:xor_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_15|AND_gate:and_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_15|AND_gate:and_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_15|OR_gate:or_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_16
+inputX => XOR_gate:xor_1.inputA
+inputX => AND_gate:and_1.inputA
+inputY => XOR_gate:xor_1.inputB
+inputY => AND_gate:and_1.inputB
+carry_in => XOR_gate:xor_2.inputB
+carry_in => AND_gate:and_2.inputB
+carry_out <= OR_gate:or_1.output
+bit_out <= XOR_gate:xor_2.output
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_16|XOR_gate:xor_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_16|XOR_gate:xor_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_16|AND_gate:and_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_16|AND_gate:and_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_16|OR_gate:or_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_17
+inputX => XOR_gate:xor_1.inputA
+inputX => AND_gate:and_1.inputA
+inputY => XOR_gate:xor_1.inputB
+inputY => AND_gate:and_1.inputB
+carry_in => XOR_gate:xor_2.inputB
+carry_in => AND_gate:and_2.inputB
+carry_out <= OR_gate:or_1.output
+bit_out <= XOR_gate:xor_2.output
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_17|XOR_gate:xor_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_17|XOR_gate:xor_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_17|AND_gate:and_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_17|AND_gate:and_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_17|OR_gate:or_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_18
+inputX => XOR_gate:xor_1.inputA
+inputX => AND_gate:and_1.inputA
+inputY => XOR_gate:xor_1.inputB
+inputY => AND_gate:and_1.inputB
+carry_in => XOR_gate:xor_2.inputB
+carry_in => AND_gate:and_2.inputB
+carry_out <= OR_gate:or_1.output
+bit_out <= XOR_gate:xor_2.output
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_18|XOR_gate:xor_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_18|XOR_gate:xor_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_18|AND_gate:and_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_18|AND_gate:and_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_18|OR_gate:or_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_19
+inputX => XOR_gate:xor_1.inputA
+inputX => AND_gate:and_1.inputA
+inputY => XOR_gate:xor_1.inputB
+inputY => AND_gate:and_1.inputB
+carry_in => XOR_gate:xor_2.inputB
+carry_in => AND_gate:and_2.inputB
+carry_out <= OR_gate:or_1.output
+bit_out <= XOR_gate:xor_2.output
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_19|XOR_gate:xor_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_19|XOR_gate:xor_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_19|AND_gate:and_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_19|AND_gate:and_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_19|OR_gate:or_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_20
+inputX => XOR_gate:xor_1.inputA
+inputX => AND_gate:and_1.inputA
+inputY => XOR_gate:xor_1.inputB
+inputY => AND_gate:and_1.inputB
+carry_in => XOR_gate:xor_2.inputB
+carry_in => AND_gate:and_2.inputB
+carry_out <= OR_gate:or_1.output
+bit_out <= XOR_gate:xor_2.output
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_20|XOR_gate:xor_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_20|XOR_gate:xor_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_20|AND_gate:and_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_20|AND_gate:and_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_20|OR_gate:or_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_21
+inputX => XOR_gate:xor_1.inputA
+inputX => AND_gate:and_1.inputA
+inputY => XOR_gate:xor_1.inputB
+inputY => AND_gate:and_1.inputB
+carry_in => XOR_gate:xor_2.inputB
+carry_in => AND_gate:and_2.inputB
+carry_out <= OR_gate:or_1.output
+bit_out <= XOR_gate:xor_2.output
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_21|XOR_gate:xor_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_21|XOR_gate:xor_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_21|AND_gate:and_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_21|AND_gate:and_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_21|OR_gate:or_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_22
+inputX => XOR_gate:xor_1.inputA
+inputX => AND_gate:and_1.inputA
+inputY => XOR_gate:xor_1.inputB
+inputY => AND_gate:and_1.inputB
+carry_in => XOR_gate:xor_2.inputB
+carry_in => AND_gate:and_2.inputB
+carry_out <= OR_gate:or_1.output
+bit_out <= XOR_gate:xor_2.output
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_22|XOR_gate:xor_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_22|XOR_gate:xor_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_22|AND_gate:and_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_22|AND_gate:and_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_22|OR_gate:or_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_23
+inputX => XOR_gate:xor_1.inputA
+inputX => AND_gate:and_1.inputA
+inputY => XOR_gate:xor_1.inputB
+inputY => AND_gate:and_1.inputB
+carry_in => XOR_gate:xor_2.inputB
+carry_in => AND_gate:and_2.inputB
+carry_out <= OR_gate:or_1.output
+bit_out <= XOR_gate:xor_2.output
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_23|XOR_gate:xor_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_23|XOR_gate:xor_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_23|AND_gate:and_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_23|AND_gate:and_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_23|OR_gate:or_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_24
+inputX => XOR_gate:xor_1.inputA
+inputX => AND_gate:and_1.inputA
+inputY => XOR_gate:xor_1.inputB
+inputY => AND_gate:and_1.inputB
+carry_in => XOR_gate:xor_2.inputB
+carry_in => AND_gate:and_2.inputB
+carry_out <= OR_gate:or_1.output
+bit_out <= XOR_gate:xor_2.output
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_24|XOR_gate:xor_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_24|XOR_gate:xor_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_24|AND_gate:and_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_24|AND_gate:and_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_24|OR_gate:or_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_25
+inputX => XOR_gate:xor_1.inputA
+inputX => AND_gate:and_1.inputA
+inputY => XOR_gate:xor_1.inputB
+inputY => AND_gate:and_1.inputB
+carry_in => XOR_gate:xor_2.inputB
+carry_in => AND_gate:and_2.inputB
+carry_out <= OR_gate:or_1.output
+bit_out <= XOR_gate:xor_2.output
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_25|XOR_gate:xor_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_25|XOR_gate:xor_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_25|AND_gate:and_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_25|AND_gate:and_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_25|OR_gate:or_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_26
+inputX => XOR_gate:xor_1.inputA
+inputX => AND_gate:and_1.inputA
+inputY => XOR_gate:xor_1.inputB
+inputY => AND_gate:and_1.inputB
+carry_in => XOR_gate:xor_2.inputB
+carry_in => AND_gate:and_2.inputB
+carry_out <= OR_gate:or_1.output
+bit_out <= XOR_gate:xor_2.output
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_26|XOR_gate:xor_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_26|XOR_gate:xor_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_26|AND_gate:and_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_26|AND_gate:and_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_26|OR_gate:or_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_27
+inputX => XOR_gate:xor_1.inputA
+inputX => AND_gate:and_1.inputA
+inputY => XOR_gate:xor_1.inputB
+inputY => AND_gate:and_1.inputB
+carry_in => XOR_gate:xor_2.inputB
+carry_in => AND_gate:and_2.inputB
+carry_out <= OR_gate:or_1.output
+bit_out <= XOR_gate:xor_2.output
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_27|XOR_gate:xor_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_27|XOR_gate:xor_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_27|AND_gate:and_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_27|AND_gate:and_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_27|OR_gate:or_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_28
+inputX => XOR_gate:xor_1.inputA
+inputX => AND_gate:and_1.inputA
+inputY => XOR_gate:xor_1.inputB
+inputY => AND_gate:and_1.inputB
+carry_in => XOR_gate:xor_2.inputB
+carry_in => AND_gate:and_2.inputB
+carry_out <= OR_gate:or_1.output
+bit_out <= XOR_gate:xor_2.output
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_28|XOR_gate:xor_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_28|XOR_gate:xor_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_28|AND_gate:and_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_28|AND_gate:and_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_28|OR_gate:or_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_29
+inputX => XOR_gate:xor_1.inputA
+inputX => AND_gate:and_1.inputA
+inputY => XOR_gate:xor_1.inputB
+inputY => AND_gate:and_1.inputB
+carry_in => XOR_gate:xor_2.inputB
+carry_in => AND_gate:and_2.inputB
+carry_out <= OR_gate:or_1.output
+bit_out <= XOR_gate:xor_2.output
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_29|XOR_gate:xor_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_29|XOR_gate:xor_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_29|AND_gate:and_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_29|AND_gate:and_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_29|OR_gate:or_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_30
+inputX => XOR_gate:xor_1.inputA
+inputX => AND_gate:and_1.inputA
+inputY => XOR_gate:xor_1.inputB
+inputY => AND_gate:and_1.inputB
+carry_in => XOR_gate:xor_2.inputB
+carry_in => AND_gate:and_2.inputB
+carry_out <= OR_gate:or_1.output
+bit_out <= XOR_gate:xor_2.output
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_30|XOR_gate:xor_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_30|XOR_gate:xor_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_30|AND_gate:and_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_30|AND_gate:and_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_30|OR_gate:or_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_31
+inputX => XOR_gate:xor_1.inputA
+inputX => AND_gate:and_1.inputA
+inputY => XOR_gate:xor_1.inputB
+inputY => AND_gate:and_1.inputB
+carry_in => XOR_gate:xor_2.inputB
+carry_in => AND_gate:and_2.inputB
+carry_out <= OR_gate:or_1.output
+bit_out <= XOR_gate:xor_2.output
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_31|XOR_gate:xor_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_31|XOR_gate:xor_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_31|AND_gate:and_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_31|AND_gate:and_2
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_31|OR_gate:or_1
+inputA => output.IN0
+inputB => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_signed_overflow_detect:signed_of_det
+sign_bit_A => signed_overflow_A.IN0
+sign_bit_A => signed_overflow_B.IN0
+sign_bit_B => signed_overflow_A.IN1
+sign_bit_B => signed_overflow_B.IN1
+sign_bit_out => signed_overflow_B.IN1
+sign_bit_out => signed_overflow_A.IN1
+flag_out <= flag_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_unsigned_overflow_detect:usigned_of_det
+ctrl_line => sub_unsigned_overflow.IN0
+ctrl_line => add_unsigned_overflow.IN0
+carry_out => add_unsigned_overflow.IN1
+carry_out => sub_unsigned_overflow.IN1
+flag_out <= flag_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|set_on_less_than:slt_unit
+input_A[0] => LessThan0.IN32
+input_A[1] => LessThan0.IN31
+input_A[2] => LessThan0.IN30
+input_A[3] => LessThan0.IN29
+input_A[4] => LessThan0.IN28
+input_A[5] => LessThan0.IN27
+input_A[6] => LessThan0.IN26
+input_A[7] => LessThan0.IN25
+input_A[8] => LessThan0.IN24
+input_A[9] => LessThan0.IN23
+input_A[10] => LessThan0.IN22
+input_A[11] => LessThan0.IN21
+input_A[12] => LessThan0.IN20
+input_A[13] => LessThan0.IN19
+input_A[14] => LessThan0.IN18
+input_A[15] => LessThan0.IN17
+input_A[16] => LessThan0.IN16
+input_A[17] => LessThan0.IN15
+input_A[18] => LessThan0.IN14
+input_A[19] => LessThan0.IN13
+input_A[20] => LessThan0.IN12
+input_A[21] => LessThan0.IN11
+input_A[22] => LessThan0.IN10
+input_A[23] => LessThan0.IN9
+input_A[24] => LessThan0.IN8
+input_A[25] => LessThan0.IN7
+input_A[26] => LessThan0.IN6
+input_A[27] => LessThan0.IN5
+input_A[28] => LessThan0.IN4
+input_A[29] => LessThan0.IN3
+input_A[30] => LessThan0.IN2
+input_A[31] => LessThan0.IN1
+input_B[0] => LessThan0.IN64
+input_B[1] => LessThan0.IN63
+input_B[2] => LessThan0.IN62
+input_B[3] => LessThan0.IN61
+input_B[4] => LessThan0.IN60
+input_B[5] => LessThan0.IN59
+input_B[6] => LessThan0.IN58
+input_B[7] => LessThan0.IN57
+input_B[8] => LessThan0.IN56
+input_B[9] => LessThan0.IN55
+input_B[10] => LessThan0.IN54
+input_B[11] => LessThan0.IN53
+input_B[12] => LessThan0.IN52
+input_B[13] => LessThan0.IN51
+input_B[14] => LessThan0.IN50
+input_B[15] => LessThan0.IN49
+input_B[16] => LessThan0.IN48
+input_B[17] => LessThan0.IN47
+input_B[18] => LessThan0.IN46
+input_B[19] => LessThan0.IN45
+input_B[20] => LessThan0.IN44
+input_B[21] => LessThan0.IN43
+input_B[22] => LessThan0.IN42
+input_B[23] => LessThan0.IN41
+input_B[24] => LessThan0.IN40
+input_B[25] => LessThan0.IN39
+input_B[26] => LessThan0.IN38
+input_B[27] => LessThan0.IN37
+input_B[28] => LessThan0.IN36
+input_B[29] => LessThan0.IN35
+input_B[30] => LessThan0.IN34
+input_B[31] => LessThan0.IN33
+output[0] <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= <GND>
+output[2] <= <GND>
+output[3] <= <GND>
+output[4] <= <GND>
+output[5] <= <GND>
+output[6] <= <GND>
+output[7] <= <GND>
+output[8] <= <GND>
+output[9] <= <GND>
+output[10] <= <GND>
+output[11] <= <GND>
+output[12] <= <GND>
+output[13] <= <GND>
+output[14] <= <GND>
+output[15] <= <GND>
+output[16] <= <GND>
+output[17] <= <GND>
+output[18] <= <GND>
+output[19] <= <GND>
+output[20] <= <GND>
+output[21] <= <GND>
+output[22] <= <GND>
+output[23] <= <GND>
+output[24] <= <GND>
+output[25] <= <GND>
+output[26] <= <GND>
+output[27] <= <GND>
+output[28] <= <GND>
+output[29] <= <GND>
+output[30] <= <GND>
+output[31] <= <GND>
+
+
+|mips_32_bit_alu|and_block:and_unit
+input_A[0] => output.IN0
+input_A[1] => output.IN0
+input_A[2] => output.IN0
+input_A[3] => output.IN0
+input_A[4] => output.IN0
+input_A[5] => output.IN0
+input_A[6] => output.IN0
+input_A[7] => output.IN0
+input_A[8] => output.IN0
+input_A[9] => output.IN0
+input_A[10] => output.IN0
+input_A[11] => output.IN0
+input_A[12] => output.IN0
+input_A[13] => output.IN0
+input_A[14] => output.IN0
+input_A[15] => output.IN0
+input_A[16] => output.IN0
+input_A[17] => output.IN0
+input_A[18] => output.IN0
+input_A[19] => output.IN0
+input_A[20] => output.IN0
+input_A[21] => output.IN0
+input_A[22] => output.IN0
+input_A[23] => output.IN0
+input_A[24] => output.IN0
+input_A[25] => output.IN0
+input_A[26] => output.IN0
+input_A[27] => output.IN0
+input_A[28] => output.IN0
+input_A[29] => output.IN0
+input_A[30] => output.IN0
+input_A[31] => output.IN0
+input_B[0] => output.IN1
+input_B[1] => output.IN1
+input_B[2] => output.IN1
+input_B[3] => output.IN1
+input_B[4] => output.IN1
+input_B[5] => output.IN1
+input_B[6] => output.IN1
+input_B[7] => output.IN1
+input_B[8] => output.IN1
+input_B[9] => output.IN1
+input_B[10] => output.IN1
+input_B[11] => output.IN1
+input_B[12] => output.IN1
+input_B[13] => output.IN1
+input_B[14] => output.IN1
+input_B[15] => output.IN1
+input_B[16] => output.IN1
+input_B[17] => output.IN1
+input_B[18] => output.IN1
+input_B[19] => output.IN1
+input_B[20] => output.IN1
+input_B[21] => output.IN1
+input_B[22] => output.IN1
+input_B[23] => output.IN1
+input_B[24] => output.IN1
+input_B[25] => output.IN1
+input_B[26] => output.IN1
+input_B[27] => output.IN1
+input_B[28] => output.IN1
+input_B[29] => output.IN1
+input_B[30] => output.IN1
+input_B[31] => output.IN1
+output[0] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[4] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[5] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[6] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[7] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[8] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[9] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[10] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[11] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[12] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[13] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[14] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[15] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[16] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[17] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[18] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[19] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[20] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[21] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[22] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[23] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[24] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[25] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[26] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[27] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[28] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[29] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[30] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[31] <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|or_block:or_unit
+input_A[0] => output.IN0
+input_A[1] => output.IN0
+input_A[2] => output.IN0
+input_A[3] => output.IN0
+input_A[4] => output.IN0
+input_A[5] => output.IN0
+input_A[6] => output.IN0
+input_A[7] => output.IN0
+input_A[8] => output.IN0
+input_A[9] => output.IN0
+input_A[10] => output.IN0
+input_A[11] => output.IN0
+input_A[12] => output.IN0
+input_A[13] => output.IN0
+input_A[14] => output.IN0
+input_A[15] => output.IN0
+input_A[16] => output.IN0
+input_A[17] => output.IN0
+input_A[18] => output.IN0
+input_A[19] => output.IN0
+input_A[20] => output.IN0
+input_A[21] => output.IN0
+input_A[22] => output.IN0
+input_A[23] => output.IN0
+input_A[24] => output.IN0
+input_A[25] => output.IN0
+input_A[26] => output.IN0
+input_A[27] => output.IN0
+input_A[28] => output.IN0
+input_A[29] => output.IN0
+input_A[30] => output.IN0
+input_A[31] => output.IN0
+input_B[0] => output.IN1
+input_B[1] => output.IN1
+input_B[2] => output.IN1
+input_B[3] => output.IN1
+input_B[4] => output.IN1
+input_B[5] => output.IN1
+input_B[6] => output.IN1
+input_B[7] => output.IN1
+input_B[8] => output.IN1
+input_B[9] => output.IN1
+input_B[10] => output.IN1
+input_B[11] => output.IN1
+input_B[12] => output.IN1
+input_B[13] => output.IN1
+input_B[14] => output.IN1
+input_B[15] => output.IN1
+input_B[16] => output.IN1
+input_B[17] => output.IN1
+input_B[18] => output.IN1
+input_B[19] => output.IN1
+input_B[20] => output.IN1
+input_B[21] => output.IN1
+input_B[22] => output.IN1
+input_B[23] => output.IN1
+input_B[24] => output.IN1
+input_B[25] => output.IN1
+input_B[26] => output.IN1
+input_B[27] => output.IN1
+input_B[28] => output.IN1
+input_B[29] => output.IN1
+input_B[30] => output.IN1
+input_B[31] => output.IN1
+output[0] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[4] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[5] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[6] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[7] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[8] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[9] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[10] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[11] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[12] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[13] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[14] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[15] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[16] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[17] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[18] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[19] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[20] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[21] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[22] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[23] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[24] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[25] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[26] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[27] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[28] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[29] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[30] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[31] <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mips_32_bit_alu|func_mux:func_mux_unit
+input_A[0] => Mux31.IN3
+input_A[1] => Mux30.IN3
+input_A[2] => Mux29.IN3
+input_A[3] => Mux28.IN3
+input_A[4] => Mux27.IN3
+input_A[5] => Mux26.IN3
+input_A[6] => Mux25.IN3
+input_A[7] => Mux24.IN3
+input_A[8] => Mux23.IN3
+input_A[9] => Mux22.IN3
+input_A[10] => Mux21.IN3
+input_A[11] => Mux20.IN3
+input_A[12] => Mux19.IN3
+input_A[13] => Mux18.IN3
+input_A[14] => Mux17.IN3
+input_A[15] => Mux16.IN3
+input_A[16] => Mux15.IN3
+input_A[17] => Mux14.IN3
+input_A[18] => Mux13.IN3
+input_A[19] => Mux12.IN3
+input_A[20] => Mux11.IN3
+input_A[21] => Mux10.IN3
+input_A[22] => Mux9.IN3
+input_A[23] => Mux8.IN3
+input_A[24] => Mux7.IN3
+input_A[25] => Mux6.IN3
+input_A[26] => Mux5.IN3
+input_A[27] => Mux4.IN3
+input_A[28] => Mux3.IN3
+input_A[29] => Mux2.IN3
+input_A[30] => Mux1.IN3
+input_A[31] => Mux0.IN3
+input_B[0] => Mux31.IN4
+input_B[1] => Mux30.IN4
+input_B[2] => Mux29.IN4
+input_B[3] => Mux28.IN4
+input_B[4] => Mux27.IN4
+input_B[5] => Mux26.IN4
+input_B[6] => Mux25.IN4
+input_B[7] => Mux24.IN4
+input_B[8] => Mux23.IN4
+input_B[9] => Mux22.IN4
+input_B[10] => Mux21.IN4
+input_B[11] => Mux20.IN4
+input_B[12] => Mux19.IN4
+input_B[13] => Mux18.IN4
+input_B[14] => Mux17.IN4
+input_B[15] => Mux16.IN4
+input_B[16] => Mux15.IN4
+input_B[17] => Mux14.IN4
+input_B[18] => Mux13.IN4
+input_B[19] => Mux12.IN4
+input_B[20] => Mux11.IN4
+input_B[21] => Mux10.IN4
+input_B[22] => Mux9.IN4
+input_B[23] => Mux8.IN4
+input_B[24] => Mux7.IN4
+input_B[25] => Mux6.IN4
+input_B[26] => Mux5.IN4
+input_B[27] => Mux4.IN4
+input_B[28] => Mux3.IN4
+input_B[29] => Mux2.IN4
+input_B[30] => Mux1.IN4
+input_B[31] => Mux0.IN4
+input_C[0] => Mux31.IN5
+input_C[0] => Mux31.IN6
+input_C[1] => Mux30.IN5
+input_C[1] => Mux30.IN6
+input_C[2] => Mux29.IN5
+input_C[2] => Mux29.IN6
+input_C[3] => Mux28.IN5
+input_C[3] => Mux28.IN6
+input_C[4] => Mux27.IN5
+input_C[4] => Mux27.IN6
+input_C[5] => Mux26.IN5
+input_C[5] => Mux26.IN6
+input_C[6] => Mux25.IN5
+input_C[6] => Mux25.IN6
+input_C[7] => Mux24.IN5
+input_C[7] => Mux24.IN6
+input_C[8] => Mux23.IN5
+input_C[8] => Mux23.IN6
+input_C[9] => Mux22.IN5
+input_C[9] => Mux22.IN6
+input_C[10] => Mux21.IN5
+input_C[10] => Mux21.IN6
+input_C[11] => Mux20.IN5
+input_C[11] => Mux20.IN6
+input_C[12] => Mux19.IN5
+input_C[12] => Mux19.IN6
+input_C[13] => Mux18.IN5
+input_C[13] => Mux18.IN6
+input_C[14] => Mux17.IN5
+input_C[14] => Mux17.IN6
+input_C[15] => Mux16.IN5
+input_C[15] => Mux16.IN6
+input_C[16] => Mux15.IN5
+input_C[16] => Mux15.IN6
+input_C[17] => Mux14.IN5
+input_C[17] => Mux14.IN6
+input_C[18] => Mux13.IN5
+input_C[18] => Mux13.IN6
+input_C[19] => Mux12.IN5
+input_C[19] => Mux12.IN6
+input_C[20] => Mux11.IN5
+input_C[20] => Mux11.IN6
+input_C[21] => Mux10.IN5
+input_C[21] => Mux10.IN6
+input_C[22] => Mux9.IN5
+input_C[22] => Mux9.IN6
+input_C[23] => Mux8.IN5
+input_C[23] => Mux8.IN6
+input_C[24] => Mux7.IN5
+input_C[24] => Mux7.IN6
+input_C[25] => Mux6.IN5
+input_C[25] => Mux6.IN6
+input_C[26] => Mux5.IN5
+input_C[26] => Mux5.IN6
+input_C[27] => Mux4.IN5
+input_C[27] => Mux4.IN6
+input_C[28] => Mux3.IN5
+input_C[28] => Mux3.IN6
+input_C[29] => Mux2.IN5
+input_C[29] => Mux2.IN6
+input_C[30] => Mux1.IN5
+input_C[30] => Mux1.IN6
+input_C[31] => Mux0.IN5
+input_C[31] => Mux0.IN6
+input_D[0] => Mux31.IN7
+input_D[1] => Mux30.IN7
+input_D[2] => Mux29.IN7
+input_D[3] => Mux28.IN7
+input_D[4] => Mux27.IN7
+input_D[5] => Mux26.IN7
+input_D[6] => Mux25.IN7
+input_D[7] => Mux24.IN7
+input_D[8] => Mux23.IN7
+input_D[9] => Mux22.IN7
+input_D[10] => Mux21.IN7
+input_D[11] => Mux20.IN7
+input_D[12] => Mux19.IN7
+input_D[13] => Mux18.IN7
+input_D[14] => Mux17.IN7
+input_D[15] => Mux16.IN7
+input_D[16] => Mux15.IN7
+input_D[17] => Mux14.IN7
+input_D[18] => Mux13.IN7
+input_D[19] => Mux12.IN7
+input_D[20] => Mux11.IN7
+input_D[21] => Mux10.IN7
+input_D[22] => Mux9.IN7
+input_D[23] => Mux8.IN7
+input_D[24] => Mux7.IN7
+input_D[25] => Mux6.IN7
+input_D[26] => Mux5.IN7
+input_D[27] => Mux4.IN7
+input_D[28] => Mux3.IN7
+input_D[29] => Mux2.IN7
+input_D[30] => Mux1.IN7
+input_D[31] => Mux0.IN7
+output[0] <= Mux31.DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= Mux30.DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= Mux29.DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= Mux28.DB_MAX_OUTPUT_PORT_TYPE
+output[4] <= Mux27.DB_MAX_OUTPUT_PORT_TYPE
+output[5] <= Mux26.DB_MAX_OUTPUT_PORT_TYPE
+output[6] <= Mux25.DB_MAX_OUTPUT_PORT_TYPE
+output[7] <= Mux24.DB_MAX_OUTPUT_PORT_TYPE
+output[8] <= Mux23.DB_MAX_OUTPUT_PORT_TYPE
+output[9] <= Mux22.DB_MAX_OUTPUT_PORT_TYPE
+output[10] <= Mux21.DB_MAX_OUTPUT_PORT_TYPE
+output[11] <= Mux20.DB_MAX_OUTPUT_PORT_TYPE
+output[12] <= Mux19.DB_MAX_OUTPUT_PORT_TYPE
+output[13] <= Mux18.DB_MAX_OUTPUT_PORT_TYPE
+output[14] <= Mux17.DB_MAX_OUTPUT_PORT_TYPE
+output[15] <= Mux16.DB_MAX_OUTPUT_PORT_TYPE
+output[16] <= Mux15.DB_MAX_OUTPUT_PORT_TYPE
+output[17] <= Mux14.DB_MAX_OUTPUT_PORT_TYPE
+output[18] <= Mux13.DB_MAX_OUTPUT_PORT_TYPE
+output[19] <= Mux12.DB_MAX_OUTPUT_PORT_TYPE
+output[20] <= Mux11.DB_MAX_OUTPUT_PORT_TYPE
+output[21] <= Mux10.DB_MAX_OUTPUT_PORT_TYPE
+output[22] <= Mux9.DB_MAX_OUTPUT_PORT_TYPE
+output[23] <= Mux8.DB_MAX_OUTPUT_PORT_TYPE
+output[24] <= Mux7.DB_MAX_OUTPUT_PORT_TYPE
+output[25] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+output[26] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+output[27] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+output[28] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+output[29] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+output[30] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+output[31] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+aluop[0] => Mux0.IN10
+aluop[0] => Mux1.IN10
+aluop[0] => Mux2.IN10
+aluop[0] => Mux3.IN10
+aluop[0] => Mux4.IN10
+aluop[0] => Mux5.IN10
+aluop[0] => Mux6.IN10
+aluop[0] => Mux7.IN10
+aluop[0] => Mux8.IN10
+aluop[0] => Mux9.IN10
+aluop[0] => Mux10.IN10
+aluop[0] => Mux11.IN10
+aluop[0] => Mux12.IN10
+aluop[0] => Mux13.IN10
+aluop[0] => Mux14.IN10
+aluop[0] => Mux15.IN10
+aluop[0] => Mux16.IN10
+aluop[0] => Mux17.IN10
+aluop[0] => Mux18.IN10
+aluop[0] => Mux19.IN10
+aluop[0] => Mux20.IN10
+aluop[0] => Mux21.IN10
+aluop[0] => Mux22.IN10
+aluop[0] => Mux23.IN10
+aluop[0] => Mux24.IN10
+aluop[0] => Mux25.IN10
+aluop[0] => Mux26.IN10
+aluop[0] => Mux27.IN10
+aluop[0] => Mux28.IN10
+aluop[0] => Mux29.IN10
+aluop[0] => Mux30.IN10
+aluop[0] => Mux31.IN10
+aluop[1] => Mux0.IN9
+aluop[1] => Mux1.IN9
+aluop[1] => Mux2.IN9
+aluop[1] => Mux3.IN9
+aluop[1] => Mux4.IN9
+aluop[1] => Mux5.IN9
+aluop[1] => Mux6.IN9
+aluop[1] => Mux7.IN9
+aluop[1] => Mux8.IN9
+aluop[1] => Mux9.IN9
+aluop[1] => Mux10.IN9
+aluop[1] => Mux11.IN9
+aluop[1] => Mux12.IN9
+aluop[1] => Mux13.IN9
+aluop[1] => Mux14.IN9
+aluop[1] => Mux15.IN9
+aluop[1] => Mux16.IN9
+aluop[1] => Mux17.IN9
+aluop[1] => Mux18.IN9
+aluop[1] => Mux19.IN9
+aluop[1] => Mux20.IN9
+aluop[1] => Mux21.IN9
+aluop[1] => Mux22.IN9
+aluop[1] => Mux23.IN9
+aluop[1] => Mux24.IN9
+aluop[1] => Mux25.IN9
+aluop[1] => Mux26.IN9
+aluop[1] => Mux27.IN9
+aluop[1] => Mux28.IN9
+aluop[1] => Mux29.IN9
+aluop[1] => Mux30.IN9
+aluop[1] => Mux31.IN9
+aluop[2] => Mux0.IN8
+aluop[2] => Mux1.IN8
+aluop[2] => Mux2.IN8
+aluop[2] => Mux3.IN8
+aluop[2] => Mux4.IN8
+aluop[2] => Mux5.IN8
+aluop[2] => Mux6.IN8
+aluop[2] => Mux7.IN8
+aluop[2] => Mux8.IN8
+aluop[2] => Mux9.IN8
+aluop[2] => Mux10.IN8
+aluop[2] => Mux11.IN8
+aluop[2] => Mux12.IN8
+aluop[2] => Mux13.IN8
+aluop[2] => Mux14.IN8
+aluop[2] => Mux15.IN8
+aluop[2] => Mux16.IN8
+aluop[2] => Mux17.IN8
+aluop[2] => Mux18.IN8
+aluop[2] => Mux19.IN8
+aluop[2] => Mux20.IN8
+aluop[2] => Mux21.IN8
+aluop[2] => Mux22.IN8
+aluop[2] => Mux23.IN8
+aluop[2] => Mux24.IN8
+aluop[2] => Mux25.IN8
+aluop[2] => Mux26.IN8
+aluop[2] => Mux27.IN8
+aluop[2] => Mux28.IN8
+aluop[2] => Mux29.IN8
+aluop[2] => Mux30.IN8
+aluop[2] => Mux31.IN8
+
+

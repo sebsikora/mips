@@ -1,0 +1,50 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use work.all;
+
+entity register_ID_EX_buffer_bubmux is
+	port (alu_reg_dest_in:			in std_logic;
+			alu_src_in:					in std_logic;
+			alu_op_in:					in std_logic_vector(2 downto 0);
+			mem_jump_in:				in std_logic;
+			mem_branch_in:				in std_logic;
+			mem_read_in:				in std_logic;
+			mem_write_in:				in std_logic;
+			wb_mem_to_reg_in:			in std_logic;
+			wb_mem_write_in:			in std_logic;
+			alu_reg_dest_out:			out std_logic;
+			alu_src_out:				out std_logic;
+			alu_op_out:					out std_logic_vector(2 downto 0);
+			mem_jump_out:				in std_logic;
+			mem_branch_out:			in std_logic;
+			mem_read_out:				in std_logic;
+			mem_write_out:				in std_logic;
+			wb_mem_to_reg_out:		in std_logic;
+			wb_mem_write_out:			in std_logic;
+			load:							in std_logic;
+			
+	);
+end register_ID_EX_buffer_bubmux;
+
+architecture rtl of register_ID_EX_buffer_bubmux is
+	
+begin
+	process (bubble, program_counter_in, reg_read_data_1_in, reg_read_data_2_in, sign_ext_addr_oset_in, reg_write_dest_1_in, reg_write_dest_2_in) is
+	begin
+		if bubble = '1' then
+			program_counter_out <= "00000000000000000000000000000000";
+			reg_read_data_1_out <= "00000000000000000000000000000000";
+			reg_read_data_2_out <= "00000000000000000000000000000000";
+			sign_ext_addr_oset_out <= "00000000000000000000000000000000";
+			reg_write_dest_1_out <= "00000";
+			reg_write_dest_2_out <= "00000";
+		else
+			program_counter_out <= program_counter_in;
+			reg_read_data_1_out <= reg_read_data_1_in;
+			reg_read_data_2_out <= reg_read_data_2_in;
+			sign_ext_addr_oset_out <= sign_ext_addr_oset_in;
+			reg_write_dest_1_out <= reg_write_dest_1_in;
+			reg_write_dest_2_out <= reg_write_dest_2_in;
+		end if;
+	end process;
+end rtl;

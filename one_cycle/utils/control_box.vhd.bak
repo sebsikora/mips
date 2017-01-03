@@ -1,0 +1,30 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use work.all;
+
+entity control_box is
+	port (instruction_word:				in std_logic_vector(31 downto 0);
+			ctrl_alu_op:					out std_logic_vector(2 downto 0);
+			ctrl_reg_dest:					out std_logic;
+			ctrl_reg_write:				out std_logic;
+			ctrl_alu_source:				out std_logic;
+			ctrl_dat_cache_write:		out std_logic;
+			ctrl_regblk_data_in_mux:	out std_logic
+	);
+end control_box;
+
+architecture rtl of control_box is
+begin
+	process (instruction_word)
+	begin
+		if instruction_word(31 downto 26) = "000000" then			-- This is an R-type instruction
+			
+		elsif instruction_word(31 downto 26) = "100011" then		-- This is an I-type instruction (LW)
+			
+		elsif instruction_word(31 downto 26) = "101011" then		-- This is an I-type instruction (SW)
+			
+		else
+			
+		end if;
+	end process;
+end rtl;

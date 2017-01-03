@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="mips_pipelined">
+		<CBX_INST_ENTRY INSTANCE_NAME="|mips_pipelined|dat_cache:MEM_data_cache|dat_cache_m4k_ram_block:block_1|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_lif1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mips_pipelined|ins_cache:IF_instruction_cache|ins_cache_m4k_ram_block:block_1|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_93k1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

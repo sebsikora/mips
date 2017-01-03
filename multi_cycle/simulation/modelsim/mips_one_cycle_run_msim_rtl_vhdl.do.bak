@@ -1,0 +1,18 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/alu/s32addsub_one_bit_full_adder.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/alu/signed_32bit_add_subtract.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/alu/s32addsub_unsigned_overflow_detect.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/alu/s32addsub_signed_overflow_detect.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/alu/s32addsub_full_adder.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/alu/s32addsub_subtractor_inverter.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/utils/register_32.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/utils/decoder_5_to_32.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/utils/mux_32_to_1_by_32.vhd}
+vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/mips_one_cycle.vhd}
+

@@ -1,0 +1,11 @@
+# Current time Sun Feb 21 16:06:51 2016
+# ModelSim Stack Trace
+# Program = vish
+# Id = "10.1d"
+# Version = "2012.11"
+# Date = "Nov  2 2012"
+# Platform = linuxpe
+# 0    0x08443938: 'Tcl_AppendResultVA + 0x1c' in '/home/sebsikora/altera/13.0sp1/quartus/../modelsim_ase/linuxaloem/vish'
+# 1    0x08443b12: 'Tcl_AppendResult + 0x1a' in '/home/sebsikora/altera/13.0sp1/quartus/../modelsim_ase/linuxaloem/vish'
+# 2    0x0825eca1: 'ww_FillRepeaterArgs + 0x831' in '/home/sebsikora/altera/13.0sp1/quartus/../modelsim_ase/linuxaloem/vish'
+# 3    0x3131312c: '<unknown (@0x3131312c)>'

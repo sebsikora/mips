@@ -1,0 +1,51 @@
+% [0..F]:   3FFF;    Range--Every address from 0 to F = 3FFF  % 
+% 6     :   F;       Single address--Address 6 = F % 
+% 8     :   F E 5;   Range starting from specific address %  
+
+
+
+DEPTH = 32;            % Memory depth and width are required   % 
+                       % DEPTH is the number of addresses      % 
+WIDTH = 32;            % WIDTH is the number of bits of data per word % 
+%  DEPTH and WIDTH should be entered as decimal numbers        % 
+ADDRESS_RADIX = HEX;   % Address and value radixes are required  % 
+DATA_RADIX = HEX;      % Enter BIN, DEC, HEX, OCT, or UNS; unless  % 
+                       % otherwise specified, radixes = HEX    % 
+-- Specify values for addresses, which can be single address or range 
+CONTENT 
+BEGIN 
+0	:	8C010000;		% LW 0, 1, 0 %
+1	:	8C020001;		% LW 0, 2, 1 %
+2	:	8C030002;		% LW 0, 3, 2 %
+3	:	8C040003;		% LW 0, 4, 3 %
+4	:	8C050004;		% LW 0, 5, 4 %
+5	:	8C060005;		% LW 0, 6, 5 %
+6	:	8C070006;		% LW 0, 7, 6 %
+7	:	8C080007;		% LW 0, 8, 7 %
+8	:	8C090008;		% LW 0, 9, 8 %
+9	:	8C0A0009;		% LW 0, 10, 9 %
+A	:	AC01000A;		% SW 0, 1, 10 %
+B	:	AC02000B;		% SW 0, 2, 11 %
+C	:	AC03000C;		% SW 0, 3, 12 %
+D	:	AC04000D;		% SW 0, 4, 13 %
+E	:	AC05000E;		% SW 0, 5, 14 %
+F	:	AC06000F;		% SW 0, 6, 15 %
+10	:	AC070010;		% SW 0, 7, 16 %
+11	:	AC080011;		% SW 0, 8, 17 %
+12	:	AC090012;		% SW 0, 9, 18 %
+13	:	AC0A0013;		% SW 0, 10, 19 %
+14	:	0;			% NOP %
+15	:	0;			% NOP %
+16	:	0;			% NOP %
+17	:	0;			% NOP %
+18	:	0;			% NOP %
+19	:	0;			% NOP %
+1A	:	0;			% NOP %
+1B	:	0;			% NOP %
+1C	:	0;			% NOP %
+1D	:	0;			% NOP %
+1E	:	0;			% NOP %
+1F	:	0;			% NOP %
+
+
+END; 

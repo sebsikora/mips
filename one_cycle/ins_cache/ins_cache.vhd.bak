@@ -1,0 +1,13 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use work.all;
+
+entity ins_cache is
+	
+end ins_cache;
+	
+architecture rtl of ins_cache is
+	
+begin
+	
+end rtl;

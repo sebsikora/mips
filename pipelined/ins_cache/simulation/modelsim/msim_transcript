@@ -1,0 +1,49 @@
+# do ins_cache_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying /home/sebsikora/altera/13.0sp1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied /home/sebsikora/altera/13.0sp1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/ins_cache/ins_cache_m4k_ram_block.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ins_cache_m4k_ram_block
+# -- Compiling architecture SYN of ins_cache_m4k_ram_block
+# vcom -93 -work work {/home/sebsikora/altera/projects/mips/one_cycle/ins_cache/ins_cache.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ins_cache
+# -- Compiling architecture rtl of ins_cache
+# 
+vsim -voptargs=+acc work.ins_cache
+# vsim -voptargs=+acc work.ins_cache 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.ins_cache(rtl)
+# Loading work.ins_cache_m4k_ram_block(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+do /home/sebsikora/altera/projects/mips/one_cycle/ins_cache/simulation/modelsim/ins_cache_wave.do
+# .main_pane.wave.interior.cs.body.pw.wf
+# 1
+# 1
+run -all
+add wave  \
+sim:/ins_cache/q
+restart
+run -all
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/sebsikora/altera/projects/mips/one_cycle/ins_cache/simulation/modelsim/ins_cache_2_wave.do
+wave editwrite -file /home/sebsikora/altera/projects/mips/one_cycle/ins_cache/simulation/modelsim/ins_cache_2_wave.do -append

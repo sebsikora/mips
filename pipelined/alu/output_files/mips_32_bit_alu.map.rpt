@@ -1,0 +1,418 @@
+Analysis & Synthesis report for mips_32_bit_alu
+Thu Feb 25 22:33:35 2016
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. General Register Statistics
+  9. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 10. Elapsed Time Per Partition
+ 11. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                         ;
++------------------------------------+-------------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Thu Feb 25 22:33:34 2016           ;
+; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
+; Revision Name                      ; mips_32_bit_alu                                 ;
+; Top-level Entity Name              ; mips_32_bit_alu                                 ;
+; Family                             ; Cyclone II                                      ;
+; Total logic elements               ; 180                                             ;
+;     Total combinational functions  ; 180                                             ;
+;     Dedicated logic registers      ; 0                                               ;
+; Total registers                    ; 0                                               ;
+; Total pins                         ; 102                                             ;
+; Total virtual pins                 ; 0                                               ;
+; Total memory bits                  ; 0                                               ;
+; Embedded Multiplier 9-bit elements ; 0                                               ;
+; Total PLLs                         ; 0                                               ;
++------------------------------------+-------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                        ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                     ; Setting            ; Default Value      ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Top-level entity name                                                      ; mips_32_bit_alu    ; mips_32_bit_alu    ;
+; Family name                                                                ; Cyclone II         ; Cyclone IV GX      ;
+; Use smart compilation                                                      ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                                ; Off                ; Off                ;
+; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
+; Preserve fewer node names                                                  ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                  ; Off                ; Off                ;
+; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                   ; Auto               ; Auto               ;
+; Safe State Machine                                                         ; Off                ; Off                ;
+; Extract Verilog State Machines                                             ; On                 ; On                 ;
+; Extract VHDL State Machines                                                ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                  ; On                 ; On                 ;
+; Parallel Synthesis                                                         ; On                 ; On                 ;
+; DSP Block Balancing                                                        ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                         ; On                 ; On                 ;
+; Power-Up Don't Care                                                        ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
+; Remove Duplicate Registers                                                 ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
+; Optimization Technique                                                     ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                         ; 70                 ; 70                 ;
+; Auto Carry Chains                                                          ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
+; Auto ROM Replacement                                                       ; On                 ; On                 ;
+; Auto RAM Replacement                                                       ; On                 ; On                 ;
+; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
+; Strict RAM Replacement                                                     ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                      ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                    ; Off                ; Off                ;
+; Report Parameter Settings                                                  ; On                 ; On                 ;
+; Report Source Assignments                                                  ; On                 ; On                 ;
+; Report Connectivity Checks                                                 ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
+; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
+; PowerPlay Power Optimization                                               ; Normal compilation ; Normal compilation ;
+; HDL message level                                                          ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                         ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
+; Clock MUX Protection                                                       ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
+; Block Design Naming                                                        ; Auto               ; Auto               ;
+; SDC constraint protection                                                  ; Off                ; Off                ;
+; Synthesis Effort                                                           ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                       ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
+; Synthesis Seed                                                             ; 1                  ; 1                  ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 2      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                           ;
++----------------------------------------+-----------------+-----------------+-------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path       ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                              ; Library ;
++----------------------------------------+-----------------+-----------------+-------------------------------------------------------------------------------------------+---------+
+; mips_32_bit_alu.vhd                    ; yes             ; User VHDL File  ; /home/sebsikora/altera/projects/mips/one_cycle/alu/mips_32_bit_alu.vhd                    ;         ;
+; signed_32bit_add_subtract.vhd          ; yes             ; User VHDL File  ; /home/sebsikora/altera/projects/mips/one_cycle/alu/signed_32bit_add_subtract.vhd          ;         ;
+; s32addsub_unsigned_overflow_detect.vhd ; yes             ; User VHDL File  ; /home/sebsikora/altera/projects/mips/one_cycle/alu/s32addsub_unsigned_overflow_detect.vhd ;         ;
+; s32addsub_subtractor_inverter.vhd      ; yes             ; User VHDL File  ; /home/sebsikora/altera/projects/mips/one_cycle/alu/s32addsub_subtractor_inverter.vhd      ;         ;
+; s32addsub_signed_overflow_detect.vhd   ; yes             ; User VHDL File  ; /home/sebsikora/altera/projects/mips/one_cycle/alu/s32addsub_signed_overflow_detect.vhd   ;         ;
+; s32addsub_one_bit_full_adder.vhd       ; yes             ; User VHDL File  ; /home/sebsikora/altera/projects/mips/one_cycle/alu/s32addsub_one_bit_full_adder.vhd       ;         ;
+; s32addsub_full_adder.vhd               ; yes             ; User VHDL File  ; /home/sebsikora/altera/projects/mips/one_cycle/alu/s32addsub_full_adder.vhd               ;         ;
+; set_on_less_than.vhd                   ; yes             ; User VHDL File  ; /home/sebsikora/altera/projects/mips/one_cycle/alu/set_on_less_than.vhd                   ;         ;
+; and_block.vhd                          ; yes             ; User VHDL File  ; /home/sebsikora/altera/projects/mips/one_cycle/alu/and_block.vhd                          ;         ;
+; or_block.vhd                           ; yes             ; User VHDL File  ; /home/sebsikora/altera/projects/mips/one_cycle/alu/or_block.vhd                           ;         ;
+; ../utils/basic_gates.vhd               ; yes             ; User VHDL File  ; /home/sebsikora/altera/projects/mips/one_cycle/utils/basic_gates.vhd                      ;         ;
+; func_mux.vhd                           ; yes             ; User VHDL File  ; /home/sebsikora/altera/projects/mips/one_cycle/alu/func_mux.vhd                           ;         ;
++----------------------------------------+-----------------+-----------------+-------------------------------------------------------------------------------------------+---------+
+
+
++--------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary            ;
++---------------------------------------------+----------+
+; Resource                                    ; Usage    ;
++---------------------------------------------+----------+
+; Estimated Total logic elements              ; 180      ;
+;                                             ;          ;
+; Total combinational functions               ; 180      ;
+; Logic element usage by number of LUT inputs ;          ;
+;     -- 4 input functions                    ; 137      ;
+;     -- 3 input functions                    ; 39       ;
+;     -- <=2 input functions                  ; 4        ;
+;                                             ;          ;
+; Logic elements by mode                      ;          ;
+;     -- normal mode                          ; 149      ;
+;     -- arithmetic mode                      ; 31       ;
+;                                             ;          ;
+; Total registers                             ; 0        ;
+;     -- Dedicated logic registers            ; 0        ;
+;     -- I/O registers                        ; 0        ;
+;                                             ;          ;
+; I/O pins                                    ; 102      ;
+; Embedded Multiplier 9-bit elements          ; 0        ;
+; Maximum fan-out node                        ; aluop[2] ;
+; Maximum fan-out                             ; 68       ;
+; Total fan-out                               ; 708      ;
+; Average fan-out                             ; 2.51     ;
++---------------------------------------------+----------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                                         ;
++-----------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------------------------------------+--------------+
+; Compilation Hierarchy Node                                ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                  ; Library Name ;
++-----------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------------------------------------+--------------+
+; |mips_32_bit_alu                                          ; 180 (11)          ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 102  ; 0            ; |mips_32_bit_alu                                                                                                                     ; work         ;
+;    |func_mux:func_mux_unit|                               ; 99 (99)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|func_mux:func_mux_unit                                                                                              ; work         ;
+;    |set_on_less_than:slt_unit|                            ; 32 (32)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|set_on_less_than:slt_unit                                                                                           ; work         ;
+;    |signed_32bit_add_subtract:addsub_unit|                ; 38 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit                                                                               ; work         ;
+;       |s32addsub_full_adder:addder|                       ; 35 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder                                                   ; work         ;
+;          |s32addsub_onebit_full_adder:bit_0|              ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_0                 ; work         ;
+;             |AND_gate:and_1|                              ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_0|AND_gate:and_1  ; work         ;
+;             |AND_gate:and_2|                              ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_0|AND_gate:and_2  ; work         ;
+;          |s32addsub_onebit_full_adder:bit_10|             ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_10                ; work         ;
+;             |OR_gate:or_1|                                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_10|OR_gate:or_1   ; work         ;
+;          |s32addsub_onebit_full_adder:bit_11|             ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_11                ; work         ;
+;             |OR_gate:or_1|                                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_11|OR_gate:or_1   ; work         ;
+;          |s32addsub_onebit_full_adder:bit_12|             ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_12                ; work         ;
+;             |OR_gate:or_1|                                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_12|OR_gate:or_1   ; work         ;
+;          |s32addsub_onebit_full_adder:bit_13|             ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_13                ; work         ;
+;             |OR_gate:or_1|                                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_13|OR_gate:or_1   ; work         ;
+;          |s32addsub_onebit_full_adder:bit_14|             ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_14                ; work         ;
+;             |OR_gate:or_1|                                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_14|OR_gate:or_1   ; work         ;
+;          |s32addsub_onebit_full_adder:bit_15|             ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_15                ; work         ;
+;             |OR_gate:or_1|                                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_15|OR_gate:or_1   ; work         ;
+;          |s32addsub_onebit_full_adder:bit_16|             ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_16                ; work         ;
+;             |OR_gate:or_1|                                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_16|OR_gate:or_1   ; work         ;
+;          |s32addsub_onebit_full_adder:bit_17|             ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_17                ; work         ;
+;             |OR_gate:or_1|                                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_17|OR_gate:or_1   ; work         ;
+;          |s32addsub_onebit_full_adder:bit_18|             ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_18                ; work         ;
+;             |OR_gate:or_1|                                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_18|OR_gate:or_1   ; work         ;
+;          |s32addsub_onebit_full_adder:bit_19|             ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_19                ; work         ;
+;             |OR_gate:or_1|                                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_19|OR_gate:or_1   ; work         ;
+;          |s32addsub_onebit_full_adder:bit_1|              ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_1                 ; work         ;
+;             |OR_gate:or_1|                                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_1|OR_gate:or_1    ; work         ;
+;             |XOR_gate:xor_2|                              ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_1|XOR_gate:xor_2  ; work         ;
+;          |s32addsub_onebit_full_adder:bit_20|             ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_20                ; work         ;
+;             |OR_gate:or_1|                                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_20|OR_gate:or_1   ; work         ;
+;          |s32addsub_onebit_full_adder:bit_21|             ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_21                ; work         ;
+;             |OR_gate:or_1|                                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_21|OR_gate:or_1   ; work         ;
+;          |s32addsub_onebit_full_adder:bit_22|             ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_22                ; work         ;
+;             |OR_gate:or_1|                                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_22|OR_gate:or_1   ; work         ;
+;          |s32addsub_onebit_full_adder:bit_23|             ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_23                ; work         ;
+;             |OR_gate:or_1|                                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_23|OR_gate:or_1   ; work         ;
+;          |s32addsub_onebit_full_adder:bit_24|             ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_24                ; work         ;
+;             |OR_gate:or_1|                                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_24|OR_gate:or_1   ; work         ;
+;          |s32addsub_onebit_full_adder:bit_25|             ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_25                ; work         ;
+;             |OR_gate:or_1|                                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_25|OR_gate:or_1   ; work         ;
+;          |s32addsub_onebit_full_adder:bit_26|             ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_26                ; work         ;
+;             |OR_gate:or_1|                                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_26|OR_gate:or_1   ; work         ;
+;          |s32addsub_onebit_full_adder:bit_27|             ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_27                ; work         ;
+;             |OR_gate:or_1|                                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_27|OR_gate:or_1   ; work         ;
+;          |s32addsub_onebit_full_adder:bit_28|             ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_28                ; work         ;
+;             |OR_gate:or_1|                                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_28|OR_gate:or_1   ; work         ;
+;             |XOR_gate:xor_2|                              ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_28|XOR_gate:xor_2 ; work         ;
+;          |s32addsub_onebit_full_adder:bit_29|             ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_29                ; work         ;
+;             |OR_gate:or_1|                                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_29|OR_gate:or_1   ; work         ;
+;             |XOR_gate:xor_2|                              ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_29|XOR_gate:xor_2 ; work         ;
+;          |s32addsub_onebit_full_adder:bit_2|              ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_2                 ; work         ;
+;             |OR_gate:or_1|                                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_2|OR_gate:or_1    ; work         ;
+;          |s32addsub_onebit_full_adder:bit_30|             ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_30                ; work         ;
+;             |OR_gate:or_1|                                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_30|OR_gate:or_1   ; work         ;
+;          |s32addsub_onebit_full_adder:bit_3|              ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_3                 ; work         ;
+;             |OR_gate:or_1|                                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_3|OR_gate:or_1    ; work         ;
+;          |s32addsub_onebit_full_adder:bit_4|              ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_4                 ; work         ;
+;             |OR_gate:or_1|                                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_4|OR_gate:or_1    ; work         ;
+;          |s32addsub_onebit_full_adder:bit_5|              ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_5                 ; work         ;
+;             |OR_gate:or_1|                                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_5|OR_gate:or_1    ; work         ;
+;          |s32addsub_onebit_full_adder:bit_6|              ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_6                 ; work         ;
+;             |OR_gate:or_1|                                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_6|OR_gate:or_1    ; work         ;
+;          |s32addsub_onebit_full_adder:bit_7|              ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_7                 ; work         ;
+;             |OR_gate:or_1|                                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_7|OR_gate:or_1    ; work         ;
+;          |s32addsub_onebit_full_adder:bit_8|              ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_8                 ; work         ;
+;             |OR_gate:or_1|                                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_8|OR_gate:or_1    ; work         ;
+;          |s32addsub_onebit_full_adder:bit_9|              ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_9                 ; work         ;
+;             |OR_gate:or_1|                                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_9|OR_gate:or_1    ; work         ;
+;       |s32addsub_signed_overflow_detect:signed_of_det|    ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_signed_overflow_detect:signed_of_det                                ; work         ;
+;       |s32addsub_subtraction_invertors:sub_inv|           ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_subtraction_invertors:sub_inv                                       ; work         ;
+;       |s32addsub_unsigned_overflow_detect:usigned_of_det| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mips_32_bit_alu|signed_32bit_add_subtract:addsub_unit|s32addsub_unsigned_overflow_detect:usigned_of_det                             ; work         ;
++-----------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------------------------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 0     ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                              ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                    ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------+
+; 8:1                ; 31 bits   ; 155 LEs       ; 93 LEs               ; 62 LEs                 ; No         ; |mips_32_bit_alu|func_mux:func_mux_unit|Mux30 ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:01     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Analysis & Synthesis
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Thu Feb 25 22:33:31 2016
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off mips_32_bit_alu -c mips_32_bit_alu
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (12021): Found 2 design units, including 1 entities, in source file mips_32_bit_alu.vhd
+    Info (12022): Found design unit 1: mips_32_bit_alu-rtl
+    Info (12023): Found entity 1: mips_32_bit_alu
+Info (12021): Found 2 design units, including 1 entities, in source file signed_32bit_add_subtract.vhd
+    Info (12022): Found design unit 1: signed_32bit_add_subtract-rtl
+    Info (12023): Found entity 1: signed_32bit_add_subtract
+Info (12021): Found 2 design units, including 1 entities, in source file s32addsub_unsigned_overflow_detect.vhd
+    Info (12022): Found design unit 1: s32addsub_unsigned_overflow_detect-rtl
+    Info (12023): Found entity 1: s32addsub_unsigned_overflow_detect
+Info (12021): Found 2 design units, including 1 entities, in source file s32addsub_subtractor_inverter.vhd
+    Info (12022): Found design unit 1: s32addsub_subtraction_invertors-rtl
+    Info (12023): Found entity 1: s32addsub_subtraction_invertors
+Info (12021): Found 2 design units, including 1 entities, in source file s32addsub_signed_overflow_detect.vhd
+    Info (12022): Found design unit 1: s32addsub_signed_overflow_detect-rtl
+    Info (12023): Found entity 1: s32addsub_signed_overflow_detect
+Info (12021): Found 2 design units, including 1 entities, in source file s32addsub_one_bit_full_adder.vhd
+    Info (12022): Found design unit 1: s32addsub_onebit_full_adder-struct
+    Info (12023): Found entity 1: s32addsub_onebit_full_adder
+Info (12021): Found 2 design units, including 1 entities, in source file s32addsub_full_adder.vhd
+    Info (12022): Found design unit 1: s32addsub_full_adder-struct
+    Info (12023): Found entity 1: s32addsub_full_adder
+Info (12021): Found 2 design units, including 1 entities, in source file set_on_less_than.vhd
+    Info (12022): Found design unit 1: set_on_less_than-rtl
+    Info (12023): Found entity 1: set_on_less_than
+Info (12021): Found 2 design units, including 1 entities, in source file and_block.vhd
+    Info (12022): Found design unit 1: and_block-rtl
+    Info (12023): Found entity 1: and_block
+Info (12021): Found 2 design units, including 1 entities, in source file or_block.vhd
+    Info (12022): Found design unit 1: or_block-rtl
+    Info (12023): Found entity 1: or_block
+Info (12021): Found 26 design units, including 13 entities, in source file /home/sebsikora/altera/projects/mips/one_cycle/utils/basic_gates.vhd
+    Info (12022): Found design unit 1: XOR_gate-rtl
+    Info (12022): Found design unit 2: OR_gate-rtl
+    Info (12022): Found design unit 3: OR_3_gate-rtl
+    Info (12022): Found design unit 4: OR_4_gate-rtl
+    Info (12022): Found design unit 5: NOT_gate-rtl
+    Info (12022): Found design unit 6: AND_gate-rtl
+    Info (12022): Found design unit 7: AND_3_gate-rtl
+    Info (12022): Found design unit 8: AND_4_gate-rtl
+    Info (12022): Found design unit 9: AND_5_gate-rtl
+    Info (12022): Found design unit 10: NAND_3_gate-rtl
+    Info (12022): Found design unit 11: NAND_gate-rtl
+    Info (12022): Found design unit 12: NOR_gate-rtl
+    Info (12022): Found design unit 13: NOR_3_gate-rtl
+    Info (12023): Found entity 1: XOR_gate
+    Info (12023): Found entity 2: OR_gate
+    Info (12023): Found entity 3: OR_3_gate
+    Info (12023): Found entity 4: OR_4_gate
+    Info (12023): Found entity 5: NOT_gate
+    Info (12023): Found entity 6: AND_gate
+    Info (12023): Found entity 7: AND_3_gate
+    Info (12023): Found entity 8: AND_4_gate
+    Info (12023): Found entity 9: AND_5_gate
+    Info (12023): Found entity 10: NAND_3_gate
+    Info (12023): Found entity 11: NAND_gate
+    Info (12023): Found entity 12: NOR_gate
+    Info (12023): Found entity 13: NOR_3_gate
+Info (12021): Found 2 design units, including 1 entities, in source file func_mux.vhd
+    Info (12022): Found design unit 1: func_mux-rtl
+    Info (12023): Found entity 1: func_mux
+Info (12127): Elaborating entity "mips_32_bit_alu" for the top level hierarchy
+Info (12128): Elaborating entity "signed_32bit_add_subtract" for hierarchy "signed_32bit_add_subtract:addsub_unit"
+Info (12128): Elaborating entity "s32addsub_subtraction_invertors" for hierarchy "signed_32bit_add_subtract:addsub_unit|s32addsub_subtraction_invertors:sub_inv"
+Info (12128): Elaborating entity "s32addsub_full_adder" for hierarchy "signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder"
+Info (12128): Elaborating entity "s32addsub_onebit_full_adder" for hierarchy "signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_0"
+Info (12128): Elaborating entity "XOR_gate" for hierarchy "signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_0|XOR_gate:xor_1"
+Info (12128): Elaborating entity "AND_gate" for hierarchy "signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_0|AND_gate:and_1"
+Info (12128): Elaborating entity "OR_gate" for hierarchy "signed_32bit_add_subtract:addsub_unit|s32addsub_full_adder:addder|s32addsub_onebit_full_adder:bit_0|OR_gate:or_1"
+Info (12128): Elaborating entity "s32addsub_signed_overflow_detect" for hierarchy "signed_32bit_add_subtract:addsub_unit|s32addsub_signed_overflow_detect:signed_of_det"
+Info (12128): Elaborating entity "s32addsub_unsigned_overflow_detect" for hierarchy "signed_32bit_add_subtract:addsub_unit|s32addsub_unsigned_overflow_detect:usigned_of_det"
+Info (12128): Elaborating entity "set_on_less_than" for hierarchy "set_on_less_than:slt_unit"
+Info (12128): Elaborating entity "and_block" for hierarchy "and_block:and_unit"
+Info (12128): Elaborating entity "or_block" for hierarchy "or_block:or_unit"
+Info (12128): Elaborating entity "func_mux" for hierarchy "func_mux:func_mux_unit"
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 282 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 67 input pins
+    Info (21059): Implemented 35 output pins
+    Info (21061): Implemented 180 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 719 megabytes
+    Info: Processing ended: Thu Feb 25 22:33:35 2016
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:04
+
+

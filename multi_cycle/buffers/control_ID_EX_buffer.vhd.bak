@@ -1,0 +1,13 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use work.all;
+
+entity control_ID_EX_buffer is
+	port (
+	);
+end control_ID_EX_buffer;
+
+architecture rtl of control_ID_EX_buffer is
+begin
+	
+end rtl;

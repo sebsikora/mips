@@ -1,0 +1,1930 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/sebsikora/altera/projects/mips/pipelined/simulation/modelsim
+Eand_3_gate
+Z1 w1453069858
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 d/home/sebsikora/altera/projects/mips/pipelined/simulation/modelsim
+Z5 8/home/sebsikora/altera/projects/mips/pipelined/utils/basic_gates.vhd
+Z6 F/home/sebsikora/altera/projects/mips/pipelined/utils/basic_gates.vhd
+l0
+L115
+Vz6UPELG@T<D9^D:51cnV<0
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1459444763.980869
+Z9 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/pipelined/utils/basic_gates.vhd|
+Z10 !s107 /home/sebsikora/altera/projects/mips/pipelined/utils/basic_gates.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 _el[T>W:6]:W?=8Hk`6^<1
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 10 and_3_gate 0 22 z6UPELG@T<D9^D:51cnV<0
+l124
+L123
+V:RTI@I3e3Z1ijfR?3bd<n1
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 Ii4je=_cYh8c0=@CY?;R90
+!i10b 1
+Eand_4_gate
+R1
+R2
+R3
+R4
+R5
+R6
+l0
+L133
+VdX@GF0Vk1YTa=PZUoc@oU1
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 49;IAmQ4jUMQ=PKLim_Tk0
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 10 and_4_gate 0 22 dX@GF0Vk1YTa=PZUoc@oU1
+l143
+L142
+VOYN8T5[Ujb_4oTPmaiC2J0
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 42XELP3fH>zlfcUQ3__[@1
+!i10b 1
+Eand_5_gate
+R1
+R2
+R3
+R4
+R5
+R6
+l0
+L152
+V32RYZP33I:30oah^XekEm1
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 I^UVZ;J28WaS9PQb:OC?[3
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 10 and_5_gate 0 22 32RYZP33I:30oah^XekEm1
+l163
+L162
+V?LMOAP03>]h_[Q>FG_Vlk3
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 9=jM64_^88d9?K:@AXS2A0
+!i10b 1
+Eand_block
+Z13 w1456435880
+R2
+R3
+R4
+Z14 8/home/sebsikora/altera/projects/mips/pipelined/alu/and_block.vhd
+Z15 F/home/sebsikora/altera/projects/mips/pipelined/alu/and_block.vhd
+l0
+L5
+V_nWjaI3TfNH[K@WJaQVi10
+!s100 S98PVTX_SB4K1D=IazbR90
+R7
+31
+!i10b 1
+Z16 !s108 1459444765.368266
+Z17 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/pipelined/alu/and_block.vhd|
+Z18 !s107 /home/sebsikora/altera/projects/mips/pipelined/alu/and_block.vhd|
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 9 and_block 0 22 _nWjaI3TfNH[K@WJaQVi10
+l13
+L12
+VF67OXe4]A]ZkDX3c9jMVF0
+!s100 G::JS8?TX<MU_bGld7fHz0
+R7
+31
+!i10b 1
+R16
+R17
+R18
+R11
+R12
+Eand_gate
+R1
+R2
+R3
+R4
+R5
+R6
+l0
+L97
+V1Z3_VKAzkUkN:;iI??:V31
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 PA:Ag0Q^AYWQlUH4dz@U32
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 8 and_gate 0 22 1Z3_VKAzkUkN:;iI??:V31
+l105
+L104
+VgF_Koo@f_>HeiKQ?dc<R_3
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 ICS@[MT07dD2RjcBH<29b0
+!i10b 1
+Ecomparator_5_2
+Z19 w1459271230
+R2
+R3
+R4
+Z20 8/home/sebsikora/altera/projects/mips/pipelined/utils/comparator_5_2.vhd
+Z21 F/home/sebsikora/altera/projects/mips/pipelined/utils/comparator_5_2.vhd
+l0
+L5
+V4=S@cBJ6J48lZdb6]<Cl00
+R7
+31
+Z22 !s108 1459444764.572658
+Z23 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/pipelined/utils/comparator_5_2.vhd|
+Z24 !s107 /home/sebsikora/altera/projects/mips/pipelined/utils/comparator_5_2.vhd|
+R11
+R12
+!s100 zhWY9P=WYi3C=iJoGQCW]0
+!i10b 1
+Astruct
+R2
+R3
+DEx4 work 14 comparator_5_2 0 22 4=S@cBJ6J48lZdb6]<Cl00
+l14
+L12
+Vi@_b:9^B0EzoTIo=aEX6K2
+R7
+31
+R22
+R23
+R24
+R11
+R12
+!s100 08jXI?bC3F;;hB1MKVMYD0
+!i10b 1
+Econtrol_box
+Z25 w1456699339
+R2
+R3
+R4
+Z26 8/home/sebsikora/altera/projects/mips/pipelined/utils/control_box.vhd
+Z27 F/home/sebsikora/altera/projects/mips/pipelined/utils/control_box.vhd
+l0
+L5
+Vo]<RNhhhQa;Pz3]CHIV5j2
+R7
+31
+Z28 !s108 1459444764.542439
+Z29 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/pipelined/utils/control_box.vhd|
+Z30 !s107 /home/sebsikora/altera/projects/mips/pipelined/utils/control_box.vhd|
+R11
+R12
+!s100 ?V<mTcgiU:5E:>9CY5DhX0
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 11 control_box 0 22 o]<RNhhhQa;Pz3]CHIV5j2
+l21
+L20
+VFO?h3GXSgekD3]D_lXR9j0
+R7
+31
+R28
+R29
+R30
+R11
+R12
+!s100 l7hZ8@Yf2]oYkTogRgabY2
+!i10b 1
+Econtrol_ex_mem_buffer
+Z31 w1458596788
+R2
+R3
+R4
+Z32 8/home/sebsikora/altera/projects/mips/pipelined/buffers/control_EX_MEM_buffer.vhd
+Z33 F/home/sebsikora/altera/projects/mips/pipelined/buffers/control_EX_MEM_buffer.vhd
+l0
+L5
+VSL1>@OCPPS:@Q6VX^K8SJ0
+R7
+31
+Z34 !s108 1459444765.046369
+Z35 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/pipelined/buffers/control_EX_MEM_buffer.vhd|
+Z36 !s107 /home/sebsikora/altera/projects/mips/pipelined/buffers/control_EX_MEM_buffer.vhd|
+R11
+R12
+!s100 BanMn>A5^a<bAoSDHSdnM2
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 21 control_ex_mem_buffer 0 22 SL1>@OCPPS:@Q6VX^K8SJ0
+l47
+L22
+V`QVKPJi`4=Y^5b^e59e>T1
+R7
+31
+R34
+R35
+R36
+R11
+R12
+!s100 j5Fe7]k1Ic2MZHY_86_fW3
+!i10b 1
+Econtrol_id_ex_buffer
+Z37 w1459252507
+R2
+R3
+R4
+Z38 8/home/sebsikora/altera/projects/mips/pipelined/buffers/control_ID_EX_buffer.vhd
+Z39 F/home/sebsikora/altera/projects/mips/pipelined/buffers/control_ID_EX_buffer.vhd
+l0
+L5
+VYzIClbf090Vol?>fWeH410
+R7
+31
+Z40 !s108 1459444765.013804
+Z41 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/pipelined/buffers/control_ID_EX_buffer.vhd|
+Z42 !s107 /home/sebsikora/altera/projects/mips/pipelined/buffers/control_ID_EX_buffer.vhd|
+R11
+R12
+!s100 AZzH]^XU1hBYPB4k[i;`L2
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 20 control_id_ex_buffer 0 22 YzIClbf090Vol?>fWeH410
+l84
+L30
+VC9L]Ke@G;@FA35Y9C`2:_3
+R7
+31
+R40
+R41
+R42
+R11
+R12
+!s100 1gfB]kn=AK9zhYJZbjal33
+!i10b 1
+Econtrol_id_ex_buffer_bubmux
+Z43 w1458596728
+R2
+R3
+R4
+Z44 8/home/sebsikora/altera/projects/mips/pipelined/buffers/control_ID_EX_buffer_bubmux.vhd
+Z45 F/home/sebsikora/altera/projects/mips/pipelined/buffers/control_ID_EX_buffer_bubmux.vhd
+l0
+L5
+VL^D2DeMO71_kH[begzdYT2
+R7
+31
+Z46 !s108 1459444764.982358
+Z47 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/pipelined/buffers/control_ID_EX_buffer_bubmux.vhd|
+Z48 !s107 /home/sebsikora/altera/projects/mips/pipelined/buffers/control_ID_EX_buffer_bubmux.vhd|
+R11
+R12
+!s100 9NcX7z5CBTH0Df^:8z2QH1
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 27 control_id_ex_buffer_bubmux 0 22 L^D2DeMO71_kH[begzdYT2
+l31
+L29
+V@U>K1>NC3?N5BNKoBLC:n2
+R7
+31
+R46
+R47
+R48
+R11
+R12
+!s100 c_GlBImF6=R?@_`o<`Q>z2
+!i10b 1
+Econtrol_mem_wb_buffer
+Z49 w1458596787
+R2
+R3
+R4
+Z50 8/home/sebsikora/altera/projects/mips/pipelined/buffers/control_MEM_WB_buffer.vhd
+Z51 F/home/sebsikora/altera/projects/mips/pipelined/buffers/control_MEM_WB_buffer.vhd
+l0
+L5
+VOF>[nkM_3zLEjhhUokC4Q3
+R7
+31
+Z52 !s108 1459444764.950727
+Z53 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/pipelined/buffers/control_MEM_WB_buffer.vhd|
+Z54 !s107 /home/sebsikora/altera/projects/mips/pipelined/buffers/control_MEM_WB_buffer.vhd|
+R11
+R12
+!s100 j;oZQ4bPY4KA0GmKag0?A1
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 21 control_mem_wb_buffer 0 22 OF>[nkM_3zLEjhhUokC4Q3
+l33
+L14
+VabXJNPS[F`2Q92BaYIb692
+R7
+31
+R52
+R53
+R54
+R11
+R12
+!s100 VCezoA@F@iGF`J`;J8^Qk0
+!i10b 1
+Edat_cache
+Z55 w1459439063
+R2
+R3
+R4
+Z56 8/home/sebsikora/altera/projects/mips/pipelined/dat_cache/dat_cache.vhd
+Z57 F/home/sebsikora/altera/projects/mips/pipelined/dat_cache/dat_cache.vhd
+l0
+L5
+VM9mT5W5L>5gOA6eM8Pgz52
+R7
+31
+Z58 !s108 1459444764.666334
+Z59 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/pipelined/dat_cache/dat_cache.vhd|
+Z60 !s107 /home/sebsikora/altera/projects/mips/pipelined/dat_cache/dat_cache.vhd|
+R11
+R12
+!s100 m1BZ<LE6zN@QP<iKIIB:O0
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 9 dat_cache 0 22 M9mT5W5L>5gOA6eM8Pgz52
+l26
+L14
+VeYk8G6=hlTLoWFPI6az=e2
+R7
+31
+R58
+R59
+R60
+R11
+R12
+!s100 S5LX=6X_?1@DBeTOAOM>G2
+!i10b 1
+Edat_cache_m4k_ram_block
+Z61 w1459381073
+R2
+R3
+R4
+Z62 8/home/sebsikora/altera/projects/mips/pipelined/dat_cache/dat_cache_m4k_ram_block.vhd
+Z63 F/home/sebsikora/altera/projects/mips/pipelined/dat_cache/dat_cache_m4k_ram_block.vhd
+l0
+L42
+VTYi^_Ol@F2edfJaiJkI]W1
+R7
+31
+Z64 !s108 1459444764.060851
+Z65 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/pipelined/dat_cache/dat_cache_m4k_ram_block.vhd|
+Z66 !s107 /home/sebsikora/altera/projects/mips/pipelined/dat_cache/dat_cache_m4k_ram_block.vhd|
+R11
+R12
+!s100 CmMFa?7I6NoNLza1[Sf[J0
+!i10b 1
+Asyn
+R2
+R3
+DEx4 work 23 dat_cache_m4k_ram_block 0 22 TYi^_Ol@F2edfJaiJkI]W1
+l87
+L54
+VnzY`<Q>;CcIXbdl`3C5b^3
+R7
+31
+R64
+R65
+R66
+R11
+R12
+!s100 FYOYcL@hz]5MaPnzSzdSB0
+!i10b 1
+Edecoder_5_to_32
+Z67 w1456055182
+R2
+R3
+R4
+Z68 8/home/sebsikora/altera/projects/mips/pipelined/utils/decoder_5_to_32.vhd
+Z69 F/home/sebsikora/altera/projects/mips/pipelined/utils/decoder_5_to_32.vhd
+l0
+L5
+VP_;8YCe5B`PXgFV@g<G@G3
+R7
+31
+Z70 !s108 1459444764.513419
+Z71 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/pipelined/utils/decoder_5_to_32.vhd|
+Z72 !s107 /home/sebsikora/altera/projects/mips/pipelined/utils/decoder_5_to_32.vhd|
+R11
+R12
+!s100 O1`E9A8gk8aYghFf?h;m=0
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 15 decoder_5_to_32 0 22 P_;8YCe5B`PXgFV@g<G@G3
+l13
+L11
+VDaRFmS;dH75zhbWWL?KVX1
+R7
+31
+R70
+R71
+R72
+R11
+R12
+!s100 c8zmOjX;B:>Ug?:CJEXhB1
+!i10b 1
+Efunc_mux
+Z73 w1456436479
+R2
+R3
+R4
+Z74 8/home/sebsikora/altera/projects/mips/pipelined/alu/func_mux.vhd
+Z75 F/home/sebsikora/altera/projects/mips/pipelined/alu/func_mux.vhd
+l0
+L5
+VDQ^mzfOJGeYQHGlLXDW]l2
+R7
+31
+Z76 !s108 1459444765.331004
+Z77 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/pipelined/alu/func_mux.vhd|
+Z78 !s107 /home/sebsikora/altera/projects/mips/pipelined/alu/func_mux.vhd|
+R11
+R12
+!s100 b5g8iC_>fD`H:_G`=LHa30
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 8 func_mux 0 22 DQ^mzfOJGeYQHGlLXDW]l2
+l16
+L15
+VVK8f^Bc::6N3KBJ8I[5<G2
+R7
+31
+R76
+R77
+R78
+R11
+R12
+!s100 PjDQj78?2^dC[JYRzK5JF1
+!i10b 1
+Eins_cache
+Z79 w1459380051
+R2
+R3
+R4
+Z80 8/home/sebsikora/altera/projects/mips/pipelined/ins_cache/ins_cache.vhd
+Z81 F/home/sebsikora/altera/projects/mips/pipelined/ins_cache/ins_cache.vhd
+l0
+L5
+VfPJ<J9S?e<<j4SjImTk<k1
+R7
+31
+Z82 !s108 1459444764.633369
+Z83 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/pipelined/ins_cache/ins_cache.vhd|
+Z84 !s107 /home/sebsikora/altera/projects/mips/pipelined/ins_cache/ins_cache.vhd|
+R11
+R12
+!s100 eRLWdLgg=CJcIo=:n7NN00
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 9 ins_cache 0 22 fPJ<J9S?e<<j4SjImTk<k1
+l59
+L15
+VJ6[TNWH4`ZA=aSQ2n0EPM0
+R7
+31
+R82
+R83
+R84
+R11
+R12
+!s100 eWNm34>InR<jWCL;O3^NS3
+!i10b 1
+Eins_cache_m4k_ram_block
+Z85 w1459273952
+R2
+R3
+R4
+Z86 8/home/sebsikora/altera/projects/mips/pipelined/ins_cache/ins_cache_m4k_ram_block.vhd
+Z87 F/home/sebsikora/altera/projects/mips/pipelined/ins_cache/ins_cache_m4k_ram_block.vhd
+l0
+L42
+Vbff]J4D^f1WV=HT;XXN6K0
+R7
+31
+Z88 !s108 1459444764.031947
+Z89 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/pipelined/ins_cache/ins_cache_m4k_ram_block.vhd|
+Z90 !s107 /home/sebsikora/altera/projects/mips/pipelined/ins_cache/ins_cache_m4k_ram_block.vhd|
+R11
+R12
+!s100 [Jbm5]7LMRfj]nnA;Ng[02
+!i10b 1
+Asyn
+R2
+R3
+DEx4 work 23 ins_cache_m4k_ram_block 0 22 bff]J4D^f1WV=HT;XXN6K0
+l87
+L54
+VY@a;[[hB`inX6fP8hU1j`1
+R7
+31
+R88
+R89
+R90
+R11
+R12
+!s100 Lh:Cf>h`Ehl@bifWd6aC31
+!i10b 1
+Emips_32_bit_alu
+Z91 w1456439608
+R2
+R3
+R4
+Z92 8/home/sebsikora/altera/projects/mips/pipelined/alu/mips_32_bit_alu.vhd
+Z93 F/home/sebsikora/altera/projects/mips/pipelined/alu/mips_32_bit_alu.vhd
+l0
+L5
+Vl_;>EeA<Z2cZY62F@0oMT1
+R7
+31
+Z94 !s108 1459444765.301199
+Z95 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/pipelined/alu/mips_32_bit_alu.vhd|
+Z96 !s107 /home/sebsikora/altera/projects/mips/pipelined/alu/mips_32_bit_alu.vhd|
+R11
+R12
+!s100 I_[oKN^=_6>b[n<GSF]P<0
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 15 mips_32_bit_alu 0 22 l_;>EeA<Z2cZY62F@0oMT1
+l71
+L16
+V8NfOnkcUZ:LVWJRV8R1dk3
+R7
+31
+R94
+R95
+R96
+R11
+R12
+!s100 h:?g9D[<^kh@ERE@906HH1
+!i10b 1
+Emips_pipelined
+Z97 w1459444692
+R2
+R3
+R4
+Z98 8/home/sebsikora/altera/projects/mips/pipelined/mips_pipelined.vhd
+Z99 F/home/sebsikora/altera/projects/mips/pipelined/mips_pipelined.vhd
+l0
+L5
+VY;o@aDMaO8Dj3oA<;DTaD2
+R7
+31
+Z100 !s108 1459444764.114931
+Z101 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/pipelined/mips_pipelined.vhd|
+Z102 !s107 /home/sebsikora/altera/projects/mips/pipelined/mips_pipelined.vhd|
+R11
+R12
+!s100 0>EeSW39fU]LIRznZJjNA1
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 14 mips_pipelined 0 22 Y;o@aDMaO8Dj3oA<;DTaD2
+l420
+L16
+VKUP5dLM^>j?FQ2n3@Y_Xl1
+R7
+31
+R100
+R101
+R102
+R11
+R12
+!s100 2h[9FBgDX5XQ7QiUWUbo^3
+!i10b 1
+Emux_2_to_1_by_1
+Z103 w1457302549
+R2
+R3
+R4
+Z104 8/home/sebsikora/altera/projects/mips/pipelined/utils/mux_2_to_1_by_1.vhd
+Z105 F/home/sebsikora/altera/projects/mips/pipelined/utils/mux_2_to_1_by_1.vhd
+l0
+L5
+V8;eh@efMLH;gH]XX@fj7@2
+R7
+31
+Z106 !s108 1459444764.482012
+Z107 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/pipelined/utils/mux_2_to_1_by_1.vhd|
+Z108 !s107 /home/sebsikora/altera/projects/mips/pipelined/utils/mux_2_to_1_by_1.vhd|
+R11
+R12
+!s100 L[XS0zzN_S:KOMCQZajjb0
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 15 mux_2_to_1_by_1 0 22 8;eh@efMLH;gH]XX@fj7@2
+l15
+L13
+VI1OO9d<fZKTNUDMe]PQ[_2
+R7
+31
+R106
+R107
+R108
+R11
+R12
+!s100 XU]4hED>eMnQ]QSBWhCFo2
+!i10b 1
+Emux_2_to_1_by_32
+Z109 w1459266500
+R2
+R3
+R4
+Z110 8/home/sebsikora/altera/projects/mips/pipelined/utils/mux_2_to_1_by_32.vhd
+Z111 F/home/sebsikora/altera/projects/mips/pipelined/utils/mux_2_to_1_by_32.vhd
+l0
+L5
+V=mE]6G>]jF6dbb4e:ioQ^1
+R7
+31
+Z112 !s108 1459444764.408745
+Z113 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/pipelined/utils/mux_2_to_1_by_32.vhd|
+Z114 !s107 /home/sebsikora/altera/projects/mips/pipelined/utils/mux_2_to_1_by_32.vhd|
+R11
+R12
+!s100 VglajOm;JRV5ZfNH?F=UI3
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 16 mux_2_to_1_by_32 0 22 =mE]6G>]jF6dbb4e:ioQ^1
+l15
+L13
+V7XNZ<gMhc913F2e5EJ[<C1
+R7
+31
+R112
+R113
+R114
+R11
+R12
+!s100 W<j9j]BeS4;R>Rb`Blg>]3
+!i10b 1
+Emux_2_to_1_by_5
+Z115 w1456616474
+R2
+R3
+R4
+Z116 8/home/sebsikora/altera/projects/mips/pipelined/utils/mux_2_to_1_by_5.vhd
+Z117 F/home/sebsikora/altera/projects/mips/pipelined/utils/mux_2_to_1_by_5.vhd
+l0
+L5
+VUA@FQOWLg;;MR5akVY7Bd3
+R7
+31
+Z118 !s108 1459444764.447054
+Z119 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/pipelined/utils/mux_2_to_1_by_5.vhd|
+Z120 !s107 /home/sebsikora/altera/projects/mips/pipelined/utils/mux_2_to_1_by_5.vhd|
+R11
+R12
+!s100 GhYC9cUehi@nNcBT26ma<1
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 15 mux_2_to_1_by_5 0 22 UA@FQOWLg;;MR5akVY7Bd3
+l15
+L13
+VV@9U]zTa;UG2c<7R<z>j;0
+R7
+31
+R118
+R119
+R120
+R11
+R12
+!s100 PRl<2Q2Fh`I2mG<=k2Bdo1
+!i10b 1
+Emux_32_to_1_by_32
+Z121 w1456059406
+R2
+R3
+R4
+Z122 8/home/sebsikora/altera/projects/mips/pipelined/utils/mux_32_to_1_by_32.vhd
+Z123 F/home/sebsikora/altera/projects/mips/pipelined/utils/mux_32_to_1_by_32.vhd
+l0
+L5
+VSFVXn3dO:40Qd3C71ogVo2
+R7
+31
+Z124 !s108 1459444764.368556
+Z125 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/pipelined/utils/mux_32_to_1_by_32.vhd|
+Z126 !s107 /home/sebsikora/altera/projects/mips/pipelined/utils/mux_32_to_1_by_32.vhd|
+R11
+R12
+!s100 A1eY7606dz^Q;keT2SG4L3
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 17 mux_32_to_1_by_32 0 22 SFVXn3dO:40Qd3C71ogVo2
+l45
+L43
+VdL@PNF_;JdRgeFz=^@Wb40
+R7
+31
+R124
+R125
+R126
+R11
+R12
+!s100 AQP`K]1RVAgnF7[2Zf72[2
+!i10b 1
+Enand_3_gate
+R1
+R2
+R3
+R4
+R5
+R6
+l0
+L172
+VhPLDeZMmigm5a_I>3bzSO2
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 8JRIkcL99Ba`MjYMhR4]V0
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 11 nand_3_gate 0 22 hPLDeZMmigm5a_I>3bzSO2
+l181
+L180
+VGhE7VUafLYQHX<;UnJYKK2
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 YXYHYV5i4oc5CWI5ilYPf2
+!i10b 1
+Enand_gate
+R1
+R2
+R3
+R4
+R5
+R6
+l0
+L191
+VHfnD41a:TQ[MMH7PM@eDU1
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 hMhKdF6KT3<EHke??Y1kS1
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 9 nand_gate 0 22 HfnD41a:TQ[MMH7PM@eDU1
+l199
+L198
+VVf@VKI3K3QFBj_E`?YWn80
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 P<6TS`YC?JN=<3=2_[MCn2
+!i10b 1
+Enor_3_gate
+R1
+R2
+R3
+R4
+R5
+R6
+l0
+L227
+VeDK5n35Z13X?UGce1<bA72
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 <_hn=DRDE38XH=kQkjmV?1
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 10 nor_3_gate 0 22 eDK5n35Z13X?UGce1<bA72
+l236
+L235
+V3LY71hOSebCm3WL`CYB471
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 68eC9;oTXnaBj5>BSV?1e1
+!i10b 1
+Enor_gate
+R1
+R2
+R3
+R4
+R5
+R6
+l0
+L209
+VFV_Ce^f16f9_<ZB29b<L=0
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 z?>FW[Y?6;09<SEc;0gR;3
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 8 nor_gate 0 22 FV_Ce^f16f9_<ZB29b<L=0
+l217
+L216
+Vg@eKW<QHFmf98`>i]l@QD2
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 LB_?9omNXN>3KXeg6F7B>1
+!i10b 1
+Enot_gate
+R1
+R2
+R3
+R4
+R5
+R6
+l0
+L80
+VAP385W9Pj59m][=A>?ZPJ1
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 eG?N=]Yk^ninkadKlgeK;2
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 8 not_gate 0 22 AP385W9Pj59m][=A>?ZPJ1
+l87
+L86
+VP:8J@ETDCD]9S<Fl8l:MN3
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 CRmCHS<lab`Ugn;VAGaY91
+!i10b 1
+Eor_3_gate
+R1
+R2
+R3
+R4
+R5
+R6
+l0
+L43
+VFSU^:TLER?@<Ze2`cb?8h3
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 5eLWYS:geHPZ:1CF`7@;V3
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 9 or_3_gate 0 22 FSU^:TLER?@<Ze2`cb?8h3
+l52
+L51
+V1a8Bkj[4meSJKlaLizefz2
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 m]DCa9dc:453JMR;3^Of=2
+!i10b 1
+Eor_4_gate
+R1
+R2
+R3
+R4
+R5
+R6
+l0
+L61
+VMKEf7@;WzdHJO`LA28[Q72
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 cPBWTU<M3L9CfA9j2:@@=3
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 9 or_4_gate 0 22 MKEf7@;WzdHJO`LA28[Q72
+l71
+L70
+VGlg8a7e[6fXjRJcf7DEeX3
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 kAJ@Y4Nd<k;4BjUcDBMSE0
+!i10b 1
+Eor_block
+Z127 w1456435904
+R2
+R3
+R4
+Z128 8/home/sebsikora/altera/projects/mips/pipelined/alu/or_block.vhd
+Z129 F/home/sebsikora/altera/projects/mips/pipelined/alu/or_block.vhd
+l0
+L5
+V0I61kH5NZbKPeOz<;Z4H?3
+R7
+31
+Z130 !s108 1459444765.268641
+Z131 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/pipelined/alu/or_block.vhd|
+Z132 !s107 /home/sebsikora/altera/projects/mips/pipelined/alu/or_block.vhd|
+R11
+R12
+!s100 gjPK^i3nB9DXiL36azc:h3
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 8 or_block 0 22 0I61kH5NZbKPeOz<;Z4H?3
+l13
+L12
+VMJLLPRh@JF36j2KG`jgOl2
+R7
+31
+R130
+R131
+R132
+R11
+R12
+!s100 C:ij:F^>md8l^PP8LL1R[1
+!i10b 1
+Eor_gate
+R1
+R2
+R3
+R4
+R5
+R6
+l0
+L26
+V0T>75[KV;F18cCiNhSeMK0
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 GQZ^j66GH]BZl?Gh`N]El2
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 7 or_gate 0 22 0T>75[KV;F18cCiNhSeMK0
+l34
+L33
+V;l8egWVWP?0zm3I=3GTie2
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 X10XR@Wl27B9`j:ob=bQA0
+!i10b 1
+Epipelined_control_box
+Z133 w1459444442
+R2
+R3
+R4
+Z134 8/home/sebsikora/altera/projects/mips/pipelined/utils/pipelined_control_box.vhd
+Z135 F/home/sebsikora/altera/projects/mips/pipelined/utils/pipelined_control_box.vhd
+l0
+L5
+VadaJfdi9_idZZ?CQM_JcY1
+R7
+31
+Z136 !s108 1459444764.337611
+Z137 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/pipelined/utils/pipelined_control_box.vhd|
+Z138 !s107 /home/sebsikora/altera/projects/mips/pipelined/utils/pipelined_control_box.vhd|
+R11
+R12
+!s100 k1=2^_^QHI[iHglbo<@<L1
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 21 pipelined_control_box 0 22 adaJfdi9_idZZ?CQM_JcY1
+l54
+L42
+VbjOPV`R?N:gUU8zQRIFTI0
+R7
+31
+R136
+R137
+R138
+R11
+R12
+!s100 Vfi9Ck622E;cWMQ<_[[ZY2
+!i10b 1
+Eregfile_32_by_32
+Z139 w1456680779
+R2
+R3
+R4
+Z140 8/home/sebsikora/altera/projects/mips/pipelined/regfile/regfile_32_by_32.vhd
+Z141 F/home/sebsikora/altera/projects/mips/pipelined/regfile/regfile_32_by_32.vhd
+l0
+L5
+V26n6jjR]NcN_^OVhZOHK>0
+R7
+31
+Z142 !s108 1459444764.602343
+Z143 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/pipelined/regfile/regfile_32_by_32.vhd|
+Z144 !s107 /home/sebsikora/altera/projects/mips/pipelined/regfile/regfile_32_by_32.vhd|
+R11
+R12
+!s100 ce?h1WD]1LFioaj5:_3jd0
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 16 regfile_32_by_32 0 22 26n6jjR]NcN_^OVhZOHK>0
+l141
+L17
+VF;11Wid^gZMI2_H0n]ohF1
+R7
+31
+R142
+R143
+R144
+R11
+R12
+!s100 IAoD?W6ldb84GffMER;JG0
+!i10b 1
+Eregister_1
+Z145 w1457301407
+R2
+R3
+R4
+Z146 8/home/sebsikora/altera/projects/mips/pipelined/utils/register_1.vhd
+Z147 F/home/sebsikora/altera/projects/mips/pipelined/utils/register_1.vhd
+l0
+L5
+VgE[fn0CQf<VbjlX:OJS611
+R7
+31
+Z148 !s108 1459444764.309306
+Z149 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/pipelined/utils/register_1.vhd|
+Z150 !s107 /home/sebsikora/altera/projects/mips/pipelined/utils/register_1.vhd|
+R11
+R12
+!s100 2afWRTSI3ndlMEc^?QG0_3
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 10 register_1 0 22 gE[fn0CQf<VbjlX:OJS611
+l15
+L13
+V_oPnC8?JlQLSfE8L5ifgD1
+R7
+31
+R148
+R149
+R150
+R11
+R12
+!s100 5c3eg?C7zC;I0]=I91U5U2
+!i10b 1
+Eregister_16
+Z151 w1456872091
+R2
+R3
+R4
+Z152 8/home/sebsikora/altera/projects/mips/pipelined/utils/register_16.vhd
+Z153 F/home/sebsikora/altera/projects/mips/pipelined/utils/register_16.vhd
+l0
+L5
+VZj<c[LhMCA4XX@7`d_@0D2
+R7
+31
+Z154 !s108 1459444764.219007
+Z155 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/pipelined/utils/register_16.vhd|
+Z156 !s107 /home/sebsikora/altera/projects/mips/pipelined/utils/register_16.vhd|
+R11
+R12
+!s100 `CiQ322Y3j=hDPQOCFOCJ1
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 11 register_16 0 22 Zj<c[LhMCA4XX@7`d_@0D2
+l15
+L13
+V9ECnZa`<YQiN^45g]>AaQ2
+R7
+31
+R154
+R155
+R156
+R11
+R12
+!s100 ?<A8nc:_aeh@FEK=4GHz63
+!i10b 1
+Eregister_32
+Z157 w1456057629
+R2
+R3
+R4
+Z158 8/home/sebsikora/altera/projects/mips/pipelined/utils/register_32.vhd
+Z159 F/home/sebsikora/altera/projects/mips/pipelined/utils/register_32.vhd
+l0
+L5
+VA5H;LNgAXU_XmFPf5@B3@2
+R7
+31
+Z160 !s108 1459444764.193143
+Z161 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/pipelined/utils/register_32.vhd|
+Z162 !s107 /home/sebsikora/altera/projects/mips/pipelined/utils/register_32.vhd|
+R11
+R12
+!s100 n?VKb6E:D>d_NeE51_]Rf0
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 11 register_32 0 22 A5H;LNgAXU_XmFPf5@B3@2
+l15
+L13
+Vdn13T1::eIT4d?8C7W0PW3
+R7
+31
+R160
+R161
+R162
+R11
+R12
+!s100 V6Ba9TQa0a>NZn^1Y<o]C3
+!i10b 1
+Eregister_5
+Z163 w1457184096
+R2
+R3
+R4
+Z164 8/home/sebsikora/altera/projects/mips/pipelined/utils/register_5.vhd
+Z165 F/home/sebsikora/altera/projects/mips/pipelined/utils/register_5.vhd
+l0
+L5
+Vad6_U;@kEjVP?R^h6XzOF2
+R7
+31
+Z166 !s108 1459444764.282087
+Z167 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/pipelined/utils/register_5.vhd|
+Z168 !s107 /home/sebsikora/altera/projects/mips/pipelined/utils/register_5.vhd|
+R11
+R12
+!s100 7VkSSa1@E10[98Ua?iF:b3
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 10 register_5 0 22 ad6_U;@kEjVP?R^h6XzOF2
+l15
+L13
+VEZBil1@CcXjoYf6FS[fgG3
+R7
+31
+R166
+R167
+R168
+R11
+R12
+!s100 C;k`Zj0T@@Dj9P=XB^mZB3
+!i10b 1
+Eregister_8
+Z169 w1456878362
+R2
+R3
+R4
+Z170 8/home/sebsikora/altera/projects/mips/pipelined/utils/register_8.vhd
+Z171 F/home/sebsikora/altera/projects/mips/pipelined/utils/register_8.vhd
+l0
+L5
+V_NOK^:jMn_bPGm<[UNVh`0
+R7
+31
+Z172 !s108 1459444764.252072
+Z173 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/pipelined/utils/register_8.vhd|
+Z174 !s107 /home/sebsikora/altera/projects/mips/pipelined/utils/register_8.vhd|
+R11
+R12
+!s100 Li5aoJkog5:<K2e^]8dT63
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 10 register_8 0 22 _NOK^:jMn_bPGm<[UNVh`0
+l15
+L13
+VQ`k?k^J[2c6eZLofXcejF1
+R7
+31
+R172
+R173
+R174
+R11
+R12
+!s100 2M<mbjW;ac1[fPYUlJP[P0
+!i10b 1
+Eregister_ex_mem_buffer
+Z175 w1458517661
+R2
+R3
+R4
+Z176 8/home/sebsikora/altera/projects/mips/pipelined/buffers/register_EX_MEM_buffer.vhd
+Z177 F/home/sebsikora/altera/projects/mips/pipelined/buffers/register_EX_MEM_buffer.vhd
+l0
+L5
+Vb>Zbl;O9zLWeJXb]f=Fbo1
+R7
+31
+Z178 !s108 1459444764.917432
+Z179 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/pipelined/buffers/register_EX_MEM_buffer.vhd|
+Z180 !s107 /home/sebsikora/altera/projects/mips/pipelined/buffers/register_EX_MEM_buffer.vhd|
+R11
+R12
+!s100 gz<4F3=o?NkR<d3`BH>d]2
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 22 register_ex_mem_buffer 0 22 b>Zbl;O9zLWeJXb]f=Fbo1
+l71
+L26
+VHfAD;GcJ@=7:=QFYAi[=82
+R7
+31
+R178
+R179
+R180
+R11
+R12
+!s100 1>7ScSMcNG0TbCEzDDo]G2
+!i10b 1
+Eregister_id_ex_buffer
+Z181 w1458509136
+R2
+R3
+R4
+Z182 8/home/sebsikora/altera/projects/mips/pipelined/buffers/register_ID_EX_buffer.vhd
+Z183 F/home/sebsikora/altera/projects/mips/pipelined/buffers/register_ID_EX_buffer.vhd
+l0
+L5
+VFf]PQBTZ[Z;2z;Jj?[?5U2
+R7
+31
+Z184 !s108 1459444764.878613
+Z185 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/pipelined/buffers/register_ID_EX_buffer.vhd|
+Z186 !s107 /home/sebsikora/altera/projects/mips/pipelined/buffers/register_ID_EX_buffer.vhd|
+R11
+R12
+!s100 Ah<h8>f7H4Y9P6YmMQ19[3
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 21 register_id_ex_buffer 0 22 Ff]PQBTZ[Z;2z;Jj?[?5U2
+l99
+L30
+V33KmJkdzSVzKoP]9bBkd^0
+R7
+31
+R184
+R185
+R186
+R11
+R12
+!s100 042?lT8bJY8ZI9<jK?ck73
+!i10b 1
+Eregister_id_ex_buffer_bubmux
+Z187 w1457189898
+R2
+R3
+R4
+Z188 8/home/sebsikora/altera/projects/mips/pipelined/buffers/register_ID_EX_buffer_bubmux.vhd
+Z189 F/home/sebsikora/altera/projects/mips/pipelined/buffers/register_ID_EX_buffer_bubmux.vhd
+l0
+L5
+VP;]H1<:dgf_k]^RDioFV]2
+R7
+31
+Z190 !s108 1459444764.848163
+Z191 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/pipelined/buffers/register_ID_EX_buffer_bubmux.vhd|
+Z192 !s107 /home/sebsikora/altera/projects/mips/pipelined/buffers/register_ID_EX_buffer_bubmux.vhd|
+R11
+R12
+!s100 R7WoBY=KT<5@?`5XQdN<40
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 28 register_id_ex_buffer_bubmux 0 22 P;]H1<:dgf_k]^RDioFV]2
+l24
+L22
+V0Il[Ncd_bM?_2IjOoAzY50
+R7
+31
+R190
+R191
+R192
+R11
+R12
+!s100 FR2L?;LC]6NYS2o=SGl@43
+!i10b 1
+Eregister_if_id_buffer
+Z193 w1459377042
+R2
+R3
+R4
+Z194 8/home/sebsikora/altera/projects/mips/pipelined/buffers/register_IF_ID_buffer.vhd
+Z195 F/home/sebsikora/altera/projects/mips/pipelined/buffers/register_IF_ID_buffer.vhd
+l0
+L5
+VkZY]BgSh<8^`o1bX2RPbM1
+R7
+31
+Z196 !s108 1459444764.811883
+Z197 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/pipelined/buffers/register_IF_ID_buffer.vhd|
+Z198 !s107 /home/sebsikora/altera/projects/mips/pipelined/buffers/register_IF_ID_buffer.vhd|
+R11
+R12
+!s100 Nb;A[K_TQ0M<6T`2h8fg<3
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 21 register_if_id_buffer 0 22 kZY]BgSh<8^`o1bX2RPbM1
+l75
+L19
+V0G?2`1medh7cVPoAIIIQh3
+R7
+31
+R196
+R197
+R198
+R11
+R12
+!s100 6B9ZXOoiIkX`jo;1jlPEW3
+!i10b 1
+Eregister_if_id_buffer_bubmux
+Z199 w1457200756
+R2
+R3
+R4
+Z200 8/home/sebsikora/altera/projects/mips/pipelined/buffers/register_IF_ID_buffer_bubmux.vhd
+Z201 F/home/sebsikora/altera/projects/mips/pipelined/buffers/register_IF_ID_buffer_bubmux.vhd
+l0
+L5
+V>1BzGVAdm<kkE2h_<dh>l3
+R7
+31
+Z202 !s108 1459444764.769482
+Z203 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/pipelined/buffers/register_IF_ID_buffer_bubmux.vhd|
+Z204 !s107 /home/sebsikora/altera/projects/mips/pipelined/buffers/register_IF_ID_buffer_bubmux.vhd|
+R11
+R12
+!s100 cF;Rdo0m6TaKH0dJUE62B2
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 28 register_if_id_buffer_bubmux 0 22 >1BzGVAdm<kkE2h_<dh>l3
+l16
+L14
+V`X>N^Rb@lOhFW<d`JTHKf3
+R7
+31
+R202
+R203
+R204
+R11
+R12
+!s100 aeAjU=[[f=R39Y`@X6]W00
+!i10b 1
+Eregister_mem_wb_buffer
+Z205 w1458517241
+R2
+R3
+R4
+Z206 8/home/sebsikora/altera/projects/mips/pipelined/buffers/register_MEM_WB_buffer.vhd
+Z207 F/home/sebsikora/altera/projects/mips/pipelined/buffers/register_MEM_WB_buffer.vhd
+l0
+L5
+V<H:BL3NR1bSg6cB`zJ3KX1
+R7
+31
+Z208 !s108 1459444764.737903
+Z209 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/pipelined/buffers/register_MEM_WB_buffer.vhd|
+Z210 !s107 /home/sebsikora/altera/projects/mips/pipelined/buffers/register_MEM_WB_buffer.vhd|
+R11
+R12
+!s100 M>0iCn11jGl3FU1h5Pac43
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 22 register_mem_wb_buffer 0 22 <H:BL3NR1bSg6cB`zJ3KX1
+l63
+L22
+VgdAX[0P6mfH:T]CN0L9Kc0
+R7
+31
+R208
+R209
+R210
+R11
+R12
+!s100 zS2<@@NI_5A;cHL`oBYBV3
+!i10b 1
+Es32addsub_full_adder
+Z211 w1456069378
+R2
+R3
+R4
+Z212 8/home/sebsikora/altera/projects/mips/pipelined/alu/s32addsub_full_adder.vhd
+Z213 F/home/sebsikora/altera/projects/mips/pipelined/alu/s32addsub_full_adder.vhd
+l0
+L5
+VTA_JV5QeUL8ccV>NPa5?M3
+R7
+31
+Z214 !s108 1459444765.226935
+Z215 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/pipelined/alu/s32addsub_full_adder.vhd|
+Z216 !s107 /home/sebsikora/altera/projects/mips/pipelined/alu/s32addsub_full_adder.vhd|
+R11
+R12
+!s100 j0GRB9j2^OW:n54Le>^AV2
+!i10b 1
+Astruct
+R2
+R3
+DEx4 work 20 s32addsub_full_adder 0 22 TA_JV5QeUL8ccV>NPa5?M3
+l92
+L14
+VXdJEQUDn_j0nBY`lgID__3
+R7
+31
+R214
+R215
+R216
+R11
+R12
+!s100 6ZQQGYo<QCZSn_EoLOiBY3
+!i10b 1
+Es32addsub_onebit_full_adder
+Z217 w1456007837
+R2
+R3
+R4
+Z218 8/home/sebsikora/altera/projects/mips/pipelined/alu/s32addsub_one_bit_full_adder.vhd
+Z219 F/home/sebsikora/altera/projects/mips/pipelined/alu/s32addsub_one_bit_full_adder.vhd
+l0
+L7
+VL=E>Wk<8QV?lSeh^i_EkT3
+R7
+31
+Z220 !s108 1459444764.089087
+Z221 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/pipelined/alu/s32addsub_one_bit_full_adder.vhd|
+Z222 !s107 /home/sebsikora/altera/projects/mips/pipelined/alu/s32addsub_one_bit_full_adder.vhd|
+R11
+R12
+!s100 UZiFD6dCVX[34VAh8HDA]2
+!i10b 1
+Astruct
+R2
+R3
+DEx4 work 27 s32addsub_onebit_full_adder 0 22 L=E>Wk<8QV?lSeh^i_EkT3
+l43
+L16
+VHkkT]BRVz[[h:<hHeA6Pa0
+R7
+31
+R220
+R221
+R222
+R11
+R12
+!s100 RT_eHF6R<SeN44ghVakB41
+!i10b 1
+Es32addsub_signed_overflow_detect
+Z223 w1456007654
+R2
+R3
+R4
+Z224 8/home/sebsikora/altera/projects/mips/pipelined/alu/s32addsub_signed_overflow_detect.vhd
+Z225 F/home/sebsikora/altera/projects/mips/pipelined/alu/s32addsub_signed_overflow_detect.vhd
+l0
+L5
+V:>fm2Md^I`TJGzkQ^37HO0
+R7
+31
+Z226 !s108 1459444765.193964
+Z227 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/pipelined/alu/s32addsub_signed_overflow_detect.vhd|
+Z228 !s107 /home/sebsikora/altera/projects/mips/pipelined/alu/s32addsub_signed_overflow_detect.vhd|
+R11
+R12
+!s100 Ui`;KXkL]SQ0NVkZV0>ZD0
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 32 s32addsub_signed_overflow_detect 0 22 :>fm2Md^I`TJGzkQ^37HO0
+l21
+L13
+V5Bj7he<O_I<2`c81bY<R51
+R7
+31
+R226
+R227
+R228
+R11
+R12
+!s100 OLW`?eVonfXO]UfLhllI;3
+!i10b 1
+Es32addsub_subtraction_invertors
+Z229 w1456009261
+R2
+R3
+R4
+Z230 8/home/sebsikora/altera/projects/mips/pipelined/alu/s32addsub_subtractor_inverter.vhd
+Z231 F/home/sebsikora/altera/projects/mips/pipelined/alu/s32addsub_subtractor_inverter.vhd
+l0
+L5
+V?:md:6cTYPeHZ2ae?Q5o?2
+R7
+31
+Z232 !s108 1459444765.165073
+Z233 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/pipelined/alu/s32addsub_subtractor_inverter.vhd|
+Z234 !s107 /home/sebsikora/altera/projects/mips/pipelined/alu/s32addsub_subtractor_inverter.vhd|
+R11
+R12
+!s100 h]]XoBRgb96^S3oIfd_Kg0
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 31 s32addsub_subtraction_invertors 0 22 ?:md:6cTYPeHZ2ae?Q5o?2
+l14
+L12
+Vk0Rf0>mGD4?TBKP6aSfdM0
+R7
+31
+R232
+R233
+R234
+R11
+R12
+!s100 lZ>QnBAJWnFRmV:?4CPeY2
+!i10b 1
+Es32addsub_unsigned_overflow_detect
+Z235 w1456007332
+R2
+R3
+R4
+Z236 8/home/sebsikora/altera/projects/mips/pipelined/alu/s32addsub_unsigned_overflow_detect.vhd
+Z237 F/home/sebsikora/altera/projects/mips/pipelined/alu/s32addsub_unsigned_overflow_detect.vhd
+l0
+L5
+VonSN;WeLbl8K`KT?f9EoZ0
+R7
+31
+Z238 !s108 1459444765.137726
+Z239 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/pipelined/alu/s32addsub_unsigned_overflow_detect.vhd|
+Z240 !s107 /home/sebsikora/altera/projects/mips/pipelined/alu/s32addsub_unsigned_overflow_detect.vhd|
+R11
+R12
+!s100 5=O3F>QgHHW96c06RjCT_2
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 34 s32addsub_unsigned_overflow_detect 0 22 onSN;WeLbl8K`KT?f9EoZ0
+l19
+L12
+VI:jiiBJHIjf<jYg71g[l33
+R7
+31
+R238
+R239
+R240
+R11
+R12
+!s100 NCe_60JKhNL;;jWEW^J323
+!i10b 1
+Eset_on_less_than
+Z241 w1456435798
+R2
+R3
+R4
+Z242 8/home/sebsikora/altera/projects/mips/pipelined/alu/set_on_less_than.vhd
+Z243 F/home/sebsikora/altera/projects/mips/pipelined/alu/set_on_less_than.vhd
+l0
+L5
+VoMI`Pe:jfK^<>H=C9=MT]0
+R7
+31
+Z244 !s108 1459444765.109631
+Z245 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/pipelined/alu/set_on_less_than.vhd|
+Z246 !s107 /home/sebsikora/altera/projects/mips/pipelined/alu/set_on_less_than.vhd|
+R11
+R12
+!s100 `CU`kBWhPKIkfQ2K@iQE=0
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 16 set_on_less_than 0 22 oMI`Pe:jfK^<>H=C9=MT]0
+l13
+L12
+VXbm@02o13zDh@neHJ>lEo0
+R7
+31
+R244
+R245
+R246
+R11
+R12
+!s100 NKYi83R]g@ACk14lCHIl:2
+!i10b 1
+Esign_extender_16_to_32
+Z247 w1456615420
+R2
+R3
+R4
+Z248 8/home/sebsikora/altera/projects/mips/pipelined/utils/sign_extender_16_to_32.vhd
+Z249 F/home/sebsikora/altera/projects/mips/pipelined/utils/sign_extender_16_to_32.vhd
+l0
+L5
+VHaT;dk`PSe4XS78WfQQdC0
+R7
+31
+Z250 !s108 1459444764.149296
+Z251 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/pipelined/utils/sign_extender_16_to_32.vhd|
+Z252 !s107 /home/sebsikora/altera/projects/mips/pipelined/utils/sign_extender_16_to_32.vhd|
+R11
+R12
+!s100 jPZ^YWMAI1b]5o[XQTTK62
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 22 sign_extender_16_to_32 0 22 HaT;dk`PSe4XS78WfQQdC0
+l13
+L11
+Vbi`A72VCnLb9e=IG8bHbJ0
+R7
+31
+R250
+R251
+R252
+R11
+R12
+!s100 97>nN?JM6fLhZ7>N4bnEP0
+!i10b 1
+Esigned_32bit_add_subtract
+Z253 w1456068248
+R2
+R3
+R4
+Z254 8/home/sebsikora/altera/projects/mips/pipelined/alu/signed_32bit_add_subtract.vhd
+Z255 F/home/sebsikora/altera/projects/mips/pipelined/alu/signed_32bit_add_subtract.vhd
+l0
+L5
+V@S<CRMBD;gSe^J]=17GIY2
+R7
+31
+Z256 !s108 1459444765.076744
+Z257 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/pipelined/alu/signed_32bit_add_subtract.vhd|
+Z258 !s107 /home/sebsikora/altera/projects/mips/pipelined/alu/signed_32bit_add_subtract.vhd|
+R11
+R12
+!s100 oXCDaY76@G=?3eQRdGYZ81
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 25 signed_32bit_add_subtract 0 22 @S<CRMBD;gSe^J]=17GIY2
+l60
+L15
+VUdJ[Q5G]M4m3zM4HcGgn]2
+R7
+31
+R256
+R257
+R258
+R11
+R12
+!s100 T2FinD[EZ^Jbz8z5NBkDD3
+!i10b 1
+Etraverse_latch
+Z259 w1457302802
+R2
+R3
+R4
+Z260 8/home/sebsikora/altera/projects/mips/pipelined/buffers/traverse_latch.vhd
+Z261 F/home/sebsikora/altera/projects/mips/pipelined/buffers/traverse_latch.vhd
+l0
+L5
+V34AO5^_I3E66jKajm:?cV1
+R7
+31
+Z262 !s108 1459444764.702994
+Z263 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/pipelined/buffers/traverse_latch.vhd|
+Z264 !s107 /home/sebsikora/altera/projects/mips/pipelined/buffers/traverse_latch.vhd|
+R11
+R12
+!s100 ]^;5RMkSPn6X9N[cHciok2
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 14 traverse_latch 0 22 34AO5^_I3E66jKajm:?cV1
+l34
+L14
+V0Xlj9<LBb=K6Wn;hIYGCz0
+R7
+31
+R262
+R263
+R264
+R11
+R12
+!s100 0>]UMcAD7QfhaO3aTm80a0
+!i10b 1
+Exor_gate
+R1
+R2
+R3
+R4
+R5
+R6
+l0
+L6
+VXY^nKQ3;cBa@_DAoJd4n:0
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 :JYWGdlL>iM1AAeUfR?bm1
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 8 xor_gate 0 22 XY^nKQ3;cBa@_DAoJd4n:0
+l14
+L13
+V;WPe7W@hGJ55@DC]E;?9d1
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 zJRBLW6dojl9]@g;aBK[H2
+!i10b 1

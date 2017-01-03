@@ -1,0 +1,18 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use work.all;
+
+entity adder is
+	port (data_input:			in std_logic_vector(31 downto 0);
+			addr_input:			in std_logic_vector(31 downto 0);
+			data_output:		out std_logic_vector(31 downto 0);
+			addr_output:		out std_logic_vector(31 downto 0);
+			clk:					in std_logic
+	);
+end mips_one_cycle;
+
+architecture rtl of mips_one_cycle is
+
+begin
+
+end rtl;

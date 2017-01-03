@@ -1,0 +1,705 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/sebsikora/altera/projects/mips/one_cycle/alu/simulation/modelsim
+Eand_3_gate
+Z1 w1453069858
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 d/home/sebsikora/altera/projects/mips/one_cycle/alu/simulation/modelsim
+Z5 8/home/sebsikora/altera/projects/mips/one_cycle/utils/basic_gates.vhd
+Z6 F/home/sebsikora/altera/projects/mips/one_cycle/utils/basic_gates.vhd
+l0
+L115
+Vz6UPELG@T<D9^D:51cnV<0
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1456069683.853706
+Z9 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/one_cycle/utils/basic_gates.vhd|
+Z10 !s107 /home/sebsikora/altera/projects/mips/one_cycle/utils/basic_gates.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 _el[T>W:6]:W?=8Hk`6^<1
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 10 and_3_gate 0 22 z6UPELG@T<D9^D:51cnV<0
+l124
+L123
+V:RTI@I3e3Z1ijfR?3bd<n1
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 Ii4je=_cYh8c0=@CY?;R90
+!i10b 1
+Eand_4_gate
+R1
+R2
+R3
+R4
+R5
+R6
+l0
+L133
+VdX@GF0Vk1YTa=PZUoc@oU1
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 49;IAmQ4jUMQ=PKLim_Tk0
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 10 and_4_gate 0 22 dX@GF0Vk1YTa=PZUoc@oU1
+l143
+L142
+VOYN8T5[Ujb_4oTPmaiC2J0
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 42XELP3fH>zlfcUQ3__[@1
+!i10b 1
+Eand_5_gate
+R1
+R2
+R3
+R4
+R5
+R6
+l0
+L152
+V32RYZP33I:30oah^XekEm1
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 I^UVZ;J28WaS9PQb:OC?[3
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 10 and_5_gate 0 22 32RYZP33I:30oah^XekEm1
+l163
+L162
+V?LMOAP03>]h_[Q>FG_Vlk3
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 9=jM64_^88d9?K:@AXS2A0
+!i10b 1
+Eand_gate
+R1
+R2
+R3
+R4
+R5
+R6
+l0
+L97
+V1Z3_VKAzkUkN:;iI??:V31
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 PA:Ag0Q^AYWQlUH4dz@U32
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 8 and_gate 0 22 1Z3_VKAzkUkN:;iI??:V31
+l105
+L104
+VgF_Koo@f_>HeiKQ?dc<R_3
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 ICS@[MT07dD2RjcBH<29b0
+!i10b 1
+Emips_32_bit_alu
+Z13 w1456068309
+R2
+R3
+R4
+Z14 8/home/sebsikora/altera/projects/mips/one_cycle/alu/mips_32_bit_alu.vhd
+Z15 F/home/sebsikora/altera/projects/mips/one_cycle/alu/mips_32_bit_alu.vhd
+l0
+L5
+V4z`Fi8Xf@0Xzo`j?HaRJH3
+R7
+31
+Z16 !s108 1456069684.076516
+Z17 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/one_cycle/alu/mips_32_bit_alu.vhd|
+Z18 !s107 /home/sebsikora/altera/projects/mips/one_cycle/alu/mips_32_bit_alu.vhd|
+R11
+R12
+!s100 Re:iNYa`I1ifHRo28OULZ2
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 15 mips_32_bit_alu 0 22 4z`Fi8Xf@0Xzo`j?HaRJH3
+l16
+L14
+VN[`MGMe:[BFQF>FEI359a2
+R7
+31
+R16
+R17
+R18
+R11
+R12
+!s100 [fdWFNn5NCB3:7?ABI6Vl1
+!i10b 1
+Enand_3_gate
+R1
+R2
+R3
+R4
+R5
+R6
+l0
+L172
+VhPLDeZMmigm5a_I>3bzSO2
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 8JRIkcL99Ba`MjYMhR4]V0
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 11 nand_3_gate 0 22 hPLDeZMmigm5a_I>3bzSO2
+l181
+L180
+VGhE7VUafLYQHX<;UnJYKK2
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 YXYHYV5i4oc5CWI5ilYPf2
+!i10b 1
+Enand_gate
+R1
+R2
+R3
+R4
+R5
+R6
+l0
+L191
+VHfnD41a:TQ[MMH7PM@eDU1
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 hMhKdF6KT3<EHke??Y1kS1
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 9 nand_gate 0 22 HfnD41a:TQ[MMH7PM@eDU1
+l199
+L198
+VVf@VKI3K3QFBj_E`?YWn80
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 P<6TS`YC?JN=<3=2_[MCn2
+!i10b 1
+Enor_3_gate
+R1
+R2
+R3
+R4
+R5
+R6
+l0
+L227
+VeDK5n35Z13X?UGce1<bA72
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 <_hn=DRDE38XH=kQkjmV?1
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 10 nor_3_gate 0 22 eDK5n35Z13X?UGce1<bA72
+l236
+L235
+V3LY71hOSebCm3WL`CYB471
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 68eC9;oTXnaBj5>BSV?1e1
+!i10b 1
+Enor_gate
+R1
+R2
+R3
+R4
+R5
+R6
+l0
+L209
+VFV_Ce^f16f9_<ZB29b<L=0
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 z?>FW[Y?6;09<SEc;0gR;3
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 8 nor_gate 0 22 FV_Ce^f16f9_<ZB29b<L=0
+l217
+L216
+Vg@eKW<QHFmf98`>i]l@QD2
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 LB_?9omNXN>3KXeg6F7B>1
+!i10b 1
+Enot_gate
+R1
+R2
+R3
+R4
+R5
+R6
+l0
+L80
+VAP385W9Pj59m][=A>?ZPJ1
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 eG?N=]Yk^ninkadKlgeK;2
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 8 not_gate 0 22 AP385W9Pj59m][=A>?ZPJ1
+l87
+L86
+VP:8J@ETDCD]9S<Fl8l:MN3
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 CRmCHS<lab`Ugn;VAGaY91
+!i10b 1
+Eor_3_gate
+R1
+R2
+R3
+R4
+R5
+R6
+l0
+L43
+VFSU^:TLER?@<Ze2`cb?8h3
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 5eLWYS:geHPZ:1CF`7@;V3
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 9 or_3_gate 0 22 FSU^:TLER?@<Ze2`cb?8h3
+l52
+L51
+V1a8Bkj[4meSJKlaLizefz2
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 m]DCa9dc:453JMR;3^Of=2
+!i10b 1
+Eor_4_gate
+R1
+R2
+R3
+R4
+R5
+R6
+l0
+L61
+VMKEf7@;WzdHJO`LA28[Q72
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 cPBWTU<M3L9CfA9j2:@@=3
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 9 or_4_gate 0 22 MKEf7@;WzdHJO`LA28[Q72
+l71
+L70
+VGlg8a7e[6fXjRJcf7DEeX3
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 kAJ@Y4Nd<k;4BjUcDBMSE0
+!i10b 1
+Eor_gate
+R1
+R2
+R3
+R4
+R5
+R6
+l0
+L26
+V0T>75[KV;F18cCiNhSeMK0
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 GQZ^j66GH]BZl?Gh`N]El2
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 7 or_gate 0 22 0T>75[KV;F18cCiNhSeMK0
+l34
+L33
+V;l8egWVWP?0zm3I=3GTie2
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 X10XR@Wl27B9`j:ob=bQA0
+!i10b 1
+Es32addsub_full_adder
+Z19 w1456069378
+R2
+R3
+R4
+Z20 8/home/sebsikora/altera/projects/mips/one_cycle/alu/s32addsub_full_adder.vhd
+Z21 F/home/sebsikora/altera/projects/mips/one_cycle/alu/s32addsub_full_adder.vhd
+l0
+L5
+VTA_JV5QeUL8ccV>NPa5?M3
+R7
+31
+Z22 !s108 1456069684.038453
+Z23 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/one_cycle/alu/s32addsub_full_adder.vhd|
+Z24 !s107 /home/sebsikora/altera/projects/mips/one_cycle/alu/s32addsub_full_adder.vhd|
+R11
+R12
+!s100 j0GRB9j2^OW:n54Le>^AV2
+!i10b 1
+Astruct
+R2
+R3
+DEx4 work 20 s32addsub_full_adder 0 22 TA_JV5QeUL8ccV>NPa5?M3
+l92
+L14
+VXdJEQUDn_j0nBY`lgID__3
+R7
+31
+R22
+R23
+R24
+R11
+R12
+!s100 6ZQQGYo<QCZSn_EoLOiBY3
+!i10b 1
+Es32addsub_onebit_full_adder
+Z25 w1456007837
+R2
+R3
+R4
+Z26 8/home/sebsikora/altera/projects/mips/one_cycle/alu/s32addsub_one_bit_full_adder.vhd
+Z27 F/home/sebsikora/altera/projects/mips/one_cycle/alu/s32addsub_one_bit_full_adder.vhd
+l0
+L7
+VL=E>Wk<8QV?lSeh^i_EkT3
+R7
+31
+Z28 !s108 1456069683.906467
+Z29 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/one_cycle/alu/s32addsub_one_bit_full_adder.vhd|
+Z30 !s107 /home/sebsikora/altera/projects/mips/one_cycle/alu/s32addsub_one_bit_full_adder.vhd|
+R11
+R12
+!s100 UZiFD6dCVX[34VAh8HDA]2
+!i10b 1
+Astruct
+R2
+R3
+DEx4 work 27 s32addsub_onebit_full_adder 0 22 L=E>Wk<8QV?lSeh^i_EkT3
+l43
+L16
+VHkkT]BRVz[[h:<hHeA6Pa0
+R7
+31
+R28
+R29
+R30
+R11
+R12
+!s100 RT_eHF6R<SeN44ghVakB41
+!i10b 1
+Es32addsub_signed_overflow_detect
+Z31 w1456007654
+R2
+R3
+R4
+Z32 8/home/sebsikora/altera/projects/mips/one_cycle/alu/s32addsub_signed_overflow_detect.vhd
+Z33 F/home/sebsikora/altera/projects/mips/one_cycle/alu/s32addsub_signed_overflow_detect.vhd
+l0
+L5
+V:>fm2Md^I`TJGzkQ^37HO0
+R7
+31
+Z34 !s108 1456069684.002043
+Z35 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/one_cycle/alu/s32addsub_signed_overflow_detect.vhd|
+Z36 !s107 /home/sebsikora/altera/projects/mips/one_cycle/alu/s32addsub_signed_overflow_detect.vhd|
+R11
+R12
+!s100 Ui`;KXkL]SQ0NVkZV0>ZD0
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 32 s32addsub_signed_overflow_detect 0 22 :>fm2Md^I`TJGzkQ^37HO0
+l21
+L13
+V5Bj7he<O_I<2`c81bY<R51
+R7
+31
+R34
+R35
+R36
+R11
+R12
+!s100 OLW`?eVonfXO]UfLhllI;3
+!i10b 1
+Es32addsub_subtraction_invertors
+Z37 w1456009261
+R2
+R3
+R4
+Z38 8/home/sebsikora/altera/projects/mips/one_cycle/alu/s32addsub_subtractor_inverter.vhd
+Z39 F/home/sebsikora/altera/projects/mips/one_cycle/alu/s32addsub_subtractor_inverter.vhd
+l0
+L5
+V?:md:6cTYPeHZ2ae?Q5o?2
+R7
+31
+Z40 !s108 1456069683.969577
+Z41 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/one_cycle/alu/s32addsub_subtractor_inverter.vhd|
+Z42 !s107 /home/sebsikora/altera/projects/mips/one_cycle/alu/s32addsub_subtractor_inverter.vhd|
+R11
+R12
+!s100 h]]XoBRgb96^S3oIfd_Kg0
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 31 s32addsub_subtraction_invertors 0 22 ?:md:6cTYPeHZ2ae?Q5o?2
+l14
+L12
+Vk0Rf0>mGD4?TBKP6aSfdM0
+R7
+31
+R40
+R41
+R42
+R11
+R12
+!s100 lZ>QnBAJWnFRmV:?4CPeY2
+!i10b 1
+Es32addsub_unsigned_overflow_detect
+Z43 w1456007332
+R2
+R3
+R4
+Z44 8/home/sebsikora/altera/projects/mips/one_cycle/alu/s32addsub_unsigned_overflow_detect.vhd
+Z45 F/home/sebsikora/altera/projects/mips/one_cycle/alu/s32addsub_unsigned_overflow_detect.vhd
+l0
+L5
+VonSN;WeLbl8K`KT?f9EoZ0
+!s100 5=O3F>QgHHW96c06RjCT_2
+R7
+31
+!i10b 1
+Z46 !s108 1456069684.103019
+Z47 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/one_cycle/alu/s32addsub_unsigned_overflow_detect.vhd|
+Z48 !s107 /home/sebsikora/altera/projects/mips/one_cycle/alu/s32addsub_unsigned_overflow_detect.vhd|
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 34 s32addsub_unsigned_overflow_detect 0 22 onSN;WeLbl8K`KT?f9EoZ0
+l19
+L12
+VI:jiiBJHIjf<jYg71g[l33
+!s100 NCe_60JKhNL;;jWEW^J323
+R7
+31
+!i10b 1
+R46
+R47
+R48
+R11
+R12
+Esigned_32bit_add_subtract
+Z49 w1456068248
+R2
+R3
+R4
+Z50 8/home/sebsikora/altera/projects/mips/one_cycle/alu/signed_32bit_add_subtract.vhd
+Z51 F/home/sebsikora/altera/projects/mips/one_cycle/alu/signed_32bit_add_subtract.vhd
+l0
+L5
+V@S<CRMBD;gSe^J]=17GIY2
+R7
+31
+Z52 !s108 1456069683.941358
+Z53 !s90 -reportprogress|300|-93|-work|work|/home/sebsikora/altera/projects/mips/one_cycle/alu/signed_32bit_add_subtract.vhd|
+Z54 !s107 /home/sebsikora/altera/projects/mips/one_cycle/alu/signed_32bit_add_subtract.vhd|
+R11
+R12
+!s100 oXCDaY76@G=?3eQRdGYZ81
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 25 signed_32bit_add_subtract 0 22 @S<CRMBD;gSe^J]=17GIY2
+l60
+L15
+VUdJ[Q5G]M4m3zM4HcGgn]2
+R7
+31
+R52
+R53
+R54
+R11
+R12
+!s100 T2FinD[EZ^Jbz8z5NBkDD3
+!i10b 1
+Exor_gate
+R1
+R2
+R3
+R4
+R5
+R6
+l0
+L6
+VXY^nKQ3;cBa@_DAoJd4n:0
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 :JYWGdlL>iM1AAeUfR?bm1
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 8 xor_gate 0 22 XY^nKQ3;cBa@_DAoJd4n:0
+l14
+L13
+V;WPe7W@hGJ55@DC]E;?9d1
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 zJRBLW6dojl9]@g;aBK[H2
+!i10b 1
